@@ -1,0 +1,2781 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+  <title>Center for Houston&#039;s Future</title>
+  <link>https://centerforhoustonsfuture.org</link>
+  <description>Houston&#039;s premier cross-sector think tank driving research, civic leadership, and strategic initiatives for the region&#039;s future.</description>
+  <language>en-US</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:base_site_url>https://centerforhoustonsfuture.org</wp:base_site_url>
+  <wp:base_blog_url>https://centerforhoustonsfuture.org</wp:base_blog_url>
+  <generator>https://wordpress.org/?v=6.7</generator>
+
+  <wp:author>
+    <wp:author_id>1</wp:author_id>
+    <wp:author_login><![CDATA[admin]]></wp:author_login>
+    <wp:author_email><![CDATA[admin@centerforhoustonsfuture.org]]></wp:author_email>
+    <wp:author_display_name><![CDATA[CHF Admin]]></wp:author_display_name>
+    <wp:author_first_name><![CDATA[]]></wp:author_first_name>
+    <wp:author_last_name><![CDATA[]]></wp:author_last_name>
+  </wp:author>
+
+  <!-- ==================== CATEGORIES ==================== -->
+
+  <wp:category>
+    <wp:term_id>10</wp:term_id>
+    <wp:category_nicename><![CDATA[energy-climate]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Energy & Climate]]></wp:cat_name>
+  </wp:category>
+
+  <wp:category>
+    <wp:term_id>11</wp:term_id>
+    <wp:category_nicename><![CDATA[health-equity]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Health & Health Equity]]></wp:cat_name>
+  </wp:category>
+
+  <wp:category>
+    <wp:term_id>12</wp:term_id>
+    <wp:category_nicename><![CDATA[immigration]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Immigration]]></wp:cat_name>
+  </wp:category>
+
+  <!-- ==================== CUSTOM TAXONOMY: initiative_category ==================== -->
+
+  <wp:term>
+    <wp:term_id>20</wp:term_id>
+    <wp:term_taxonomy><![CDATA[initiative_category]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[energy-climate]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Energy & Climate]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>21</wp:term_id>
+    <wp:term_taxonomy><![CDATA[initiative_category]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[health-equity]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Health & Health Equity]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>22</wp:term_id>
+    <wp:term_taxonomy><![CDATA[initiative_category]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[immigration]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Immigration]]></wp:term_name>
+  </wp:term>
+
+  <!-- ==================== CUSTOM TAXONOMY: event_type ==================== -->
+
+  <wp:term>
+    <wp:term_id>30</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[conference]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Conference]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>31</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[forum]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Forum]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>32</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[workshop]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Workshop]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>33</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[dinner]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Dinner]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>34</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[summit]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Summit]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>35</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[meeting]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Meeting]]></wp:term_name>
+  </wp:term>
+
+
+  <!-- ==================== PAGES (20) ==================== -->
+
+  
+  <!-- ==================== INITIATIVES (import 2nd) ==================== -->
+
+  <item>
+    <title><![CDATA[Project Metis]]></title>
+    <link>https://centerforhoustonsfuture.org/project-metis/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview" aria-labelledby="overview-heading">
+  <div class="overview-content reveal">
+    <div class="section-eyebrow">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">About the Series</span>
+    </div>
+    <h2 id="overview-heading" class="overview-heading">Energy &amp; Climate Webcast Series</h2>
+    <p class="overview-body">Since 2021, the Center has presented webcasts featuring prominent speakers addressing climate and energy transition topics. Speakers include industry leaders, academic experts, journalists and activists discussing sustainability, ESG, environmental justice, and breakthrough technologies.</p>
+  </div>
+</section>
+
+<section class="episodes" aria-labelledby="episodes-heading">
+  <div class="section-eyebrow reveal">
+    <div class="eline" aria-hidden="true"></div>
+    <span class="etxt">Episodes</span>
+  </div>
+  <h2 id="episodes-heading" class="episodes-heading reveal d1">Webcast Episodes</h2>
+
+  
+  <article class="episode-card reveal">
+    <div class="episode-badge" aria-label="Episode 6">
+      <span class="episode-badge-label">EP</span>
+      <span class="episode-badge-num">6</span>
+    </div>
+    <div class="episode-content">
+      <h3 class="episode-title">Panel Discussion</h3>
+      <p class="episode-speakers">Jill Cetina, VP Banking Supervision, Federal Reserve Bank of Dallas &bull; Victor Flatt, Professor of Law, University of Houston &bull; Amanda Hsieh, VP ESG, ClimeCo &bull; Gavin Dillingham, HARC VP (Moderator)</p>
+      <p class="episode-desc">A wide-ranging panel discussion on the intersection of climate policy, financial regulation, environmental law, and corporate ESG strategy, moderated by HARC Vice President Gavin Dillingham.</p>
+    </div>
+  </article>
+
+  
+  <article class="episode-card reveal d1">
+    <div class="episode-badge" aria-label="Episode 5">
+      <span class="episode-badge-label">EP</span>
+      <span class="episode-badge-num">5</span>
+    </div>
+    <div class="episode-content">
+      <h3 class="episode-title">Confronting Climate Gridlock</h3>
+      <p class="episode-speakers">Daniel Cohan &bull; Raj Mankad</p>
+      <p class="episode-desc">Discussing <em>Confronting Climate Gridlock: How Diplomacy, Technology, and Policy Can Unlock a Clean Energy Future</em> -- exploring the political, technological, and diplomatic pathways toward decarbonization and the obstacles that stand in the way.</p>
+    </div>
+  </article>
+
+  
+  <article class="episode-card reveal d2">
+    <div class="episode-badge" aria-label="Episode 4">
+      <span class="episode-badge-label">EP</span>
+      <span class="episode-badge-num">4</span>
+    </div>
+    <div class="episode-content">
+      <h3 class="episode-title">Saving Us: A Climate Scientist's Case for Hope and Healing in a Divided World</h3>
+      <p class="episode-speakers">Katharine Hayhoe, Climate Scientist, Texas Tech University &amp; Chief Scientist, The Nature Conservancy &bull; Lisa Gonzalez</p>
+      <p class="episode-desc">Renowned climate scientist Katharine Hayhoe discusses her book <em>Saving Us: A Climate Scientist's Case for Hope and Healing in a Divided World</em>, exploring how meaningful conversations about climate change can bridge divides and inspire collective action.</p>
+    </div>
+  </article>
+
+  
+  <article class="episode-card reveal d3">
+    <div class="episode-badge" aria-label="Episode 3">
+      <span class="episode-badge-label">EP</span>
+      <span class="episode-badge-num">3</span>
+    </div>
+    <div class="episode-content">
+      <h3 class="episode-title">Energy's Digital Future</h3>
+      <p class="episode-speakers">Amy Myers Jaffe &bull; Raj Mankad</p>
+      <p class="episode-desc">A conversation on <em>Energy's Digital Future: Harnessing Innovation for American Resilience and National Security</em>, examining how digital technologies and innovation can reshape the energy landscape while strengthening national security.</p>
+      <blockquote class="episode-quote">"If the U.S. doesn't lead on the energy transition, China will."</blockquote>
+    </div>
+  </article>
+
+  
+  <article class="episode-card reveal d4">
+    <div class="episode-badge" aria-label="Episode 2">
+      <span class="episode-badge-label">EP</span>
+      <span class="episode-badge-num">2</span>
+    </div>
+    <div class="episode-content">
+      <h3 class="episode-title">Power after Carbon: Building a Clean, Resilient Grid</h3>
+      <p class="episode-speakers">Peter Fox-Penner &bull; Gavin Dillingham</p>
+      <p class="episode-desc">Discussing <em>Power after Carbon: Building a Clean, Resilient Grid</em> -- how the electric grid can achieve net-zero emissions while maintaining the reliability and affordability that communities and businesses depend on.</p>
+    </div>
+  </article>
+
+  
+  <article class="episode-card reveal">
+    <div class="episode-badge" aria-label="Episode 1">
+      <span class="episode-badge-label">EP</span>
+      <span class="episode-badge-num">1</span>
+    </div>
+    <div class="episode-content">
+      <h3 class="episode-title">Reimagining Capitalism in a World on Fire</h3>
+      <p class="episode-speakers">Rebecca Henderson, Harvard Business School Professor &bull; Bill Langin</p>
+      <p class="episode-desc">Harvard Business School Professor Rebecca Henderson discusses her acclaimed book <em>Reimagining Capitalism in a World on Fire</em>, winner of the Financial Times/McKinsey Book of the Year award, exploring how businesses can drive solutions to climate change and inequality.</p>
+    </div>
+  </article>
+</section>
+
+<div class="back-link-section reveal">
+  <a href="chf_energy_v4.html" class="back-link"><span aria-hidden="true">&larr;</span> Back to Energy and Climate</a>
+</div>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>200</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[project-metis]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Project Metis: A holistic initiative focused on life-long brain health to enhance human flourishing and spur economic growth in the Houston region.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Strategic Initiative]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Metis]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[A holistic initiative focused on life-long brain health to enhance human flourishing and spur economic growth.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  </item>
+
+  <item>
+    <title><![CDATA[Vision 2050]]></title>
+    <link>https://centerforhoustonsfuture.org/vision-2050/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="vision-section" aria-labelledby="vision-heading">
+  <div class="vision-grid">
+    <div class="vision-body">
+      <div class="section-eyebrow reveal">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">The Vision</span>
+      </div>
+      <h2 id="vision-heading" class="section-heading reveal d1">Positioning Houston as the global leader in brain health</h2>
+      <p class="reveal d2">Brain health is the defining frontier of this century. Named after the Greek goddess of wisdom and deep thought, Project Metis reflects our commitment to advancing understanding, prevention, and treatment across the full life cycle of the brain&mdash;from early development to healthy aging.</p>
+      <p class="reveal d3">Working with powerhouse medical, academic, and business institutions, we are establishing Houston/Galveston as the epicenter of the emerging brain economy&mdash;a new era where brain health and cognitive skills serve as key levers for economic growth and human potential.</p>
+      <a href="media/pdfs/ProjectMetisNewsRelease12.9.pdf" class="btn-pill btn-navy reveal d4" target="_blank" rel="noopener noreferrer">Read the Press Release <span aria-hidden="true">&#8594;</span></a>
+    </div>
+    <div class="vision-icon-wrap reveal d2">
+      <div class="vision-icon-circle">
+        
+        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M32 8c-6 0-11 3-14 8-2 3-3 7-2 11 1 3 0 6-2 8-3 4-4 9-2 13 2 5 7 8 12 8h0"/>
+          <path d="M32 8c6 0 11 3 14 8 2 3 3 7 2 11-1 3 0 6 2 8 3 4 4 9 2 13-2 5-7 8-12 8h0"/>
+          <circle cx="32" cy="28" r="4"/>
+          <circle cx="24" cy="38" r="3"/>
+          <circle cx="40" cy="38" r="3"/>
+          <circle cx="32" cy="48" r="3"/>
+          <line x1="32" y1="32" x2="32" y2="45"/>
+          <line x1="28.5" y1="30" x2="25.5" y2="35.5"/>
+          <line x1="35.5" y1="30" x2="38.5" y2="35.5"/>
+          <line x1="27" y1="38" x2="29" y2="48"/>
+          <line x1="37" y1="38" x2="35" y2="48"/>
+          <circle cx="22" cy="22" r="2" opacity="0.5"/>
+          <circle cx="42" cy="22" r="2" opacity="0.5"/>
+          <line x1="24" y1="22" x2="28" y2="26" opacity="0.5"/>
+          <line x1="40" y1="22" x2="36" y2="26" opacity="0.5"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="focus-section" aria-labelledby="focus-heading">
+  <div class="focus-inner">
+    <div class="focus-header">
+      <div class="section-eyebrow reveal">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">Our Focus Areas</span>
+      </div>
+      <h2 id="focus-heading" class="section-heading reveal d1">Five interconnected fronts</h2>
+    </div>
+
+    <div class="focus-grid">
+      
+      <article class="focus-card reveal">
+        <div class="focus-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2a5 5 0 015 5c0 2-1 3.5-2.5 4.5"/>
+            <path d="M9.5 11.5C8 10.5 7 9 7 7a5 5 0 015-5"/>
+            <path d="M12 12c-3.5 0-7 2-7 6v2h14v-2c0-4-3.5-6-7-6z"/>
+            <circle cx="12" cy="7" r="2"/>
+          </svg>
+        </div>
+        <h3>Early Life</h3>
+        <p>Supporting optimal brain development from prenatal through childhood years.</p>
+      </article>
+
+      
+      <article class="focus-card reveal d1">
+        <div class="focus-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="7" width="20" height="14" rx="2"/>
+            <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/>
+            <path d="M12 12v3"/>
+            <path d="M2 12h20"/>
+          </svg>
+        </div>
+        <h3>Workplace Years</h3>
+        <p>Promoting cognitive health, mental wellness, and peak performance in the working population.</p>
+      </article>
+
+      
+      <article class="focus-card reveal d2">
+        <div class="focus-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+          </svg>
+        </div>
+        <h3>Healthy Aging</h3>
+        <p>Advancing prevention, early detection, and care for age-related cognitive conditions.</p>
+      </article>
+    </div>
+
+    <div class="focus-grid-bottom">
+      
+      <article class="focus-card reveal d3">
+        <div class="focus-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <circle cx="12" cy="12" r="4"/>
+            <line x1="12" y1="2" x2="12" y2="6"/>
+            <line x1="12" y1="18" x2="12" y2="22"/>
+            <line x1="2" y1="12" x2="6" y2="12"/>
+            <line x1="18" y1="12" x2="22" y2="12"/>
+            <line x1="4.93" y1="4.93" x2="7.76" y2="7.76"/>
+            <line x1="16.24" y1="16.24" x2="19.07" y2="19.07"/>
+            <line x1="4.93" y1="19.07" x2="7.76" y2="16.24"/>
+            <line x1="16.24" y1="7.76" x2="19.07" y2="4.93"/>
+          </svg>
+        </div>
+        <h3>Medical/Science</h3>
+        <p>Accelerating research breakthroughs in neuroscience, treatment, and recovery.</p>
+      </article>
+
+      
+      <article class="focus-card reveal d4">
+        <div class="focus-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 00-2.91-.09z"/>
+            <path d="M12 15l-3-3"/>
+            <path d="M22 2L16 8"/>
+            <path d="M22 2l-5.5 15-4.5-4.5L22 2z"/>
+            <path d="M9 13l-4.5 4.5"/>
+          </svg>
+        </div>
+        <h3>Innovation &amp; Commercialization</h3>
+        <p>Building an ecosystem to recruit, incubate, and scale brain health startups and technologies.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="approach-section" aria-labelledby="approach-heading">
+  <div class="approach-header">
+    <div class="section-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Our Approach</span>
+    </div>
+    <h2 id="approach-heading" class="section-heading reveal d1">The next 18 months</h2>
+  </div>
+
+  <div class="timeline">
+    <div class="timeline-item reveal">
+      <div class="timeline-dot">1</div>
+      <h3>Convene and Collaborate</h3>
+      <p>Launch expert working teams focused on brain health across all life stages, scientific advances, and innovation.</p>
+    </div>
+    <div class="timeline-item reveal d1">
+      <div class="timeline-dot">2</div>
+      <h3>Measure Progress</h3>
+      <p>Develop a regional Brain Health Index to track outcomes and equity.</p>
+    </div>
+    <div class="timeline-item reveal d2">
+      <div class="timeline-dot">3</div>
+      <h3>Pilot and Scale</h3>
+      <p>Implement breakthrough projects in clinical care, education, workplace wellness, and community health.</p>
+    </div>
+    <div class="timeline-item reveal d3">
+      <div class="timeline-dot">4</div>
+      <h3>Build the Ecosystem</h3>
+      <p>Recruit and support neuro-startups, connect researchers with entrepreneurs, and foster commercialization.</p>
+    </div>
+    <div class="timeline-item reveal d4">
+      <div class="timeline-dot">5</div>
+      <h3>Lead Globally</h3>
+      <p>Share Houston's progress and learnings at major international forums, including Davos and the UN General Assembly.</p>
+    </div>
+    <div class="timeline-item reveal">
+      <div class="timeline-dot">6</div>
+      <h3>Inspire Action</h3>
+      <p>Host high-visibility events and thought leadership to engage the community and drive momentum.</p>
+    </div>
+  </div>
+</section>
+
+<section class="partners-section" aria-labelledby="partners-heading">
+  <div class="partners-inner">
+    <div class="partners-header">
+      <div class="section-eyebrow reveal">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">Partners &amp; Supporters</span>
+      </div>
+      <h2 id="partners-heading" class="section-heading reveal d1">Steering Committee</h2>
+    </div>
+
+    <div class="partners-grid">
+      
+      <article class="partner-card reveal">
+        <div class="partner-avatar avatar-navy">JR</div>
+        <div class="partner-role role-chair">Founding Chair</div>
+        <div class="partner-name">Dr. Jochen Reiser, CEO, MD, PhD</div>
+        <div class="partner-title">President of UTMB and CEO of the UTMB Health System</div>
+      </article>
+
+      
+      <article class="partner-card reveal d1">
+        <div class="partner-avatar avatar-green">AD</div>
+        <div class="partner-role role-project">Project Chair</div>
+        <div class="partner-name">Amy Dittmar</div>
+        <div class="partner-title">EVP and Provost, Rice University</div>
+      </article>
+
+      
+      <article class="partner-card reveal d2">
+        <div class="partner-avatar avatar-green">DC</div>
+        <div class="partner-role role-project">Project Chair</div>
+        <div class="partner-name">Dr. David L. Callender</div>
+        <div class="partner-title">CEO, Memorial Hermann Health System</div>
+      </article>
+    </div>
+
+    <div class="committee-label reveal">Inaugural Steering Committee Members</div>
+    <div class="committee-grid reveal d1">
+      <div class="committee-pill">
+        <div class="committee-avatar" style="background: #007b33;">bp</div>
+        <div class="committee-info">
+          <div class="committee-name">bp</div>
+          <div class="committee-org">Global Energy Company</div>
+        </div>
+      </div>
+      <div class="committee-pill">
+        <div class="committee-avatar avatar-navy">EM</div>
+        <div class="committee-info">
+          <div class="committee-name">Eric Mullins</div>
+          <div class="committee-org">Steering Committee Member</div>
+        </div>
+      </div>
+      <div class="committee-pill">
+        <div class="committee-avatar" style="background: #c4203c;">MD</div>
+        <div class="committee-info">
+          <div class="committee-name">UT MD Anderson Cancer Center</div>
+          <div class="committee-org">The University of Texas</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>201</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[vision-2050]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Vision 2050: Creating a long-range strategic blueprint and vision for the Houston region, working with business, community, and government leaders.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Strategic Initiative]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[2050]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Creating a long-range strategic blueprint and vision for the Houston region.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  </item>
+
+  <item>
+    <title><![CDATA[Energy and Climate]]></title>
+    <link>https://centerforhoustonsfuture.org/energy/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="vision-section" aria-labelledby="vision-heading">
+  <div class="vision-grid">
+    <div>
+      <div class="section-eyebrow reveal">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">The Vision</span>
+      </div>
+      <h2 id="vision-heading" class="vision-heading reveal d1">A thriving region for all</h2>
+      <p class="vision-text reveal d2">Working with business, community, and government leaders, we are creating a long-range strategic framework for the Houston region that looks out 5 to 25 years. We will share an aspirational vision and blueprint for a thriving region for all, which will highlight great work already underway and detail next-generation solutions for critical focus areas.</p>
+      <a href="chf_donate_v4.html" class="cta-pill reveal d3">Support Vision 2050 <span aria-hidden="true">&#8594;</span></a>
+    </div>
+    <div class="vision-deco reveal d2">
+      <div class="compass-circle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 2v4"/>
+          <path d="M12 18v4"/>
+          <path d="M2 12h4"/>
+          <path d="M18 12h4"/>
+          <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" fill="rgba(86,184,74,0.15)" stroke="currentColor"/>
+          <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process-section" aria-labelledby="process-heading">
+  <div class="process-inner">
+    <div class="section-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Our Process</span>
+    </div>
+    <h2 id="process-heading" class="process-heading reveal d1">From data to action</h2>
+
+    <div class="timeline reveal d2">
+      <div class="timeline-card">
+        <div class="timeline-num">1</div>
+        <h3 class="timeline-title">Research &amp; Input</h3>
+        <p class="timeline-desc">We collected data and integrated input from diverse voices across our region.</p>
+      </div>
+      <div class="timeline-card">
+        <div class="timeline-num">2</div>
+        <h3 class="timeline-title">Expert Deep Dives</h3>
+        <p class="timeline-desc">Expert working teams conducted deep dives into each pillar, creating visionary frameworks with creative, next-generation solutions.</p>
+      </div>
+      <div class="timeline-card">
+        <div class="timeline-num">3</div>
+        <h3 class="timeline-title">Compelling Story</h3>
+        <p class="timeline-desc">These comprehensive plans were combined into one compelling multimedia story, presented at the 2026 Annual Meeting.</p>
+      </div>
+    </div>
+
+    <blockquote class="pullquote reveal">
+      Together, we're building a thriving Houston region for generations to come.
+    </blockquote>
+
+    <div class="process-cta reveal">
+      <a href="chf_vision-2050_v4.html" class="cta-pill">View Final Vision 2050 Overview <span aria-hidden="true">&#8594;</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="pillars-section" aria-labelledby="pillars-heading">
+  <div class="section-eyebrow reveal">
+    <div class="eline" aria-hidden="true"></div>
+    <span class="etxt">Strategic Pillars</span>
+  </div>
+  <h2 id="pillars-heading" class="pillars-heading reveal d1">Five pillars for Houston's future</h2>
+
+  <div class="pillars-grid">
+    <article class="pillar-card reveal">
+      <div class="pillar-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+          <path d="M2 17l10 5 10-5"/>
+          <path d="M2 12l10 5 10-5"/>
+        </svg>
+      </div>
+      <h3 class="pillar-title">Economic Vitality</h3>
+      <p class="pillar-desc">Building a diversified, resilient economy</p>
+    </article>
+    <article class="pillar-card reveal d1">
+      <div class="pillar-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+          <polyline points="9 22 9 12 15 12 15 22"/>
+        </svg>
+      </div>
+      <h3 class="pillar-title">Livability &amp; Infrastructure</h3>
+      <p class="pillar-desc">Creating connected, sustainable communities</p>
+    </article>
+    <article class="pillar-card reveal d2">
+      <div class="pillar-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+        </svg>
+      </div>
+      <h3 class="pillar-title">Health &amp; Well-Being</h3>
+      <p class="pillar-desc">Ensuring equitable health outcomes for all</p>
+    </article>
+  </div>
+  <div class="pillars-grid-bottom">
+    <article class="pillar-card reveal d3">
+      <div class="pillar-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/>
+          <path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/>
+        </svg>
+      </div>
+      <h3 class="pillar-title">Education &amp; Workforce</h3>
+      <p class="pillar-desc">Preparing talent for tomorrow's economy</p>
+    </article>
+    <article class="pillar-card reveal d4">
+      <div class="pillar-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M23 21v-2a4 4 0 00-3-3.87"/>
+          <path d="M16 3.13a4 4 0 010 7.75"/>
+        </svg>
+      </div>
+      <h3 class="pillar-title">Civic Engagement</h3>
+      <p class="pillar-desc">Strengthening inclusive governance and participation</p>
+    </article>
+  </div>
+</section>
+
+<section class="partners-section" aria-labelledby="partners-heading">
+  <div class="partners-inner">
+    <div class="section-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Founding Partners</span>
+    </div>
+    <h2 id="partners-heading" class="partners-heading reveal d1">Supported by visionary leaders</h2>
+
+    <div class="partners-label reveal">Founding Partners</div>
+    <div class="partner-logos reveal d1">
+      <div class="partner-logo-card">
+        <div class="partner-logo-name">NRG / Reliant</div>
+      </div>
+      <div class="partner-logo-card">
+        <div class="partner-logo-name">The George Foundation</div>
+      </div>
+    </div>
+
+    <div class="partners-label reveal">Founding Supporters</div>
+    <div class="supporters-pills reveal d1">
+      <span class="supporter-pill">Marcia Faschingbauer</span>
+      <span class="supporter-pill">Bill Boyar</span>
+      <span class="supporter-pill">Judson Robinson III</span>
+      <span class="supporter-pill">Roland Garcia</span>
+      <span class="supporter-pill">Ann Lents</span>
+      <span class="supporter-pill">David Abraham</span>
+      <span class="supporter-pill">Astley Blair</span>
+      <span class="supporter-pill">Amy Pierce</span>
+      <span class="supporter-pill">Steve Kean</span>
+    </div>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>202</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[energy]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="energy-climate"><![CDATA[Energy & Climate]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[The Center works to ensure that the Houston region is a global leader in the energy transition.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Strategic Initiative]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Climate]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[The Center works to ensure that the Houston region is a global leader in the energy transition.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Health & Health Equity]]></title>
+    <link>https://centerforhoustonsfuture.org/health/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview" aria-labelledby="overview-heading">
+  <div class="overview-grid">
+    <div class="reveal">
+      <div class="section-eyebrow">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">Overview</span>
+      </div>
+      <h2 id="overview-heading" class="overview-heading">Leading the energy transition</h2>
+      <p class="overview-body">For the past six years, the Center has led efforts to establish Houston as a leader in the energy transition in setting a path to reduce emissions and provide low-carbon services to the region and the world. Our efforts have focused on groundbreaking economic research, coalition building, vision setting and action, thought leadership and raising awareness around climate and the energy transition.</p>
+    </div>
+    <div class="overview-visual reveal d1">
+      <div class="overview-icon-wrap">
+        <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          
+          <path d="M44 8L20 44h16L28 72l28-40H40L52 8z" fill="none" stroke="currentColor" stroke-width="2.5"/>
+          
+          <path d="M10 24h14" stroke-width="2" opacity="0.5"/>
+          <path d="M6 34h12" stroke-width="2" opacity="0.5"/>
+          <path d="M12 44h8" stroke-width="2" opacity="0.5"/>
+          
+          <circle cx="62" cy="18" r="6" stroke-width="2" opacity="0.5"/>
+          <path d="M62 8v-2M62 28v2M52 18h-2M72 18h2M54.3 10.3l-1.4-1.4M69.7 10.3l1.4-1.4M54.3 25.7l-1.4 1.4M69.7 25.7l1.4 1.4" stroke-width="1.5" opacity="0.4"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reports" aria-labelledby="reports-heading">
+  <div class="reports-inner">
+    <div class="section-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Key Research</span>
+    </div>
+    <h2 id="reports-heading" class="reports-heading reveal d1">Groundbreaking reports</h2>
+
+    <div class="reports-grid">
+      <article class="report-card featured reveal">
+        <div class="report-eyebrow">Featured</div>
+        <h3 class="report-title">HyVelocity Hub</h3>
+        <p class="report-desc">Comprised of leading energy companies and organizations, HyVelocity Hub applied for Department of Energy Regional Clean Hydrogen Hub funding to accelerate the development of clean hydrogen projects in Texas, Southwest Louisiana and the U.S. Gulf Coast.</p>
+        <a href="chf_hyvelocity_v4.html" class="report-link">Read More <span aria-hidden="true">&#8594;</span></a>
+      </article>
+
+      <article class="report-card light reveal d1">
+        <div class="report-eyebrow">Report</div>
+        <h3 class="report-title">Houston's Future as a Global Center for Clean Hydrogen Manufacturing, Recycling and Electrolysis</h3>
+        <p class="report-desc">The Center has conducted extensive research on low-carbon energy and the energy transition, including around the development of a clean hydrogen hub in Houston and economic analysis on the impacts of the energy industry.</p>
+        <a href="chf_hydrogen-manufacturing_v4.html" class="report-link">Read the Report <span aria-hidden="true">&#8594;</span></a>
+      </article>
+
+      <article class="report-card light reveal d2">
+        <div class="report-eyebrow">Report</div>
+        <h3 class="report-title">Houston as the Epicenter of a Global Clean Hydrogen Hub</h3>
+        <p class="report-desc">With the U.S. Department of Energy announcing plans for $8 billion in funding for clean hydrogen hubs across the country, our new report finds that Houston is well positioned to become a global clean hydrogen hub.</p>
+        <a href="chf_hydrogen-hub_v4.html" class="report-link">Read the Report <span aria-hidden="true">&#8594;</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="projects-section" aria-labelledby="projects-heading">
+  <div class="section-eyebrow reveal">
+    <div class="eline" aria-hidden="true"></div>
+    <span class="etxt">Work &amp; Events</span>
+  </div>
+  <h2 id="projects-heading" class="projects-heading reveal d1">Projects &amp; conferences</h2>
+
+  <div class="pw-label reveal">Projects</div>
+  <div class="pw-grid reveal">
+    <a href="chf_driving-future_v4.html" class="pw-link">
+      <span class="pw-link-title">Educational Programming</span>
+      <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+    </a>
+    <a href="chf_hyvelocity_v4.html" class="pw-link">
+      <span class="pw-link-title">HyVelocity Hub</span>
+      <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+    </a>
+    <a href="chf_wonderweek_v4.html" class="pw-link">
+      <span class="pw-link-title">Kid Charged Wonderweek</span>
+      <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+    </a>
+    <a href="https://htxenergytransition.org/" class="pw-link">
+      <span class="pw-link-title">HETI</span>
+      <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+    </a>
+  </div>
+
+  <div class="pw-label reveal">Conferences &amp; Presentations</div>
+  <div class="pw-grid reveal">
+    <a href="chf_signature-conferences_v4.html" class="pw-link">
+      <span class="pw-link-title">Signature Conferences and Presentations</span>
+      <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+    </a>
+    <a href="chf_energy-webcasts_v4.html" class="pw-link">
+      <span class="pw-link-title">Energy and Climate Thought Leadership Webcast Series</span>
+      <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+    </a>
+    <a href="chf_hydrogen-hub_v4.html" class="pw-link">
+      <span class="pw-link-title">Houston as the Epicenter of a Global Hydrogen Hub</span>
+      <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+    </a>
+    <a href="chf_hydrogen-manufacturing_v4.html" class="pw-link">
+      <span class="pw-link-title">Houston's Future as a Global Center for Clean Hydrogen Manufacturing</span>
+      <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+    </a>
+    <a href="chf_news_v4.html" class="pw-link">
+      <span class="pw-link-title">Pathways to Decarbonize the PVC Value Chain in 2050</span>
+      <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+    </a>
+  </div>
+</section>
+
+<section class="news-section" aria-labelledby="news-heading">
+  <div class="news-inner">
+    <div class="section-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">In the News</span>
+    </div>
+    <h2 id="news-heading" class="news-heading reveal d1">Latest updates</h2>
+
+    <div class="news-grid">
+      <a href="chf_news_v4.html" class="news-card reveal">
+        <span class="news-date">Feb 13, 2026</span>
+        <span class="news-title">Energy Jobs: a guiding document for Houston's Workforce</span>
+        <span class="news-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_news_v4.html" class="news-card reveal d1">
+        <span class="news-date">Dec 9, 2025</span>
+        <span class="news-title">Powerhouse Institutions across Houston/Galveston Launch Project Metis</span>
+        <span class="news-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_news_v4.html" class="news-card reveal d2">
+        <span class="news-date">Sep 25, 2025</span>
+        <span class="news-title">Center for Houston's Future launches Brain Initiative</span>
+        <span class="news-arr" aria-hidden="true">&#8594;</span>
+      </a>
+    </div>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>203</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[health]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="health-equity"><![CDATA[Health & Health Equity]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Learn about CHF's Health and Health Equity initiative, addressing healthcare challenges and promoting equitable health outcomes across the Houston region.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Past Initiative]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Equity]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[The Center is committed to research and collaborations to improve health and health equity in our communities.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Immigration]]></title>
+    <link>https://centerforhoustonsfuture.org/immigration/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview">
+<div class="container">
+<div class="overview-grid">
+<div class="reveal">
+<div class="section-eyebrow">OVERVIEW</div>
+<h2>A paradox of plenty</h2>
+<p>In 2019, the Center began research on the role of health care and health in Houston's economy. We conducted roundtable discussions, workshops, surveys, and interviews with experts. The result, a 2020 research paper, featured a range of findings, including that Houston has a &lsquo;paradox of plenty&rsquo; with world-class health care institutions alongside some of nation's worst health outcomes; and that Houston is poised to become a leader in life science technology innovations.</p>
+</div>
+<div class="reveal">
+<div class="icon-circle">
+<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M50 88S14 66 14 40a20 20 0 0 1 36-12 20 20 0 0 1 36 12c0 26-36 48-36 48z"/>
+<path d="M20 52h12l6-14 8 28 8-20 6 10h20" stroke-width="2.5"/>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="reports">
+<div class="container">
+<div class="reports-header reveal">
+<div class="section-eyebrow" style="justify-content:center">OUR RESEARCH</div>
+<h2>Published reports</h2>
+</div>
+<div class="report-list">
+<div class="report-card reveal">
+<h3>Houston's Future: AI in Healthcare</h3>
+<p>Artificial intelligence is reshaping Houston's healthcare landscape. Our 2024 report explores how the city's renowned medical institutions and diverse population position it to lead in AI-driven innovations. We examine current applications in diagnostics, personalized treatments, and patient care optimization, while addressing critical challenges like ensuring algorithmic fairness.</p>
+<a href="chf_ai-healthcare_v4.html" class="report-cta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Read the Report</a>
+</div>
+<div class="report-card reveal">
+<h3>Houston's Future: Climate Change and Health Care</h3>
+<p>In 2024, we explore the critical intersection of climate change and health care in this report that highlights escalating health threats, from heatstroke to mosquito-borne illness, that our region faces due to climate change and includes a series of recommendations to address these challenges.</p>
+<a href="chf_climate-health_v4.html" class="report-cta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Read the Report</a>
+</div>
+<div class="report-card reveal">
+<h3>Houston's Economic Future: Health Care, 2022 Report</h3>
+<p>In 2022, we released an update to our 2020 report looking at regional trends in the wake of COVID-19. The report's economic modeling suggests developing the region's life sciences industries and health care workforce will yield major long-term benefits.</p>
+<a href="chf_healthcare2022_v4.html" class="report-cta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Read the Report</a>
+</div>
+<div class="report-card reveal">
+<h3>Social Determinants of Health Impacting Maternal Health</h3>
+<p>In 2021, we focused on the state of maternal health as a key indicator of any health system and looked at non-medical drivers of health, which are estimated to drive 70% of outcomes.</p>
+<a href="chf_maternal-health_v4.html" class="report-cta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Read the Report</a>
+</div>
+<div class="report-card reveal">
+<h3>Houston's Economic Future: Health Care, 2020 Report</h3>
+<p>The Center began research on the role of health care and health in Houston's economy in 2019. The result featured a range of findings, including that Houston has a &lsquo;paradox of plenty&rsquo; with world-class health care institutions alongside some of the nation's worst health outcomes.</p>
+<a href="chf_healthcare2020_v4.html" class="report-cta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg> Read the Report</a>
+</div>
+</div>
+</div>
+</section>
+
+<section class="presentations">
+<div class="container">
+<div class="presentations-header reveal">
+<div class="section-eyebrow" style="justify-content:center">PRESENTATIONS</div>
+<h2>Conferences and media</h2>
+</div>
+<div class="pres-grid">
+<a href="media/pdfs/2022-CHF-HC-Report-Release-1.pdf" class="pres-card reveal" target="_blank" rel="noopener noreferrer">
+<div class="pres-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+</div>
+<h3>2022 Report Release Presentation</h3>
+</a>
+<a href="media/pdfs/CHF_HBCH-Conf.pdf" class="pres-card reveal" target="_blank" rel="noopener noreferrer">
+<div class="pres-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+</div>
+<h3>HCBH Conference Presentation</h3>
+</a>
+<a href="https://youtu.be/CzcD4GkEQTA" class="pres-card video reveal" target="_blank" rel="noopener noreferrer">
+<div class="pres-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+</div>
+<h3>ExamiNATION Episode 9: Supporting the Workforce</h3>
+</a>
+<a href="https://youtu.be/6gyT8702vU4" class="pres-card video reveal" target="_blank" rel="noopener noreferrer">
+<div class="pres-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+</div>
+<h3>ExamiNATION Episode 10: Where We Go From Here</h3>
+</a>
+</div>
+</div>
+</section>
+
+</main>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>204</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[immigration]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="immigration"><![CDATA[Immigration]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[The Center focuses on the long-term economic importance of immigrants and immigration and their significant contributions to the region's success.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Strategic Initiative]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Immigration]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[The Center focuses on the long-term economic importance of immigrants and immigration and their significant contributions to the region's success.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Climate Change & Health Care]]></title>
+    <link>https://centerforhoustonsfuture.org/climate-health/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview-section" aria-labelledby="overview-heading">
+  <div class="overview-grid">
+    <div>
+      <div class="overview-eyebrow reveal">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">Overview</span>
+      </div>
+      <h2 id="overview-heading" class="overview-heading reveal d1">Economic importance of immigration</h2>
+      <p class="overview-text reveal d2">The Center began working on immigration in 2017, focusing on the economic importance of immigrants and immigration to the success of the Greater Houston region. Since launching our Strategic Initiative on immigration, we have created an economic model, published two groundbreaking reports, convened focus groups and hosted a number of public discussions. We continue to engage with a broad group of collaborating organizations to address immigration issues, particularly through the lens of Houston's long-term economic outlook.</p>
+    </div>
+    <div class="overview-icon-wrap reveal d3">
+      <div class="overview-icon-circle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+          <path d="M2 12h20"/>
+          <path d="M12 2c-3.5 3-5.5 6.5-5.5 10s2 7 5.5 10"/>
+          <path d="M17 5.5a20 20 0 01-10 0"/>
+          <path d="M17 18.5a20 20 0 00-10 0"/>
+          <circle cx="8" cy="8" r="1" fill="currentColor" stroke="none"/>
+          <circle cx="16" cy="10" r="1" fill="currentColor" stroke="none"/>
+          <circle cx="10" cy="16" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reports-section" aria-labelledby="reports-heading">
+  <div class="reports-inner">
+    <div class="reports-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Our Research</span>
+    </div>
+    <h2 id="reports-heading" class="reports-heading reveal d1">Groundbreaking reports</h2>
+
+    <div class="reports-grid">
+      <article class="report-card reveal d2">
+        <h3 class="report-card-title">Houston's Economic Future: Immigration (2021 Update)</h3>
+        <p class="report-card-desc">We published a groundbreaking 2019 report and followed with a 2021 update. Each elaborates on how Houston's economic growth is intertwined with its demography. We discuss how immigration has historically fueled the region's economy and why it will be key to our economic future. The findings show curtailing immigration would significantly depress economic growth.</p>
+        <a href="chf_immigration-report_v4.html" class="report-card-cta">Read the Report <span aria-hidden="true">&#8594;</span></a>
+      </article>
+      <article class="report-card reveal d3">
+        <h3 class="report-card-title">Houston's Economic Future: Immigration (2019 Study)</h3>
+        <p class="report-card-desc">Looking ahead to Houston's 200th anniversary in 2036, we developed an economic forecasting tool to analyze how changes in immigration would affect the region's economy. Our findings confirm that curtailing immigration would significantly depress economic growth.</p>
+        <a href="chf_immigration-2019_v4.html" class="report-card-cta">Read the Report <span aria-hidden="true">&#8594;</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="partners-section" aria-labelledby="partners-heading">
+  <div class="partners-eyebrow reveal">
+    <div class="eline" aria-hidden="true"></div>
+    <span class="etxt">Partnerships</span>
+  </div>
+  <h2 id="partners-heading" class="partners-heading reveal d1">Collaborative partners and projects</h2>
+  <p class="partners-text reveal d2">Rational Middle and the Center for the United States and Mexico (CUSMX) at Rice University's Baker Institute have been among our closest collaborators on immigration. The Center worked with these organizations to produce a series of short documentaries to present the facts on immigration and frame them with historical context and personal stories.</p>
+  <p class="partners-text reveal d3">In 2020, we hosted a series of webcasts on immigration intended to advance the conversation about immigration and its economic importance in Houston and Texas.</p>
+  <a href="chf_immigration-projects_v4.html" class="partners-cta reveal d4">Explore Projects <span aria-hidden="true">&#8594;</span></a>
+</section>
+
+<section class="resources-section" aria-labelledby="resources-label">
+  <div class="resources-inner">
+    <div class="pw-label reveal" id="resources-label">Resources</div>
+    <div class="pw-grid reveal d1">
+      <a href="chf_immigration-resources_v4.html" class="pw-link">
+        <span class="pw-link-title">Resources on Immigration</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="https://www.bakerinstitute.org/research/immigration-policy-workshop-report" class="pw-link">
+        <span class="pw-link-title">CHF-CUSMX Workshop Report</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="https://rationalmiddle.com/immigration/" class="pw-link">
+        <span class="pw-link-title">Rational Middle</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+    </div>
+
+    <div class="pw-label reveal" id="panels-label">Panel Discussions</div>
+    <div class="pw-grid reveal d1">
+      <a href="chf_immigration-conversations_v4.html" class="pw-link">
+        <span class="pw-link-title">How to Have Difficult Conversations on Immigration</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_immigration-covid_v4.html" class="pw-link">
+        <span class="pw-link-title">COVID-19 Essential Workers and Immigration</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_immigration-construction_v4.html" class="pw-link">
+        <span class="pw-link-title">Immigration and the Construction Industry</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+    </div>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>205</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[climate-health]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>203</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="health-equity"><![CDATA[Health & Health Equity]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Exploring the critical intersection of climate change and health care in the Houston region.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Health & Health Equity]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Health Care]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Exploring the critical intersection of climate change and health care in the Houston region.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Health Care 2020]]></title>
+    <link>https://centerforhoustonsfuture.org/healthcare-2020/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview">
+<div class="container">
+<div class="overview-grid">
+<div class="reveal">
+<div class="section-eyebrow">OVERVIEW</div>
+<h2>Climate change and health care in Houston</h2>
+<p>In 2024, we explore the critical intersection of climate change and health care in this report that highlights escalating health threats, from heatstroke to mosquito-borne illness, that our region faces due to climate change and includes a series of recommendations to address these challenges. Health care leaders are on the front lines of treating these health issues and addressing the sector's contribution to GHG emissions. Collaboration within and among health systems is vital to safeguarding the health of Houston's families against the backdrop of an evolving climate landscape.</p>
+</div>
+<div class="reveal">
+<div class="icon-circle">
+<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+
+<rect x="30" y="12" width="12" height="56" rx="6" ry="6"/>
+<circle cx="36" cy="76" r="12"/>
+<line x1="36" y1="68" x2="36" y2="38"/>
+<rect x="33" y="38" width="6" height="30" rx="3" fill="currentColor" opacity=".3"/>
+<circle cx="36" cy="76" r="7" fill="currentColor" opacity=".3"/>
+
+<line x1="44" y1="45" x2="48" y2="45"/>
+<line x1="44" y1="52" x2="48" y2="52"/>
+<line x1="44" y1="59" x2="48" y2="59"/>
+
+<circle cx="68" cy="30" r="10"/>
+<line x1="68" y1="14" x2="68" y2="18"/>
+<line x1="68" y1="42" x2="68" y2="38"/>
+<line x1="52" y1="30" x2="56" y2="30"/>
+<line x1="84" y1="30" x2="80" y2="30"/>
+<line x1="56.7" y1="18.7" x2="59.5" y2="21.5"/>
+<line x1="79.3" y1="41.3" x2="76.5" y2="38.5"/>
+<line x1="79.3" y1="18.7" x2="76.5" y2="21.5"/>
+<line x1="56.7" y1="41.3" x2="59.5" y2="38.5"/>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="themes">
+<div class="container">
+<div class="themes-header reveal">
+<div class="section-eyebrow" style="justify-content:center">KEY THEMES</div>
+<h2>Critical areas of focus</h2>
+</div>
+<div class="theme-grid">
+<div class="theme-card reveal">
+<div class="theme-icon">
+<svg viewBox="0 0 24 24"><path d="M12 9v4"/><path d="M12 17h.01"/><path d="M3.6 9h16.8"/><path d="M12 3 2 12h3v8h14v-8h3L12 3z"/></svg>
+</div>
+<h3>Escalating Health Threats</h3>
+<p>From heatstroke to mosquito-borne illness, climate change poses growing risks to Houston's communities.</p>
+</div>
+<div class="theme-card reveal">
+<div class="theme-icon">
+<svg viewBox="0 0 24 24"><path d="M2 22 12 2l10 20H2z" fill="none"/><path d="M12 10v4"/><circle cx="12" cy="18" r=".5" fill="currentColor" stroke="none"/><path d="M8 14h8" opacity=".5"/></svg>
+</div>
+<h3>Health Care's Carbon Footprint</h3>
+<p>The health care sector must address its own contribution to greenhouse gas emissions.</p>
+</div>
+<div class="theme-card reveal">
+<div class="theme-icon">
+<svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+</div>
+<h3>Collaboration Is Vital</h3>
+<p>Within and among health systems, collaboration is key to safeguarding community health.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="back-link-section">
+<div class="container">
+<a href="chf_health_v4.html" class="back-link">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+Back to Health and Health Equity
+</a>
+</div>
+</section>
+
+</main>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>206</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[healthcare-2020]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>203</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="health-equity"><![CDATA[Health & Health Equity]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Explore CHF's Health Care 2020 initiative, a comprehensive study of healthcare access and outcomes in the Greater Houston area.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Health & Health Equity]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[2020]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Houston’s Economic Future: Health Care]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Health Care 2022]]></title>
+    <link>https://centerforhoustonsfuture.org/healthcare-2022/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview">
+<div class="container">
+<div class="overview-grid">
+<div class="reveal">
+<div class="section-eyebrow">REPORT OVERVIEW</div>
+<h2>Researching health care's role in Houston's economy</h2>
+<p>The Center began research on the role of health care and health in Houston's economy in 2019. We conducted roundtable discussions, workshops, surveys, and interviews with experts. The result, a 2020 research paper, featured a range of findings, including that Houston has a 'paradox of plenty' with world-class health care institutions alongside some of the nation's worst health outcomes; and that Houston is poised to become a leader in life science technology innovations.</p>
+</div>
+<div class="reveal">
+<div class="icon-circle">
+<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M50 88S14 66 14 40a20 20 0 0 1 36-12 20 20 0 0 1 36 12c0 26-36 48-36 48z"/>
+<path d="M20 52h12l6-14 8 28 8-20 6 10h20" stroke-width="2.5"/>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="findings">
+<div class="container">
+<div class="findings-header reveal">
+<div class="section-eyebrow" style="justify-content:center">KEY FINDINGS</div>
+<h2>What the research revealed</h2>
+</div>
+<div class="bento-grid">
+<div class="bento-card reveal">
+<div class="bento-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s-8-4.5-8-11.8A8 8 0 0 1 12 2a8 8 0 0 1 8 8.2c0 7.3-8 11.8-8 11.8z"/><circle cx="12" cy="10" r="3"/></svg>
+</div>
+<div class="bento-title">Paradox of Plenty</div>
+<div class="bento-label">World-class health care institutions exist alongside some of the nation's worst health outcomes.</div>
+</div>
+<div class="bento-card reveal">
+<div class="bento-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+</div>
+<div class="bento-title">Life Science Innovation</div>
+<div class="bento-label">Houston is poised to become a leader in life science technology innovations.</div>
+</div>
+<div class="bento-card reveal">
+<div class="bento-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+</div>
+<div class="bento-title">Economic Impact</div>
+<div class="bento-label">Health care is a major driver of Houston's economy, with significant workforce and GDP implications.</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="back-link-section">
+<div class="container">
+<a href="chf_health_v4.html" class="back-link reveal">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+Back to Health and Health Equity
+</a>
+</div>
+</section>
+
+</main>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>207</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[healthcare-2022]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>203</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="health-equity"><![CDATA[Health & Health Equity]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Discover the findings of CHF's Health Care 2022 report on the state of healthcare in the Houston region.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Health & Health Equity]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[2022]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[COVID-19 Highlights Challenges for and Advances by Greater Houston’s Health Care Sector]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Maternal Health]]></title>
+    <link>https://centerforhoustonsfuture.org/maternal-health/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview">
+<div class="container">
+<div class="overview-grid">
+<div class="reveal">
+<div class="section-eyebrow">REPORT OVERVIEW</div>
+<h2>Understanding COVID-19's impact on Houston health care</h2>
+<p>Based on over 50 expert interviews, three roundtable discussions, extensive literature reviews, in-depth data analysis, and proprietary economic modeling, this 2022 report explores how Health and Health Equity affect our region. It examines COVID-19's profound impact on healthcare with both challenges and advancements, highlighting health disparities, pandemic innovations, and workforce challenges.</p>
+</div>
+<div class="reveal">
+<div class="icon-circle">
+<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M50 88S14 66 14 40a20 20 0 0 1 36-12 20 20 0 0 1 36 12c0 26-36 48-36 48z"/>
+<path d="M20 52h12l6-14 8 28 8-20 6 10h20" stroke-width="2.5"/>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="findings">
+<div class="container">
+<div class="findings-header reveal">
+<div class="section-eyebrow" style="justify-content:center">KEY FINDINGS</div>
+<h2>By the numbers</h2>
+</div>
+<div class="bento-grid">
+<div class="bento-card reveal">
+<div class="bento-stat"><span class="highlight">1 in 6</span></div>
+<div class="bento-label">jobs added from 2021 to 2036 predicted to be in healthcare</div>
+</div>
+<div class="bento-card reveal">
+<div class="bento-stat"><span class="highlight">$63.5B</span></div>
+<div class="bento-label">boost to the local economy</div>
+</div>
+<div class="bento-card reveal">
+<div class="bento-stat"><span class="highlight">11.2%</span></div>
+<div class="bento-label">Houston's health care industry share of employment</div>
+</div>
+<div class="bento-card reveal">
+<div class="bento-stat"><span class="highlight">23 years</span></div>
+<div class="bento-label">life expectancy variance depending on zip code</div>
+</div>
+<div class="bento-card reveal">
+<div class="bento-stat"><span class="highlight">$14B</span></div>
+<div class="bento-label">potential GDP cost if workforce issues go unaddressed</div>
+</div>
+<div class="bento-card reveal">
+<div class="bento-stat"><span class="highlight">15,000</span></div>
+<div class="bento-label">died from COVID-19 in Houston MSA by August 2022</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="presentations">
+<div class="container">
+<div class="presentations-header reveal">
+<div class="section-eyebrow" style="justify-content:center">PRESENTATIONS</div>
+<h2>Conferences and media</h2>
+</div>
+<div class="pres-grid">
+<a href="media/pdfs/2022-CHF-HC-Report-Release-1.pdf" class="pres-card reveal">
+<div class="pres-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+</div>
+<h3>2022 Report Release Presentation</h3>
+</a>
+<a href="media/pdfs/CHF_HBCH-Conf.pdf" class="pres-card reveal">
+<div class="pres-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+</div>
+<h3>HCBH Conference Presentation</h3>
+</a>
+<a href="https://youtu.be/CzcD4GkEQTA" class="pres-card video reveal">
+<div class="pres-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+</div>
+<h3>ExamiNATION Episode 9: Supporting the Workforce</h3>
+</a>
+<a href="https://youtu.be/6gyT8702vU4" class="pres-card video reveal">
+<div class="pres-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+</div>
+<h3>ExamiNATION Episode 10: Where We Go From Here</h3>
+</a>
+</div>
+</div>
+</section>
+
+<section class="back-link-section">
+<div class="container">
+<a href="chf_health_v4.html" class="back-link reveal">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+Back to Health and Health Equity
+</a>
+</div>
+</section>
+
+</main>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>208</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[maternal-health]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>203</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="health-equity"><![CDATA[Health & Health Equity]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Business-based community engagement can improve maternal health. Explore social determinants of health impacting maternal outcomes in Houston.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Health & Health Equity]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Health]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Business-based community engagement can improve maternal health, report finds]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[AI in Healthcare]]></title>
+    <link>https://centerforhoustonsfuture.org/ai-healthcare/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview">
+<div class="container">
+<div class="overview-grid">
+<div class="reveal">
+<div class="section-eyebrow">REPORT OVERVIEW</div>
+<h2>Social determinants of maternal health</h2>
+<p>The report explores Social Determinants of Health Impacting Maternal Health and the Opportunities to Improve Outcomes. Despite substantial healthcare spending, the U.S. faces alarmingly high maternal mortality rates. The pandemic has further highlighted and deepened regional disparities, particularly affecting Black women.</p>
+</div>
+<div class="reveal">
+<div class="icon-circle">
+<svg viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+
+<path d="M50 20c-6 0-10 4-10 10s4 10 10 10 10-4 10-10-4-10-10-10z"/>
+<path d="M36 52c0-8 6-14 14-14s14 6 14 14v4c0 2-1 3-3 3h-6c0 6-2 14-5 20-3-6-5-14-5-20h-6c-2 0-3-1-3-3v-4z"/>
+<path d="M42 70c-2 4-3 8-3 12h22c0-4-1-8-3-12"/>
+
+<path d="M68 28s-3-6-8-6c-3 0-5 2-5 5 0 6 8 11 8 11s8-5 8-11c0-3-2-5-5-5-5 0-8 6-8 6z" fill="currentColor" stroke="none" opacity=".25"/>
+<path d="M68 28s-3-6-8-6c-3 0-5 2-5 5 0 6 8 11 8 11s8-5 8-11c0-3-2-5-5-5-5 0-8 6-8 6z"/>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="findings">
+<div class="container">
+<div class="findings-header reveal">
+<div class="section-eyebrow" style="justify-content:center">KEY FINDINGS</div>
+<h2>The data behind the crisis</h2>
+</div>
+<div class="stat-grid">
+<div class="stat-card reveal">
+<div class="stat-number">3x</div>
+<p>Black mothers are three times as likely to die in childbirth</p>
+</div>
+<div class="stat-card reveal">
+<div class="stat-number">100%+</div>
+<p>Pre-term birth rates in under-resourced Houston zip codes exceed others by more than 100%</p>
+</div>
+<div class="stat-card reveal">
+<div class="stat-number">50%</div>
+<p>Black mothers are 50% more likely to experience pre-term birth than white mothers</p>
+</div>
+<div class="stat-card reveal">
+<div class="stat-number">70%</div>
+<p>Non-medical drivers are estimated to drive 70% of health outcomes</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="recommendations">
+<div class="container">
+<div class="recommendations-header reveal">
+<div class="section-eyebrow" style="justify-content:center">RECOMMENDATIONS</div>
+<h2>Pathways to better outcomes</h2>
+</div>
+<div class="rec-grid">
+<div class="rec-card reveal">
+<div class="rec-number">1</div>
+<h3>Family-friendly workplace policies</h3>
+<p>Internal policy implementation promoting family-friendly workplaces that support maternal health through flexible scheduling, adequate leave, and comprehensive benefits.</p>
+</div>
+<div class="rec-card reveal">
+<div class="rec-number">2</div>
+<h3>Employee health education</h3>
+<p>Employee education on available health services, ensuring workers are aware of and can access prenatal care, mental health support, and postpartum resources.</p>
+</div>
+<div class="rec-card reveal">
+<div class="rec-number">3</div>
+<h3>Cooperative community investment</h3>
+<p>Cooperative community investment to enhance health outcomes through business-led partnerships that address social determinants of health in under-resourced areas.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="back-link-section">
+<div class="container">
+<a href="chf_health_v4.html" class="back-link">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+Back to Health and Health Equity
+</a>
+</div>
+</section>
+
+</main>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>209</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[ai-healthcare]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>203</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="health-equity"><![CDATA[Health & Health Equity]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Explore how artificial intelligence is transforming healthcare delivery and outcomes in the Houston region through CHF's research and initiatives.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Health & Health Equity]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Healthcare]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Houston can become a global hub for medical artificial intelligence, new report finds.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Clean Hydrogen Hub]]></title>
+    <link>https://centerforhoustonsfuture.org/hydrogen-hub/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="section">
+  <div class="container">
+    <div class="overview-grid">
+      <div class="overview-text reveal">
+        <span class="section-label">Overview</span>
+        <h2 class="section-title">A Landmark Report</h2>
+        <p>The Center for Houston's Future has unveiled a groundbreaking report titled "Houston's Future: AI in Healthcare," showcasing the city's potential to become a global leader in medical artificial intelligence. This comprehensive study, based on extensive research and expert interviews, provides an in-depth analysis of AI's transformative role in Houston's medical ecosystem.</p>
+      </div>
+      <div class="overview-visual reveal">
+        
+        <svg class="brain-svg" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+          
+          <ellipse cx="170" cy="180" rx="100" ry="120" stroke="var(--navy)" stroke-width="2" opacity=".2"/>
+          <ellipse cx="230" cy="180" rx="100" ry="120" stroke="var(--navy)" stroke-width="2" opacity=".2"/>
+          
+          <circle cx="200" cy="120" r="8" fill="var(--green)" opacity=".8">
+            <animate attributeName="r" values="8;10;8" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="140" cy="160" r="6" fill="var(--navy)" opacity=".5">
+            <animate attributeName="r" values="6;8;6" dur="2.4s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="260" cy="160" r="6" fill="var(--navy)" opacity=".5">
+            <animate attributeName="r" values="6;8;6" dur="2.2s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="160" cy="220" r="5" fill="var(--green)" opacity=".6">
+            <animate attributeName="r" values="5;7;5" dur="2.6s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="240" cy="220" r="5" fill="var(--green)" opacity=".6">
+            <animate attributeName="r" values="5;7;5" dur="2.8s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="200" cy="260" r="7" fill="var(--gold)" opacity=".7">
+            <animate attributeName="r" values="7;9;7" dur="2.1s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="180" cy="140" r="4" fill="var(--gold)" opacity=".4"/>
+          <circle cx="220" cy="140" r="4" fill="var(--gold)" opacity=".4"/>
+          <circle cx="200" cy="190" r="10" fill="var(--green)" opacity=".25">
+            <animate attributeName="r" values="10;14;10" dur="3s" repeatCount="indefinite"/>
+          </circle>
+          
+          <line x1="200" y1="120" x2="140" y2="160" stroke="var(--navy)" stroke-width="1.2" opacity=".2"/>
+          <line x1="200" y1="120" x2="260" y2="160" stroke="var(--navy)" stroke-width="1.2" opacity=".2"/>
+          <line x1="140" y1="160" x2="160" y2="220" stroke="var(--green)" stroke-width="1" opacity=".2"/>
+          <line x1="260" y1="160" x2="240" y2="220" stroke="var(--green)" stroke-width="1" opacity=".2"/>
+          <line x1="160" y1="220" x2="200" y2="260" stroke="var(--navy)" stroke-width="1" opacity=".2"/>
+          <line x1="240" y1="220" x2="200" y2="260" stroke="var(--navy)" stroke-width="1" opacity=".2"/>
+          <line x1="200" y1="120" x2="200" y2="190" stroke="var(--green)" stroke-width="1.5" opacity=".15"/>
+          <line x1="140" y1="160" x2="200" y2="190" stroke="var(--green)" stroke-width="1" opacity=".15"/>
+          <line x1="260" y1="160" x2="200" y2="190" stroke="var(--green)" stroke-width="1" opacity=".15"/>
+          
+          <circle cx="200" cy="190" r="140" stroke="var(--navy)" stroke-width=".8" opacity=".07" stroke-dasharray="8 6"/>
+          <circle cx="200" cy="190" r="110" stroke="var(--green)" stroke-width=".6" opacity=".08" stroke-dasharray="4 8">
+            <animateTransform attributeName="transform" type="rotate" from="0 200 190" to="360 200 190" dur="40s" repeatCount="indefinite"/>
+          </circle>
+          
+          <path d="M120 300 Q160 280 200 290 Q240 300 280 280" stroke="var(--green)" stroke-width="1.5" opacity=".15" fill="none" stroke-dasharray="6 4">
+            <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="1.5s" repeatCount="indefinite"/>
+          </path>
+          <path d="M100 330 Q160 310 200 320 Q240 330 300 310" stroke="var(--navy)" stroke-width="1" opacity=".1" fill="none" stroke-dasharray="4 6">
+            <animate attributeName="stroke-dashoffset" from="0" to="-20" dur="2s" repeatCount="indefinite"/>
+          </path>
+          
+          <circle cx="120" cy="130" r="2" fill="var(--muted)" opacity=".3"/>
+          <circle cx="280" cy="130" r="2" fill="var(--muted)" opacity=".3"/>
+          <circle cx="130" cy="260" r="2" fill="var(--muted)" opacity=".3"/>
+          <circle cx="270" cy="260" r="2" fill="var(--muted)" opacity=".3"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--off">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label">Research</span>
+      <h2 class="section-title">Key Findings</h2>
+      <p class="section-sub">The report identifies four critical areas shaping the future of AI-driven healthcare in Houston.</p>
+    </div>
+    <div class="cards">
+      <div class="card reveal">
+        <div class="card-icon card-icon--green">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>AI's Impact</h3>
+        <p>AI is already revolutionizing healthcare in Houston, enhancing diagnostics, personalizing treatments, and optimizing patient care.</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon card-icon--blue">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 0v10l6.93 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Houston's Unique Position</h3>
+        <p>World-class medical institutions, academic research, and a diverse population position Houston as a leader in medical AI innovation.</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon card-icon--gold">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M12 9v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Challenges</h3>
+        <p>Data privacy concerns, integration with existing systems, and the need to address potential biases in AI algorithms present significant hurdles.</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon card-icon--red">
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24"><path d="M12 1v4m0 14v4M4.22 4.22l2.83 2.83m9.9 9.9l2.83 2.83M1 12h4m14 0h4M4.22 19.78l2.83-2.83m9.9-9.9l2.83-2.83" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Financial &amp; Training Barriers</h3>
+        <p>Financial constraints and the need for comprehensive training among healthcare professionals remain critical barriers to adoption.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label">Action Plan</span>
+      <h2 class="section-title">Strategic Recommendations</h2>
+      <p class="section-sub">Ten actionable strategies to accelerate responsible AI adoption across Houston's healthcare landscape.</p>
+    </div>
+    <div class="rec-grid">
+      <div class="rec-item reveal"><div class="rec-num">1</div><span>Foster Collaboration</span></div>
+      <div class="rec-item reveal"><div class="rec-num">2</div><span>Establish Robust Data Infrastructure</span></div>
+      <div class="rec-item reveal"><div class="rec-num">3</div><span>Prioritize Equity</span></div>
+      <div class="rec-item reveal"><div class="rec-num">4</div><span>Invest in Workforce Development</span></div>
+      <div class="rec-item reveal"><div class="rec-num">5</div><span>Leverage Small and Big Data</span></div>
+      <div class="rec-item reveal"><div class="rec-num">6</div><span>Focus on "Raising the Floor"</span></div>
+      <div class="rec-item reveal"><div class="rec-num">7</div><span>Support AI Innovation</span></div>
+      <div class="rec-item reveal"><div class="rec-num">8</div><span>Measure and Communicate Impact</span></div>
+      <div class="rec-item reveal"><div class="rec-num">9</div><span>Engage Policymakers</span></div>
+      <div class="rec-item reveal"><div class="rec-num">10</div><span>Build Public Trust</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--off">
+  <div class="container reveal">
+    <div class="quote-block">
+      <div class="quote-mark">&ldquo;</div>
+      <blockquote>By leveraging the collective wisdom, resources, and innovation concentrated in Houston's medical community, the city can address the challenges and opportunities presented by AI in healthcare.</blockquote>
+      <cite>
+        <strong>David Gow</strong>
+        Center for Houston's Future
+      </cite>
+    </div>
+  </div>
+</section>
+
+<div class="back-link-wrap">
+  <a class="back-link" href="chf_health_v4.html">&larr; Back to Health and Health Equity</a>
+</div>
+
+</main>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>210</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[hydrogen-hub]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>202</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="energy-climate"><![CDATA[Energy & Climate]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Learn about the Gulf Coast Clean Hydrogen Hub initiative and CHF's role in advancing hydrogen energy infrastructure in the Houston region.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Energy & Climate]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Hub]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Houston as the Epicenter of a Global Clean Hydrogen Hub]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Hydrogen Manufacturing]]></title>
+    <link>https://centerforhoustonsfuture.org/hydrogen-manufacturing/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section>
+  <div class="container">
+    <div class="overview-grid">
+      <div class="overview-text reveal">
+        <h2>Report Overview</h2>
+        <p>This report provides the most detailed assessment to date of the economic potential and environmental impact of clean hydrogen. Clean hydrogen can be produced through two approaches: adding carbon capture to natural gas-based hydrogen plants or electrolysis (splitting water into hydrogen and oxygen).</p>
+        <p>The Houston region produces and consumes a third of the nation's hydrogen and has more than 50 percent of the country's dedicated hydrogen pipelines.</p>
+      </div>
+      <div class="molecule-visual reveal-scale">
+        
+        <svg class="molecule-svg" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <radialGradient id="atomGrad" cx="40%" cy="35%" r="55%">
+              <stop offset="0%" stop-color="#8ae07a"/>
+              <stop offset="100%" stop-color="#56B84A"/>
+            </radialGradient>
+            <radialGradient id="atomGrad2" cx="40%" cy="35%" r="55%">
+              <stop offset="0%" stop-color="#5ba0e8"/>
+              <stop offset="100%" stop-color="#193560"/>
+            </radialGradient>
+            <filter id="glow">
+              <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+              <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
+          
+          <line x1="130" y1="170" x2="200" y2="200" stroke="#56B84A" stroke-width="6" stroke-linecap="round" opacity=".5"/>
+          <line x1="200" y1="200" x2="270" y2="170" stroke="#56B84A" stroke-width="6" stroke-linecap="round" opacity=".5"/>
+          
+          <ellipse cx="200" cy="200" rx="150" ry="60" stroke="#56B84A" stroke-width="1.2" opacity=".18" fill="none" transform="rotate(-20 200 200)"/>
+          <ellipse cx="200" cy="200" rx="150" ry="60" stroke="#193560" stroke-width="1.2" opacity=".18" fill="none" transform="rotate(20 200 200)"/>
+          <ellipse cx="200" cy="200" rx="120" ry="120" stroke="#56B84A" stroke-width=".8" opacity=".1" fill="none"/>
+          
+          <circle cx="130" cy="170" r="44" fill="url(#atomGrad)" filter="url(#glow)" opacity=".9"/>
+          <text x="130" y="178" text-anchor="middle" font-family="Merriweather,serif" font-weight="900" font-size="32" fill="#fff">H</text>
+          
+          <circle cx="270" cy="170" r="44" fill="url(#atomGrad)" filter="url(#glow)" opacity=".9"/>
+          <text x="270" y="178" text-anchor="middle" font-family="Merriweather,serif" font-weight="900" font-size="32" fill="#fff">H</text>
+          
+          <circle cx="200" cy="200" r="28" fill="url(#atomGrad2)" filter="url(#glow)" opacity=".85"/>
+          <text x="200" y="194" text-anchor="middle" font-family="Inter,sans-serif" font-weight="700" font-size="13" fill="rgba(255,255,255,.85)">H</text>
+          <text x="200" y="212" text-anchor="middle" font-family="Inter,sans-serif" font-weight="700" font-size="11" fill="rgba(255,255,255,.6)">2</text>
+          
+          <circle cx="90" cy="240" r="6" fill="#56B84A" opacity=".35">
+            <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="12s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="310" cy="260" r="5" fill="#193560" opacity=".3">
+            <animateTransform attributeName="transform" type="rotate" from="360 200 200" to="0 200 200" dur="16s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="200" cy="80" r="4" fill="#F5A623" opacity=".35">
+            <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="20s" repeatCount="indefinite"/>
+          </circle>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-off">
+  <div class="container">
+    <div class="stats-heading reveal">
+      <h2>Key Stats</h2>
+    </div>
+    <div class="bento-grid">
+      <div class="bento-card reveal" style="transition-delay:.05s">
+        <div class="stat-number">1/3</div>
+        <div class="stat-label">Of the nation's hydrogen produced and consumed in the Houston region</div>
+      </div>
+      <div class="bento-card reveal" style="transition-delay:.15s">
+        <div class="stat-number">50%+</div>
+        <div class="stat-label">Of the country's dedicated hydrogen pipelines in the region</div>
+      </div>
+      <div class="bento-card reveal" style="transition-delay:.25s">
+        <div class="stat-number">$8B</div>
+        <div class="stat-label">In DOE funding for clean hydrogen hubs nationwide</div>
+      </div>
+    </div>
+    <div class="bento-row-2">
+      <div class="bento-card reveal" style="transition-delay:.35s">
+        <div class="stat-number">100+</div>
+        <div class="stat-label">Experts from 70 companies consulted</div>
+      </div>
+      <div class="bento-card reveal" style="transition-delay:.45s">
+        <div class="stat-number">70</div>
+        <div class="stat-label">Organizations across the hydrogen value chain involved</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="development-section">
+  <div class="container">
+    <div class="dev-inner reveal">
+      <h2>Report Development</h2>
+      <p>The report was created through the Greater Houston Partnership's Houston Energy Transition Initiative, incorporating input from over 100 experts representing 70 companies and organizations across the hydrogen value chain. McKinsey and Company provided research and economic analyses.</p>
+    </div>
+  </div>
+</section>
+
+<div class="back-link-section">
+  <div class="container">
+    <a href="chf_energy_v4.html" class="back-link reveal">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M17 10a.75.75 0 01-.75.75H5.612l4.158 3.96a.75.75 0 11-1.04 1.08l-5.5-5.25a.75.75 0 010-1.08l5.5-5.25a.75.75 0 011.04 1.08L5.612 9.25H16.25A.75.75 0 0117 10z"/></svg>
+      Back to Energy and Climate
+    </a>
+  </div>
+</div>
+
+</main>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>211</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[hydrogen-manufacturing]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>202</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="energy-climate"><![CDATA[Energy & Climate]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Explore how hydrogen manufacturing is being developed in Houston to support clean energy transition and economic growth.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Energy & Climate]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Manufacturing]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Houston’s Future as a Global Center for Clean Hydrogen Manufacturing, Recycling and Electrolysis]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[HyVelocity Hub]]></title>
+    <link>https://centerforhoustonsfuture.org/hyvelocity/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section>
+  <div class="container">
+    <div class="overview-grid">
+      <div class="overview-text reveal">
+        <h2>Strategic Advantages for a Hydrogen Hub</h2>
+        <p>Houston holds strategic advantages for becoming a global hydrogen energy hub — specifically for manufacturing equipment key to future hydrogen production and distribution infrastructure in the United States and worldwide.</p>
+        <p>This new economy will provide significant economic and social benefits as Houston becomes a preeminent global hub for the manufacture and deployment of hydrogen large scale electrolyzer facilities. Houston's existing status as a global hub for planning and manufacturing energy systems make it an essential element in any larger scale national plan for transitioning to a hydrogen economy.</p>
+      </div>
+      <div class="factory-visual reveal-scale">
+        
+        <svg class="factory-svg" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="factoryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#193560"/>
+              <stop offset="100%" stop-color="#1e4a7a"/>
+            </linearGradient>
+            <linearGradient id="stackGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+              <stop offset="0%" stop-color="#56B84A"/>
+              <stop offset="100%" stop-color="#8ae07a"/>
+            </linearGradient>
+            <filter id="glow">
+              <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+              <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
+          
+          <rect x="30" y="300" width="340" height="6" rx="3" fill="#193560" opacity=".1"/>
+          
+          <rect x="60" y="180" width="160" height="120" rx="6" fill="url(#factoryGrad)" opacity=".85"/>
+          
+          <polygon points="60,180 110,140 110,180 160,140 160,180 220,140 220,180" fill="url(#factoryGrad)" opacity=".7"/>
+          
+          <rect x="80" y="110" width="20" height="70" rx="3" fill="#193560" opacity=".6"/>
+          
+          <rect x="180" y="100" width="24" height="80" rx="3" fill="#193560" opacity=".5"/>
+          
+          <circle cx="90" cy="90" r="8" fill="#56B84A" opacity=".2">
+            <animate attributeName="cy" values="90;50;20" dur="4s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.25;0.15;0" dur="4s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="85" cy="80" r="5" fill="#56B84A" opacity=".18">
+            <animate attributeName="cy" values="80;45;10" dur="5s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.2;0.1;0" dur="5s" repeatCount="indefinite"/>
+          </circle>
+          
+          <circle cx="192" cy="80" r="10" fill="#56B84A" opacity=".2">
+            <animate attributeName="cy" values="80;40;5" dur="4.5s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.22;0.12;0" dur="4.5s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="197" cy="70" r="6" fill="#56B84A" opacity=".15">
+            <animate attributeName="cy" values="70;30;0" dur="5.5s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.18;0.08;0" dur="5.5s" repeatCount="indefinite"/>
+          </circle>
+          
+          <rect x="80" y="210" width="28" height="24" rx="3" fill="rgba(255,255,255,.15)"/>
+          <rect x="120" y="210" width="28" height="24" rx="3" fill="rgba(255,255,255,.15)"/>
+          <rect x="160" y="210" width="28" height="24" rx="3" fill="rgba(255,255,255,.15)"/>
+          
+          <rect x="125" y="258" width="30" height="42" rx="4" fill="rgba(255,255,255,.12)"/>
+          
+          <rect x="250" y="200" width="80" height="100" rx="10" fill="url(#stackGrad)" opacity=".8"/>
+          <rect x="262" y="215" width="56" height="12" rx="3" fill="rgba(255,255,255,.2)"/>
+          <rect x="262" y="235" width="56" height="12" rx="3" fill="rgba(255,255,255,.15)"/>
+          <rect x="262" y="255" width="56" height="12" rx="3" fill="rgba(255,255,255,.1)"/>
+          
+          <text x="290" y="290" text-anchor="middle" font-family="Merriweather,serif" font-weight="900" font-size="16" fill="rgba(255,255,255,.7)">H<tspan font-size="11" dy="4">2</tspan></text>
+          
+          <line x1="220" y1="260" x2="250" y2="260" stroke="#56B84A" stroke-width="4" stroke-linecap="round" opacity=".4"/>
+          <line x1="220" y1="250" x2="250" y2="250" stroke="#193560" stroke-width="3" stroke-linecap="round" opacity=".3"/>
+          
+          <circle cx="290" cy="170" r="4" fill="#F5A623" opacity=".4" filter="url(#glow)">
+            <animateTransform attributeName="transform" type="rotate" from="0 290 250" to="360 290 250" dur="8s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="330" cy="250" r="3" fill="#56B84A" opacity=".3">
+            <animateTransform attributeName="transform" type="rotate" from="360 290 250" to="0 290 250" dur="12s" repeatCount="indefinite"/>
+          </circle>
+          
+          <ellipse cx="290" cy="250" rx="60" ry="90" stroke="#56B84A" stroke-width="1" opacity=".1" fill="none"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-off">
+  <div class="container">
+    <div class="methodology-intro reveal">
+      <h2>Research Methodology</h2>
+      <p>To assess the region's potential as a hub for hydrogen and hydrogen equipment manufacturing, analysis by Partners in Performance and the Center was conducted through interviews and consultation with 100+ market players as well as study of global, national, and local conditions.</p>
+    </div>
+    <div class="method-cards">
+      <div class="method-card reveal" style="transition-delay:.05s">
+        <div class="method-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4-4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3>Suppliers</h3>
+        <p>Existing businesses with relevance to the supply chain</p>
+      </div>
+      <div class="method-card reveal" style="transition-delay:.15s">
+        <div class="method-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M12 12h.01"/><path d="M17 12h.01"/><path d="M7 12h.01"/></svg>
+        </div>
+        <h3>Integrators</h3>
+        <p>Companies that integrate components for large-scale electrolyzer systems</p>
+      </div>
+      <div class="method-card reveal" style="transition-delay:.25s">
+        <div class="method-card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3>Enablers</h3>
+        <p>Public authorities, institutions and groups creating supportive conditions</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="finding-section">
+  <div class="container">
+    <h2 class="reveal">Key Finding</h2>
+    <div class="pullquote reveal" style="transition-delay:.1s">
+      <p>This engagement confirms Houston's intrinsic strengths and growing opportunities for providing the 'picks and shovels' of the green hydrogen gold rush.</p>
+    </div>
+    <div class="reveal" style="transition-delay:.2s">
+      <div class="stat-highlight">
+        <div class="stat-number">100+</div>
+        <div class="stat-label">Market players interviewed</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="back-link-section">
+  <div class="container">
+    <a href="chf_energy_v4.html" class="back-link reveal">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M17 10a.75.75 0 01-.75.75H5.612l4.158 3.96a.75.75 0 11-1.04 1.08l-5.5-5.25a.75.75 0 010-1.08l5.5-5.25a.75.75 0 011.04 1.08L5.612 9.25H16.25A.75.75 0 0117 10z"/></svg>
+      Back to Energy and Climate
+    </a>
+  </div>
+</div>
+
+</main>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>212</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[hyvelocity]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>202</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="energy-climate"><![CDATA[Energy & Climate]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Discover the HyVelocity Hub, a collaborative effort to develop clean hydrogen infrastructure along the Gulf Coast.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Energy & Climate]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Hub]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[A commitment to advance clean, affordable, at-scale hydrogen in Texas and Louisiana]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Immigration Report 2021]]></title>
+    <link>https://centerforhoustonsfuture.org/immigration-report/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section>
+  <div class="container">
+    <div class="overview-grid">
+      <div class="overview-text reveal">
+        <h2>About the HyVelocity Hub</h2>
+        <p>The HyVelocity Hub is a collaborative comprised of non-profit research organizations, academia, and leading energy companies working to advance the clean hydrogen ecosystem in Texas, Southwest Louisiana, and along the U.S. Gulf Coast.</p>
+        <p>With more than 1,000 miles of dedicated hydrogen pipelines, and 48 hydrogen production plants, the Gulf Coast is already the nation's largest hydrogen producer. It is home to a diverse array of energy resources, including hydrogen production facilities and pipelines, a large base of industrial energy consumers, and a skilled workforce.</p>
+        <p>HyVelocity is an industry-led hub that includes seven core industry participants: AES Corporation, Air Liquide, Chevron, ExxonMobil, Mitsubishi Power Americas, Orsted, and Sempra Infrastructure. CHF, GTI Energy and the University of Texas-Austin were founding organizers of HyVelocity.</p>
+        <a href="https://www.hyvelocityhub.com/" class="btn-primary" target="_blank" rel="noopener noreferrer">
+          Visit HyVelocityHub.com
+          <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 010-1.06l7.22-7.22H8.75a.75.75 0 010-1.5h5.5a.75.75 0 01.75.75v5.5a.75.75 0 01-1.5 0V7.06l-7.22 7.22a.75.75 0 01-1.06 0z"/></svg>
+        </a>
+      </div>
+      <div class="molecule-visual reveal-scale">
+        
+        <svg class="molecule-svg" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <radialGradient id="atomGrad" cx="40%" cy="35%" r="55%">
+              <stop offset="0%" stop-color="#8ae07a"/>
+              <stop offset="100%" stop-color="#56B84A"/>
+            </radialGradient>
+            <radialGradient id="atomGrad2" cx="40%" cy="35%" r="55%">
+              <stop offset="0%" stop-color="#5ba0e8"/>
+              <stop offset="100%" stop-color="#193560"/>
+            </radialGradient>
+            <filter id="glow">
+              <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+              <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+            </filter>
+          </defs>
+          
+          <line x1="130" y1="170" x2="200" y2="200" stroke="#56B84A" stroke-width="6" stroke-linecap="round" opacity=".5"/>
+          <line x1="200" y1="200" x2="270" y2="170" stroke="#56B84A" stroke-width="6" stroke-linecap="round" opacity=".5"/>
+          
+          <ellipse cx="200" cy="200" rx="150" ry="60" stroke="#56B84A" stroke-width="1.2" opacity=".18" fill="none" transform="rotate(-20 200 200)"/>
+          <ellipse cx="200" cy="200" rx="150" ry="60" stroke="#193560" stroke-width="1.2" opacity=".18" fill="none" transform="rotate(20 200 200)"/>
+          <ellipse cx="200" cy="200" rx="120" ry="120" stroke="#56B84A" stroke-width=".8" opacity=".1" fill="none"/>
+          
+          <circle cx="130" cy="170" r="44" fill="url(#atomGrad)" filter="url(#glow)" opacity=".9"/>
+          <text x="130" y="178" text-anchor="middle" font-family="Merriweather,serif" font-weight="900" font-size="32" fill="#fff">H</text>
+          
+          <circle cx="270" cy="170" r="44" fill="url(#atomGrad)" filter="url(#glow)" opacity=".9"/>
+          <text x="270" y="178" text-anchor="middle" font-family="Merriweather,serif" font-weight="900" font-size="32" fill="#fff">H</text>
+          
+          <circle cx="200" cy="200" r="28" fill="url(#atomGrad2)" filter="url(#glow)" opacity=".85"/>
+          <text x="200" y="194" text-anchor="middle" font-family="Inter,sans-serif" font-weight="700" font-size="13" fill="rgba(255,255,255,.85)">H</text>
+          <text x="200" y="212" text-anchor="middle" font-family="Inter,sans-serif" font-weight="700" font-size="11" fill="rgba(255,255,255,.6)">2</text>
+          
+          <circle cx="90" cy="240" r="6" fill="#56B84A" opacity=".35">
+            <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="12s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="310" cy="260" r="5" fill="#193560" opacity=".3">
+            <animateTransform attributeName="transform" type="rotate" from="360 200 200" to="0 200 200" dur="16s" repeatCount="indefinite"/>
+          </circle>
+          <circle cx="200" cy="80" r="4" fill="#F5A623" opacity=".35">
+            <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="20s" repeatCount="indefinite"/>
+          </circle>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-off">
+  <div class="container">
+    <div class="stats-heading reveal">
+      <h2>By the Numbers</h2>
+    </div>
+    <div class="bento-grid">
+      <div class="bento-card reveal" style="transition-delay:.05s">
+        <div class="stat-number">1,000+</div>
+        <div class="stat-label">Miles of hydrogen pipelines</div>
+      </div>
+      <div class="bento-card reveal" style="transition-delay:.15s">
+        <div class="stat-number">48</div>
+        <div class="stat-label">Hydrogen production plants</div>
+      </div>
+      <div class="bento-card reveal" style="transition-delay:.25s">
+        <div class="stat-number">7</div>
+        <div class="stat-label">Core industry participants</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="partners-section">
+  <div class="container">
+    <h2 class="reveal">Core Industry Partners</h2>
+    <p class="partners-sub reveal">Seven leading energy companies driving the hydrogen economy</p>
+    <div class="pill-group reveal" style="transition-delay:.1s">
+      <span class="pill-badge">AES Corporation</span>
+      <span class="pill-badge">Air Liquide</span>
+      <span class="pill-badge">Chevron</span>
+      <span class="pill-badge">ExxonMobil</span>
+      <span class="pill-badge">Mitsubishi Power Americas</span>
+      <span class="pill-badge">Orsted</span>
+      <span class="pill-badge">Sempra Infrastructure</span>
+    </div>
+    <div class="pill-group reveal" style="transition-delay:.2s">
+      <span class="pill-group-label">Founding Organizers</span>
+      <span class="pill-badge organizer">CHF</span>
+      <span class="pill-badge organizer">GTI Energy</span>
+      <span class="pill-badge organizer">University of Texas-Austin</span>
+    </div>
+  </div>
+</section>
+
+<div class="back-link-section">
+  <div class="container">
+    <a href="chf_energy_v4.html" class="back-link reveal">
+      <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M17 10a.75.75 0 01-.75.75H5.612l4.158 3.96a.75.75 0 11-1.04 1.08l-5.5-5.25a.75.75 0 010-1.08l5.5-5.25a.75.75 0 011.04 1.08L5.612 9.25H16.25A.75.75 0 0117 10z"/></svg>
+      Back to Energy and Climate
+    </a>
+  </div>
+</div>
+
+</main>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>213</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[immigration-report]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>204</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="immigration"><![CDATA[Immigration]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[2021 Report Update demonstrating how decreased immigration rates depressed future economic growth in the Greater Houston region.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Immigration]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Immigration]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[2021 Report Update demonstrating how decreased immigration rates depressed future economic growth]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[2019 Immigration Study]]></title>
+    <link>https://centerforhoustonsfuture.org/immigration-2019/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<div class="back-link-bar">
+  <a href="chf_immigration_v4.html" class="back-link">&larr; Back to Immigration</a>
+</div>
+
+<section class="overview-section" aria-labelledby="overview-heading">
+  <div class="overview-grid">
+    <div>
+      <div class="overview-eyebrow reveal">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">Report Overview</span>
+      </div>
+      <h2 id="overview-heading" class="overview-heading reveal d1">2021 Immigration Report Update</h2>
+      <p class="overview-text reveal d2">This update to the 2019 report demonstrated how the recent two-year decrease in the region's immigration rates depressed future economic growth, confirming that economic growth is critically dependent on continued immigration.</p>
+    </div>
+    <div class="overview-icon-wrap reveal d3">
+      <div class="overview-icon-circle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+          <path d="M2 12h20"/>
+          <path d="M12 2c-3.5 3-5.5 6.5-5.5 10s2 7 5.5 10"/>
+          <path d="M17 5.5a20 20 0 01-10 0"/>
+          <path d="M17 18.5a20 20 0 00-10 0"/>
+          <circle cx="8" cy="8" r="1" fill="currentColor" stroke="none"/>
+          <circle cx="16" cy="10" r="1" fill="currentColor" stroke="none"/>
+          <circle cx="10" cy="16" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="findings-section" aria-labelledby="findings-heading">
+  <div class="findings-inner">
+    <div class="findings-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Key Findings</span>
+    </div>
+    <h2 id="findings-heading" class="findings-heading reveal d1">What the data reveals</h2>
+
+    <div class="bento-grid">
+      <article class="bento-card reveal d1">
+        <div class="bento-tag bento-tag--loss">Economic Loss</div>
+        <div class="bento-stat"><span class="red">$47B</span></div>
+        <p class="bento-label">Economic loss under restricted immigration scenario (30% less) by 2040</p>
+      </article>
+
+      <article class="bento-card reveal d2">
+        <div class="bento-tag bento-tag--gain">Economic Gain</div>
+        <div class="bento-stat"><span class="green">$62B</span></div>
+        <p class="bento-label">Economic gain under increased immigration scenario (30% more) by 2040</p>
+      </article>
+
+      <article class="bento-card reveal d3">
+        <div class="bento-tag bento-tag--data">Workforce</div>
+        <div class="bento-stat">1 in 3</div>
+        <p class="bento-label">Immigrants already make up nearly one-third of the region's workforce</p>
+      </article>
+
+      <article class="bento-card reveal d4">
+        <div class="bento-tag bento-tag--data">Future Growth</div>
+        <div class="bento-stat">2 in 5</div>
+        <p class="bento-label">Jobs added by 2040 will be filled by foreign-born workers</p>
+      </article>
+
+      <article class="bento-card bento-card--wide reveal d5">
+        <div class="bento-tag bento-tag--loss">Declining Trend</div>
+        <div class="bento-stat">25,000 <span style="font-size:0.6em;color:var(--muted);">&rarr;</span> 16,000</div>
+        <p class="bento-label">Annual new immigrant workers dropped from the 2007&ndash;2016 average to the 2016&ndash;2019 average</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sectors-section" aria-labelledby="sectors-heading">
+  <div class="sectors-eyebrow reveal">
+    <div class="eline" aria-hidden="true"></div>
+    <span class="etxt">Sector Analysis</span>
+  </div>
+  <h2 id="sectors-heading" class="sectors-heading reveal d1">Industries examined through 2040</h2>
+
+  <div class="sectors-grid">
+    <article class="sector-card reveal d1">
+      <div class="sector-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"/>
+          <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/>
+          <line x1="12" y1="12" x2="12" y2="16"/>
+          <line x1="10" y1="14" x2="14" y2="14"/>
+        </svg>
+      </div>
+      <h3>Professional Services</h3>
+      <p>The report provides sector-specific analysis of professional services through 2040</p>
+    </article>
+
+    <article class="sector-card reveal d2">
+      <div class="sector-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 20h20"/>
+          <path d="M5 20V8l4-4 4 4v12"/>
+          <path d="M13 20V12h6v8"/>
+          <path d="M8 12h2"/>
+          <path d="M8 16h2"/>
+          <path d="M16 16h2"/>
+        </svg>
+      </div>
+      <h3>Manufacturing</h3>
+      <p>The report provides sector-specific analysis of manufacturing through 2040</p>
+    </article>
+
+    <article class="sector-card reveal d3">
+      <div class="sector-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M12 1v4"/>
+          <path d="M12 19v4"/>
+          <path d="M4.22 4.22l2.83 2.83"/>
+          <path d="M16.95 16.95l2.83 2.83"/>
+          <path d="M1 12h4"/>
+          <path d="M19 12h4"/>
+          <path d="M4.22 19.78l2.83-2.83"/>
+          <path d="M16.95 7.05l2.83-2.83"/>
+        </svg>
+      </div>
+      <h3>Energy</h3>
+      <p>The report provides sector-specific analysis of the energy industry through 2040</p>
+    </article>
+
+    <article class="sector-card reveal d4">
+      <div class="sector-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="3" width="20" height="14" rx="2"/>
+          <line x1="8" y1="21" x2="16" y2="21"/>
+          <line x1="12" y1="17" x2="12" y2="21"/>
+          <path d="M7 8l3 3-3 3"/>
+          <line x1="13" y1="14" x2="17" y2="14"/>
+        </svg>
+      </div>
+      <h3>Information</h3>
+      <p>The report provides sector-specific analysis of the information sector through 2040</p>
+    </article>
+  </div>
+</section>
+
+<section class="resources-section" aria-labelledby="resources-label">
+  <div class="resources-inner">
+    <div class="pw-label reveal" id="resources-label">Resources</div>
+    <div class="pw-grid reveal d1">
+      <a href="chf_immigration-resources_v4.html" class="pw-link">
+        <span class="pw-link-title">Resources on Immigration</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="https://www.bakerinstitute.org/research/immigration-policy-workshop-report" class="pw-link">
+        <span class="pw-link-title">CHF-CUSMX Workshop Report</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="https://rationalmiddle.com/immigration/" class="pw-link">
+        <span class="pw-link-title">Rational Middle</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+    </div>
+
+    <div class="pw-label reveal" id="panels-label">Panel Discussions</div>
+    <div class="pw-grid reveal d1">
+      <a href="chf_immigration-conversations_v4.html" class="pw-link">
+        <span class="pw-link-title">How to Have Difficult Conversations on Immigration</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_immigration-covid_v4.html" class="pw-link">
+        <span class="pw-link-title">COVID-19 Essential Workers and Immigration</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_immigration-construction_v4.html" class="pw-link">
+        <span class="pw-link-title">Immigration and the Construction Industry</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+    </div>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>214</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[immigration-2019]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>204</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="immigration"><![CDATA[Immigration]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Houston's Economic Future: Immigration. A 2019 study analyzing how changes in immigration would affect the Greater Houston region's economy through its 200th anniversary in 2036.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Immigration]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Study]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Houston's Economic Future: Immigration]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Difficult Conversations on Immigration]]></title>
+    <link>https://centerforhoustonsfuture.org/immigration-conversations/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<div class="back-link-bar">
+  <a href="chf_immigration_v4.html" class="back-link">&larr; Back to Immigration</a>
+</div>
+
+<section class="overview-section" aria-labelledby="overview-heading">
+  <div class="overview-grid">
+    <div>
+      <div class="overview-eyebrow reveal">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">Overview</span>
+      </div>
+      <h2 id="overview-heading" class="overview-heading reveal d1">Houston's Economic Future &amp; Immigration</h2>
+      <p class="overview-text reveal d2">Looking ahead to Houston's 200th anniversary in 2036, we developed an economic forecasting tool to analyze how changes in immigration would affect the region's economy. Our findings confirm that curtailing immigration would significantly depress economic growth.</p>
+    </div>
+    <div class="overview-icon-wrap reveal d3">
+      <div class="overview-icon-circle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+          <path d="M2 12h20"/>
+          <path d="M12 2c-3.5 3-5.5 6.5-5.5 10s2 7 5.5 10"/>
+          <path d="M17 5.5a20 20 0 01-10 0"/>
+          <path d="M17 18.5a20 20 0 00-10 0"/>
+          <circle cx="8" cy="8" r="1" fill="currentColor" stroke="none"/>
+          <circle cx="16" cy="10" r="1" fill="currentColor" stroke="none"/>
+          <circle cx="10" cy="16" r="1" fill="currentColor" stroke="none"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="highlights-section" aria-labelledby="highlights-heading">
+  <div class="highlights-inner">
+    <div class="highlights-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Report Highlights</span>
+    </div>
+    <h2 id="highlights-heading" class="highlights-heading reveal d1">What the study covers</h2>
+
+    <div class="highlights-grid">
+      <article class="highlight-card reveal d1">
+        <div class="highlight-num">1</div>
+        <h3>Immigration System Overview</h3>
+        <p>A brief explainer of the current immigration system and how policies have shaped Houston</p>
+      </article>
+
+      <article class="highlight-card reveal d2">
+        <div class="highlight-num">2</div>
+        <h3>Local Policy Options</h3>
+        <p>An overview of possible local policies that could make the region more welcoming to immigrants</p>
+      </article>
+
+      <article class="highlight-card reveal d3">
+        <div class="highlight-num">3</div>
+        <h3>Evolving Demographics</h3>
+        <p>A profile of the region's evolving immigrant population, highlighting how Houston's foreign-born residents are becoming higher-skilled and more integrated</p>
+      </article>
+
+      <article class="highlight-card reveal d4">
+        <div class="highlight-num">4</div>
+        <h3>Industry Perspectives</h3>
+        <p>Summarized findings from focus groups with regional leaders on immigration-related challenges and opportunities</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="resources-section" aria-labelledby="resources-label">
+  <div class="pw-label reveal" id="resources-label">Resources</div>
+  <div class="pw-grid reveal d1">
+    <a href="chf_immigration-resources_v4.html" class="pw-link">
+      <span class="pw-link-title">Resources on Immigration</span>
+      <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+    </a>
+    <a href="https://www.bakerinstitute.org/research/immigration-policy-workshop-report" class="pw-link">
+      <span class="pw-link-title">CHF-CUSMX Workshop Report</span>
+      <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+    </a>
+    <a href="https://rationalmiddle.com/immigration/" class="pw-link">
+      <span class="pw-link-title">Rational Middle</span>
+      <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+    </a>
+  </div>
+</section>
+
+<section class="panels-section" aria-labelledby="panels-label">
+  <div class="panels-inner">
+    <div class="pw-label reveal" id="panels-label">Panel Discussions</div>
+    <div class="pw-grid reveal d1">
+      <a href="chf_immigration-conversations_v4.html" class="pw-link">
+        <span class="pw-link-title">How to Have Difficult Conversations on Immigration</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_immigration-covid_v4.html" class="pw-link">
+        <span class="pw-link-title">COVID-19 Essential Workers and Immigration</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_immigration-construction_v4.html" class="pw-link">
+        <span class="pw-link-title">Immigration and the Construction Industry</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+    </div>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>215</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[immigration-conversations]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>204</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="immigration"><![CDATA[Immigration]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[How to Have Difficult Conversations on Immigration. Panel discussion providing ideas for structuring conversations about immigration policy and economic impact.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Immigration]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Conversations]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[How to Have Difficult Conversations on Immigration]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[COVID-19 Essential Workers & Immigration]]></title>
+    <link>https://centerforhoustonsfuture.org/immigration-covid/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<div class="back-link-wrap reveal">
+  <a href="chf_immigration_v4.html" class="back-link"><span aria-hidden="true">&larr;</span> Back to Immigration</a>
+</div>
+
+<section class="overview-section" aria-labelledby="overview-heading">
+  <div class="overview-eyebrow reveal">
+    <div class="eline" aria-hidden="true"></div>
+    <span class="etxt">Overview</span>
+  </div>
+  <h2 id="overview-heading" class="overview-heading reveal d1">Structuring conversations about immigration</h2>
+  <p class="overview-text reveal d2">Immigration will continue as a major issue with differing perspectives among friends and family. This panel discussion provides ideas for structuring conversations about immigration. Panelists shared useful facts and discussed what to say and how to say it when facts don't resonate.</p>
+  <p class="overview-text reveal d3">This panel continues work with Rational Middle, New American Economy, and the Center for the United States and Mexico (CUSMX) at Rice University's Baker Institute, advancing conversation about immigration policy and economic impact.</p>
+</section>
+
+<section class="panelists-section" aria-labelledby="panelists-heading">
+  <div class="panelists-inner">
+    <div class="panelists-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Panel Discussion</span>
+    </div>
+    <h2 id="panelists-heading" class="panelists-heading reveal d1">Meet the panelists</h2>
+
+    <div class="panelists-grid">
+      <article class="panelist-card reveal d1">
+        <div class="panelist-avatar avatar-navy">LC</div>
+        <div class="panelist-role">Moderator</div>
+        <h3 class="panelist-name">Laura Collins</h3>
+        <p class="panelist-title">Director, George W. Bush Institute</p>
+        <p class="panelist-desc">Former Director of Immigration Policy at American Action Forum.</p>
+      </article>
+
+      <article class="panelist-card reveal d2">
+        <div class="panelist-avatar avatar-green">ZG</div>
+        <div class="panelist-role">Panelist</div>
+        <h3 class="panelist-name">Zaira Garcia</h3>
+        <p class="panelist-title">Texas State Director, FWD.US</p>
+        <p class="panelist-desc">Advocacy organization focused on immigration and criminal justice reform.</p>
+      </article>
+
+      <article class="panelist-card reveal d3">
+        <div class="panelist-avatar avatar-gold">CM</div>
+        <div class="panelist-role">Panelist</div>
+        <h3 class="panelist-name">Candy Marshall</h3>
+        <p class="panelist-title">President, TheDream.US</p>
+        <p class="panelist-desc">National scholarship program for Dreamers; former leader at Bill &amp; Melinda Gates Foundation.</p>
+      </article>
+
+      <article class="panelist-card reveal d4">
+        <div class="panelist-avatar avatar-deep">DV</div>
+        <div class="panelist-role">Panelist</div>
+        <h3 class="panelist-name">Dan Vallone</h3>
+        <p class="panelist-title">Director, More in Common USA</p>
+        <p class="panelist-desc">Education policy background; former Army infantry officer.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="back-nav-section reveal">
+  <a href="chf_immigration_v4.html" class="back-nav-link"><span aria-hidden="true">&larr;</span> Back to Immigration</a>
+</div>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>216</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[immigration-covid]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>204</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="immigration"><![CDATA[Immigration]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[COVID-19 Essential Workers and Immigration panel exploring the role of immigrant workers in essential services during the pandemic.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Immigration]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Immigration]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[COVID-19 Essential Workers and Immigration]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Immigration & Construction Industry]]></title>
+    <link>https://centerforhoustonsfuture.org/immigration-construction/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview-section" aria-labelledby="overview-heading">
+  <div>
+    <div class="overview-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Overview</span>
+    </div>
+    <h2 id="overview-heading" class="overview-heading reveal d1">COVID-19 Essential Workers and Immigration</h2>
+    <p class="overview-text reveal d2">This panel continued partnership with Rational Middle and the Center for the United States and Mexico (CUSMX) at Rice University's Baker Institute to advance conversation about immigration and its economic importance in Houston and Texas.</p>
+    <p class="overview-text reveal d3">Immigrant workers, both documented and undocumented, play an important role in the country's workforce. The COVID-19 pandemic highlighted reliance on these workers for essential services. Agriculture and meat packing, food distribution, grocery retail, healthcare, research, and delivery sectors rely significantly on immigrant labor. The panel explores facts about these numbers, worker valuation and safety, and current immigration policy effects on pandemic response.</p>
+  </div>
+</section>
+
+<section class="panelists-section" aria-labelledby="panelists-heading">
+  <div class="panelists-inner">
+    <div class="panelists-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Panel Discussion</span>
+    </div>
+    <h2 id="panelists-heading" class="panelists-heading reveal d1">Panelists</h2>
+
+    <div class="panelists-grid">
+      <article class="panelist-card reveal d1">
+        <div class="panelist-header">
+          <div class="panelist-avatar"><span>DB</span></div>
+          <div>
+            <h3 class="panelist-name">David J. Bier</h3>
+            <div class="panelist-title">Immigration Policy Analyst, Cato Institute</div>
+          </div>
+        </div>
+        <p class="panelist-bio">Associate director of immigration studies at the Cato Institute. His work has been published in the New York Times, Washington Post, and USA Today.</p>
+      </article>
+
+      <article class="panelist-card reveal d2">
+        <div class="panelist-header">
+          <div class="panelist-avatar"><span>GC</span></div>
+          <div>
+            <h3 class="panelist-name">Guadalupe Correa-Cabrera, Ph.D.</h3>
+            <div class="panelist-title">Associate Professor, George Mason University</div>
+          </div>
+        </div>
+        <p class="panelist-bio">Non-resident Scholar at the Center for the United States and Mexico (CUSMX) at Rice University's Baker Institute. Author of "Los Zetas Inc."</p>
+      </article>
+
+      <article class="panelist-card reveal d3">
+        <div class="panelist-header">
+          <div class="panelist-avatar"><span>JG</span></div>
+          <div>
+            <h3 class="panelist-name">Julia Gelatt, Ph.D.</h3>
+            <div class="panelist-title">Senior Policy Analyst, Migration Policy Institute</div>
+          </div>
+        </div>
+        <p class="panelist-bio">Ph.D. in sociology (demography) from Princeton University. Senior Policy Analyst at the Migration Policy Institute, focusing on immigration policy research and analysis.</p>
+      </article>
+
+      <article class="panelist-card reveal d4">
+        <div class="panelist-header">
+          <div class="panelist-avatar"><span>KJ</span></div>
+          <div>
+            <h3 class="panelist-name">Ken Janda</h3>
+            <div class="panelist-title">Principal, Wild Blue Health Solutions</div>
+          </div>
+        </div>
+        <p class="panelist-bio">Adjunct Professor at the University of Houston College of Medicine and Rice University's Jones School of Business. Former CEO of Community Health Choice.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="back-link-section" aria-label="Navigation">
+  <a href="chf_immigration_v4.html" class="back-link reveal">
+    <span class="back-link-arrow" aria-hidden="true">&larr;</span>
+    Back to Immigration
+  </a>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>217</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[immigration-construction]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>204</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="immigration"><![CDATA[Immigration]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[The Center hosted a conversation about immigration and the construction industry, featuring the book Deconstructed by Loren Steffy and Stan Marek.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Immigration]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Industry]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Immigration and the Construction Industry]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Immigration Partners & Projects]]></title>
+    <link>https://centerforhoustonsfuture.org/immigration-projects/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview-section" aria-labelledby="overview-heading">
+  <div class="overview-grid">
+    <div>
+      <div class="overview-eyebrow reveal">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">Overview</span>
+      </div>
+      <h2 id="overview-heading" class="overview-heading reveal d1">Immigration and the building trades</h2>
+      <p class="overview-text reveal d2">The Center hosted a conversation with Loren Steffy about his new book with Stan Marek, <em>Deconstructed: An Insider's View of Illegal Immigration and the Building Trades</em>.</p>
+      <p class="overview-text reveal d2">Immigrants have long been the source of America's economic strength. Yet our immigration laws have been ill-defined and arbitrary, based largely on the fears of the moment and aimed at limiting particular groups of people.</p>
+      <p class="overview-text reveal d3"><em>Deconstructed</em> unravels these economic issues and shows the ineffectiveness of America's policies through the eyes of a man who has watched first-hand the immigration crisis unfold over the past 40 years.</p>
+    </div>
+    <div class="overview-icon-wrap reveal d3">
+      <div class="overview-icon-circle">
+        
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="4" y="10" width="16" height="12" rx="1"/>
+          <path d="M12 2L4 10h16L12 2z"/>
+          <rect x="8" y="14" width="3" height="4"/>
+          <rect x="13" y="14" width="3" height="3"/>
+          <line x1="4" y1="22" x2="20" y2="22"/>
+          <line x1="2" y1="22" x2="22" y2="22"/>
+          <path d="M12 2v3"/>
+          <circle cx="12" cy="7" r="0.5" fill="currentColor" stroke="none"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="book-section" aria-labelledby="book-heading">
+  <div class="book-inner">
+    <div class="book-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Featured Book</span>
+    </div>
+    <h2 id="book-heading" class="book-heading reveal d1">About the book</h2>
+
+    <div class="book-card reveal d2">
+      <div class="book-icon-wrap">
+        
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
+          <path d="M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z"/>
+          <line x1="8" y1="6" x2="16" y2="6"/>
+          <line x1="8" y1="10" x2="14" y2="10"/>
+          <line x1="8" y1="14" x2="12" y2="14"/>
+        </svg>
+      </div>
+      <div class="book-content">
+        <h3 class="book-title">Deconstructed: An Insider's View of Illegal Immigration and the Building Trades</h3>
+        <div class="book-authors">By Loren Steffy and Stan Marek</div>
+        <p class="book-desc">An insider account that unravels the complex economic issues surrounding immigration in the construction industry, revealing the ineffectiveness of America's policies through the eyes of a man who has watched first-hand the immigration crisis unfold over the past 40 years in the building trades.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="back-section reveal">
+  <a href="chf_immigration_v4.html" class="back-link">
+    <span class="arr" aria-hidden="true">&larr;</span> Back to Immigration
+  </a>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>218</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[immigration-projects]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>204</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="immigration"><![CDATA[Immigration]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Collaborative Partners and Projects on immigration including Rational Middle and CUSMX at Rice University's Baker Institute.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Immigration]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Projects]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Collaborative Partners and Projects]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Immigration Resources]]></title>
+    <link>https://centerforhoustonsfuture.org/immigration-resources/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<div class="back-link-bar">
+  <a href="chf_immigration_v4.html" class="back-link">&larr; Back to Immigration</a>
+</div>
+
+<section class="overview-section" aria-labelledby="overview-heading">
+  <div class="overview-grid">
+    <div>
+      <div class="overview-eyebrow reveal">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">Overview</span>
+      </div>
+      <h2 id="overview-heading" class="overview-heading reveal d1">Collaborative Partners and Projects</h2>
+      <p class="overview-text reveal d2">Rational Middle and the Center for the United States and Mexico (CUSMX) at Rice University's Baker Institute have been among our closest collaborators on immigration. The Center worked with these organizations to produce a series of short documentaries presenting immigration facts with historical context and personal narratives. These videos feature perspectives from immigrants, municipalities, researchers, business owners, and citizens addressing immigration challenges.</p>
+      <p class="overview-text reveal d3">The Center and CUSMX collaborated on immigration workshops and summits featuring national scholars and experts, promoting research and fact-based analysis supporting economic growth through rational immigration policy.</p>
+      <p class="overview-text reveal d4">In 2020, the organization hosted a series of webcasts on immigration designed to advance conversation about immigration's economic importance in Houston and Texas.</p>
+    </div>
+    <div class="overview-icon-wrap reveal d5">
+      <div class="overview-icon-circle">
+        
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M23 21v-2a4 4 0 00-3-3.87"/>
+          <path d="M16 3.13a4 4 0 010 7.75"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="partners-section" aria-labelledby="partners-heading">
+  <div class="partners-inner">
+    <div class="partners-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Partner Organizations</span>
+    </div>
+    <h2 id="partners-heading" class="partners-heading reveal d1">Featured collaborators</h2>
+
+    <div class="partners-grid">
+      <a href="https://rationalmiddle.com/immigration/" class="partner-card reveal d1" target="_blank" rel="noopener noreferrer">
+        <div class="partner-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="23 7 16 12 23 17 23 7"/>
+            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+          </svg>
+        </div>
+        <h3>Rational Middle</h3>
+        <p>Documentary series presenting immigration facts with historical context and personal stories.</p>
+        <span class="partner-link">Visit Rational Middle <span aria-hidden="true">&#8594;</span></span>
+      </a>
+
+      <a href="https://www.bakerinstitute.org/" class="partner-card reveal d2" target="_blank" rel="noopener noreferrer">
+        <div class="partner-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 20h20"/>
+            <path d="M5 20V8l4-4 4 4v12"/>
+            <path d="M13 20V12h6v8"/>
+            <path d="M8 12h2"/>
+            <path d="M8 16h2"/>
+            <path d="M16 16h2"/>
+          </svg>
+        </div>
+        <h3>CUSMX at Rice Baker Institute</h3>
+        <p>Immigration workshops and summits featuring national scholars and experts.</p>
+        <span class="partner-link">Visit Baker Institute <span aria-hidden="true">&#8594;</span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="resources-section" aria-labelledby="resources-label">
+  <div class="resources-inner">
+    <div class="pw-label reveal" id="resources-label">Resources</div>
+    <div class="pw-grid reveal d1">
+      <a href="https://rationalmiddle.com/immigration/" class="pw-link" target="_blank" rel="noopener noreferrer">
+        <span class="pw-link-title">Watch Videos from Rational Middle</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="https://www.bakerinstitute.org/research/immigration-policy-workshop-report" class="pw-link" target="_blank" rel="noopener noreferrer">
+        <span class="pw-link-title">CHF-CUSMX Workshop Report</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_immigration_v4.html" class="pw-link">
+        <span class="pw-link-title">Immigration Webcasts</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+    </div>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>219</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[immigration-resources]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>204</wp:post_parent>
+    <wp:post_type><![CDATA[chf_initiative]]></wp:post_type>
+    <category domain="initiative_category" nicename="immigration"><![CDATA[Immigration]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Thoughtful, non-partisan research on immigration from our partners and collaborators. Resources from leading policy institutes and research organizations.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Immigration]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Resources]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Thoughtful, non-partisan research on immigration from our partners and collaborators]]></wp:meta_value></wp:postmeta>
+</item>
+
+</channel>
+</rss>

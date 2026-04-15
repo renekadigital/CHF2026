@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+  <title>Center for Houston&#039;s Future</title>
+  <link>https://centerforhoustonsfuture.org</link>
+  <description>Houston&#039;s premier cross-sector think tank driving research, civic leadership, and strategic initiatives for the region&#039;s future.</description>
+  <language>en-US</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:base_site_url>https://centerforhoustonsfuture.org</wp:base_site_url>
+  <wp:base_blog_url>https://centerforhoustonsfuture.org</wp:base_blog_url>
+  <generator>https://wordpress.org/?v=6.7</generator>
+
+  <wp:author>
+    <wp:author_id>1</wp:author_id>
+    <wp:author_login><![CDATA[admin]]></wp:author_login>
+    <wp:author_email><![CDATA[admin@centerforhoustonsfuture.org]]></wp:author_email>
+    <wp:author_display_name><![CDATA[CHF Admin]]></wp:author_display_name>
+    <wp:author_first_name><![CDATA[]]></wp:author_first_name>
+    <wp:author_last_name><![CDATA[]]></wp:author_last_name>
+  </wp:author>
+
+  <!-- ==================== CATEGORIES ==================== -->
+
+  <wp:category>
+    <wp:term_id>10</wp:term_id>
+    <wp:category_nicename><![CDATA[energy-climate]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Energy & Climate]]></wp:cat_name>
+  </wp:category>
+
+  <wp:category>
+    <wp:term_id>11</wp:term_id>
+    <wp:category_nicename><![CDATA[health-equity]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Health & Health Equity]]></wp:cat_name>
+  </wp:category>
+
+  <wp:category>
+    <wp:term_id>12</wp:term_id>
+    <wp:category_nicename><![CDATA[immigration]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Immigration]]></wp:cat_name>
+  </wp:category>
+
+  <!-- ==================== CUSTOM TAXONOMY: initiative_category ==================== -->
+
+  <wp:term>
+    <wp:term_id>20</wp:term_id>
+    <wp:term_taxonomy><![CDATA[initiative_category]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[energy-climate]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Energy & Climate]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>21</wp:term_id>
+    <wp:term_taxonomy><![CDATA[initiative_category]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[health-equity]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Health & Health Equity]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>22</wp:term_id>
+    <wp:term_taxonomy><![CDATA[initiative_category]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[immigration]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Immigration]]></wp:term_name>
+  </wp:term>
+
+  <!-- ==================== CUSTOM TAXONOMY: event_type ==================== -->
+
+  <wp:term>
+    <wp:term_id>30</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[conference]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Conference]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>31</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[forum]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Forum]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>32</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[workshop]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Workshop]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>33</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[dinner]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Dinner]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>34</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[summit]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Summit]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>35</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[meeting]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Meeting]]></wp:term_name>
+  </wp:term>
+
+
+  <!-- ==================== PAGES (20) ==================== -->
+
+  
+  <!-- ==================== NAV MENU ITEMS (import LAST — after all pages exist) ==================== -->
+
+  <item><title><![CDATA[About]]></title><link>https://centerforhoustonsfuture.org/about/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[<div style="padding:80px var(--container-pad);max-width:900px;margin:auto;">
+
+    <div class="reveal" style="margin-bottom:32px;padding:24px 28px;background:var(--off);border-radius:var(--radius-md);border:1px solid var(--rule);display:flex;flex-direction:column;gap:12px;">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <svg style="width:18px;height:18px;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span style="color:var(--text);font-weight:600;">Multi-day event (October 21&ndash;23)</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <svg style="width:18px;height:18px;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span style="color:var(--mid);">C. Baldwin, Curio Collection by Hilton, 400 Dallas Street, Houston</span>
+      </div>
+    </div>
+
+    <div class="reveal" style="font-size:17px;line-height:1.8;color:var(--mid);">
+      <p>Inaugural summit bringing together leaders from energy, finance, and policy to explore American energy independence.</p><p>Over three days, participants engaged in panel discussions, networking sessions, and workshops covering topics from clean hydrogen production to carbon capture technology. The summit positioned Houston as the natural hub for America's energy future, leveraging the city's existing infrastructure and expertise.</p><p>Key themes included the role of natural gas as a transition fuel, investment trends in clean energy, and policy frameworks needed to accelerate the energy transition while maintaining economic competitiveness.</p>
+    </div>
+
+    <div class="event-gallery reveal">
+      <h2>Event Gallery</h2>
+      <div class="gallery-grid">
+        <img src="media/images/Energy-Job.png" alt="Energy summit keynote" loading="lazy" width="800" height="533">
+        <img src="media/images/skyline-new.jpeg" alt="Summit networking" loading="lazy" width="800" height="533">
+        <img src="media/images/future-houston-1024x767.png" alt="Panel on energy independence" loading="lazy" width="800" height="533">
+      </div>
+    </div>
+
+    <div class="event-map reveal">
+      <h2>Location</h2>
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps?q=C+Baldwin+Hotel+400+Dallas+Street+Houston+TX&output=embed" sandbox="allow-scripts allow-same-origin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Event location map"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div style="padding:0 var(--container-pad) 48px;max-width:900px;margin:auto;">
+    <a href="chf_events_v4.html" class="reveal" style="display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--navy);text-decoration:none;transition:color 0.2s;">
+      <span aria-hidden="true">&#8592;</span> Back to Events
+    </a>
+  </div>]]></content:encoded><wp:post_id>400</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[about-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>1</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>101</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[About the Center]]></title><link>https://centerforhoustonsfuture.org/about/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>401</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[about-center-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>2</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>101</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>400</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Our Supporters]]></title><link>https://centerforhoustonsfuture.org/supporters/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>402</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[supporters-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>3</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>103</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>400</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Financials]]></title><link>https://centerforhoustonsfuture.org/financials/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>403</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[financials-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>4</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>104</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>400</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Initiatives]]></title><link>https://centerforhoustonsfuture.org/initiatives/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>410</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[initiatives-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>5</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>114</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Project Metis]]></title><link>https://centerforhoustonsfuture.org/project-metis/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>411</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[metis-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>6</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>chf_initiative</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>200</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>410</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Vision 2050]]></title><link>https://centerforhoustonsfuture.org/vision-2050/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>412</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[vision-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>7</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>chf_initiative</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>201</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>410</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Past Initiatives]]></title><link>https://centerforhoustonsfuture.org/initiatives/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>413</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[past-initiatives-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>8</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>114</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>410</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Leadership]]></title><link>https://centerforhoustonsfuture.org/leadership/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>420</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[leadership-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>9</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>109</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Business & Civic Leadership Forum]]></title><link>https://centerforhoustonsfuture.org/leadership/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>421</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[bclf-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>10</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>109</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>420</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Forum Portal]]></title><link>https://centerforhoustonsfuture.org/leadership/portal/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>422</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[portal-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>11</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>110</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>420</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Top 25 Alumni]]></title><link>https://centerforhoustonsfuture.org/leadership/top-25/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>423</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[top25-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>12</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>111</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>420</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[75 Leaders Who Stand Apart]]></title><link>https://centerforhoustonsfuture.org/leadership/75-leaders/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>424</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[75leaders-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>13</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>112</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>420</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Alumni Directory]]></title><link>https://centerforhoustonsfuture.org/leadership/alumni/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>425</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[alumni-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>14</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>113</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>420</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Events]]></title><link>https://centerforhoustonsfuture.org/events/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>430</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[events-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>15</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>105</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[News & Media]]></title><link>https://centerforhoustonsfuture.org/news/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>431</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[news-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>16</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>106</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Donate]]></title><link>https://centerforhoustonsfuture.org/donate/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>432</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[donate-nav]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>17</wp:menu_order><category domain="nav_menu" nicename="primary-navigation"><![CDATA[Primary Navigation]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>107</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_classes</wp:meta_key><wp:meta_value>nav-donate</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[About the Center]]></title><link>https://centerforhoustonsfuture.org/about/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>500</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-about]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>1</wp:menu_order><category domain="nav_menu" nicename="footer-about"><![CDATA[Footer About Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>101</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Our Team]]></title><link>https://centerforhoustonsfuture.org/team/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>501</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-team]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>2</wp:menu_order><category domain="nav_menu" nicename="footer-about"><![CDATA[Footer About Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>102</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Our Supporters]]></title><link>https://centerforhoustonsfuture.org/supporters/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>502</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-supporters]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>3</wp:menu_order><category domain="nav_menu" nicename="footer-about"><![CDATA[Footer About Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>103</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Financials]]></title><link>https://centerforhoustonsfuture.org/financials/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>503</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-financials]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>4</wp:menu_order><category domain="nav_menu" nicename="footer-about"><![CDATA[Footer About Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>104</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Energy & Climate]]></title><link>https://centerforhoustonsfuture.org/energy/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>510</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-energy]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>1</wp:menu_order><category domain="nav_menu" nicename="footer-initiatives"><![CDATA[Footer Initiatives Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>chf_initiative</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>202</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Health & Health Equity]]></title><link>https://centerforhoustonsfuture.org/health/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>511</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-health]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>2</wp:menu_order><category domain="nav_menu" nicename="footer-initiatives"><![CDATA[Footer Initiatives Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>chf_initiative</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>203</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Immigration]]></title><link>https://centerforhoustonsfuture.org/immigration/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>512</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-immigration]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>3</wp:menu_order><category domain="nav_menu" nicename="footer-initiatives"><![CDATA[Footer Initiatives Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>chf_initiative</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>204</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Project Metis]]></title><link>https://centerforhoustonsfuture.org/project-metis/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>513</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-metis]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>4</wp:menu_order><category domain="nav_menu" nicename="footer-initiatives"><![CDATA[Footer Initiatives Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>chf_initiative</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>200</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Vision 2050]]></title><link>https://centerforhoustonsfuture.org/vision-2050/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>514</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-vision]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>5</wp:menu_order><category domain="nav_menu" nicename="footer-initiatives"><![CDATA[Footer Initiatives Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>chf_initiative</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>201</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Leadership Forum]]></title><link>https://centerforhoustonsfuture.org/leadership/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>520</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-leadership]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>1</wp:menu_order><category domain="nav_menu" nicename="footer-leadership"><![CDATA[Footer Leadership Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>109</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Forum Portal]]></title><link>https://centerforhoustonsfuture.org/leadership/portal/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>521</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-portal]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>2</wp:menu_order><category domain="nav_menu" nicename="footer-leadership"><![CDATA[Footer Leadership Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>110</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Alumni Directory]]></title><link>https://centerforhoustonsfuture.org/leadership/alumni/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>522</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-alumni]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>3</wp:menu_order><category domain="nav_menu" nicename="footer-leadership"><![CDATA[Footer Leadership Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>113</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Events]]></title><link>https://centerforhoustonsfuture.org/events/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>530</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-events]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>1</wp:menu_order><category domain="nav_menu" nicename="footer-connect"><![CDATA[Footer Connect Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>105</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[News & Media]]></title><link>https://centerforhoustonsfuture.org/news/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>531</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-news]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>2</wp:menu_order><category domain="nav_menu" nicename="footer-connect"><![CDATA[Footer Connect Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>106</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+  <item><title><![CDATA[Donate]]></title><link>https://centerforhoustonsfuture.org/donate/</link><dc:creator><![CDATA[admin]]></dc:creator><content:encoded><![CDATA[]]></content:encoded><wp:post_id>532</wp:post_id><wp:post_date>2026-01-01 00:00:00</wp:post_date><wp:post_name><![CDATA[ft-donate]]></wp:post_name><wp:status><![CDATA[publish]]></wp:status><wp:post_parent>0</wp:post_parent><wp:post_type><![CDATA[nav_menu_item]]></wp:post_type><wp:menu_order>3</wp:menu_order><category domain="nav_menu" nicename="footer-connect"><![CDATA[Footer Connect Links]]></category><wp:postmeta><wp:meta_key>_menu_item_type</wp:meta_key><wp:meta_value>post_type</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value>page</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value>107</wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value>0</wp:meta_value></wp:postmeta></item>
+
+</channel>
+</rss>

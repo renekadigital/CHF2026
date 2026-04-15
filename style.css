@@ -1,0 +1,40 @@
+/*
+Theme Name: Center for Houston's Future
+Theme URI: https://centerforhoustonsfuture.org
+Author: reneka DIGITAL
+Author URI: https://www.renekadigital.com
+Description: Elementor-optimized WordPress theme for Center for Houston's Future — Houston's premier cross-sector think tank.
+Version: 5.0.0
+Requires at least: 6.4
+Tested up to: 6.7
+Requires PHP: 8.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: chf
+Template: hello-elementor
+Tags: custom-background, custom-logo, custom-menu, featured-images, elementor-ready
+*/
+
+:root {
+  --navy: #1B2A4A;
+  --navy-deep: #0f1a2e;
+  --green: #56B84A;
+  --green-dark: #3d8f35;
+  --green-light: #7dd870;
+  --green-glow: 0 8px 32px rgba(86,184,74,0.25);
+  --gold: #C9A84C;
+  --white: #ffffff;
+  --off: #f7f6f4;
+  --rule: #e5e5e5;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Merriweather', Georgia, serif;
+  --nav-height: 72px;
+  --container-pad: clamp(20px, 5vw, 48px);
+  --radius-pill: 28px;
+  --radius-md: 12px;
+  --focus-ring: 0 0 0 3px rgba(86,184,74,0.5);
+  --shadow: 0 4px 24px rgba(0,0,0,0.06);
+  --ease-spring: linear(0, 0.006, 0.025 2.8%, 0.101 6.1%, 0.539 18.9%, 0.721 25.3%, 0.849 31.5%, 0.937 38.1%, 0.968 41.8%, 0.991 45.7%, 1.006 50.1%, 1.015 55%, 1.017 63.9%, 1.001 85.7%, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+}

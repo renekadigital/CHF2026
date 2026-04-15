@@ -1,0 +1,2658 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+  <title>Center for Houston&#039;s Future</title>
+  <link>https://centerforhoustonsfuture.org</link>
+  <description>Houston&#039;s premier cross-sector think tank driving research, civic leadership, and strategic initiatives for the region&#039;s future.</description>
+  <language>en-US</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:base_site_url>https://centerforhoustonsfuture.org</wp:base_site_url>
+  <wp:base_blog_url>https://centerforhoustonsfuture.org</wp:base_blog_url>
+  <generator>https://wordpress.org/?v=6.7</generator>
+
+  <wp:author>
+    <wp:author_id>1</wp:author_id>
+    <wp:author_login><![CDATA[admin]]></wp:author_login>
+    <wp:author_email><![CDATA[admin@centerforhoustonsfuture.org]]></wp:author_email>
+    <wp:author_display_name><![CDATA[CHF Admin]]></wp:author_display_name>
+    <wp:author_first_name><![CDATA[]]></wp:author_first_name>
+    <wp:author_last_name><![CDATA[]]></wp:author_last_name>
+  </wp:author>
+
+  <!-- ==================== CATEGORIES ==================== -->
+
+  <wp:category>
+    <wp:term_id>10</wp:term_id>
+    <wp:category_nicename><![CDATA[energy-climate]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Energy & Climate]]></wp:cat_name>
+  </wp:category>
+
+  <wp:category>
+    <wp:term_id>11</wp:term_id>
+    <wp:category_nicename><![CDATA[health-equity]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Health & Health Equity]]></wp:cat_name>
+  </wp:category>
+
+  <wp:category>
+    <wp:term_id>12</wp:term_id>
+    <wp:category_nicename><![CDATA[immigration]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Immigration]]></wp:cat_name>
+  </wp:category>
+
+  <!-- ==================== CUSTOM TAXONOMY: initiative_category ==================== -->
+
+  <wp:term>
+    <wp:term_id>20</wp:term_id>
+    <wp:term_taxonomy><![CDATA[initiative_category]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[energy-climate]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Energy & Climate]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>21</wp:term_id>
+    <wp:term_taxonomy><![CDATA[initiative_category]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[health-equity]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Health & Health Equity]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>22</wp:term_id>
+    <wp:term_taxonomy><![CDATA[initiative_category]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[immigration]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Immigration]]></wp:term_name>
+  </wp:term>
+
+  <!-- ==================== CUSTOM TAXONOMY: event_type ==================== -->
+
+  <wp:term>
+    <wp:term_id>30</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[conference]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Conference]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>31</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[forum]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Forum]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>32</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[workshop]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Workshop]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>33</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[dinner]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Dinner]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>34</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[summit]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Summit]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>35</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[meeting]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Meeting]]></wp:term_name>
+  </wp:term>
+
+
+  <!-- ==================== PAGES (20) ==================== -->
+
+  
+  <!-- ==================== PAGES (import 1st) ==================== -->
+
+  <item>
+    <title><![CDATA[Future Houston]]></title>
+    <link>https://centerforhoustonsfuture.org/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<p>Center for Houston's Future brings business, government, community and academic stakeholders together for planning, research, consensus building and action.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>100</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[home]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Center for Houston's Future brings business, government, community and academic stakeholders together for planning, research, consensus building and action.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Energy & Climate]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[WonderWeek]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Exploring how innovation goes hand in hand with play, curiosity and experimentation]]></wp:meta_value></wp:postmeta></item>
+
+  <item>
+    <title><![CDATA[About the Center]]></title>
+    <link>https://centerforhoustonsfuture.org/about/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<main id="main">
+
+<section class="initiatives" aria-labelledby="initiatives-heading">
+  <div class="init-header">
+    <div>
+      <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Strategic Initiatives</span></div>
+      <h2 class="sec-h2 reveal d1" id="initiatives-heading">Where we focus.</h2>
+      <p class="sec-body reveal d2" style="max-width:560px;margin-top:8px;">We conduct economic research and strategic planning, hold community events and develop leaders.</p>
+    </div>
+    <a href="chf_initiatives_v4.html" class="btn-text reveal">All Initiatives <span class="garr" aria-hidden="true">&#8594;</span></a>
+  </div>
+  <div class="init-grid" style="grid-template-columns:repeat(3,1fr);gap:20px;background:none;">
+    <article class="icard reveal" style="border-radius:var(--radius-md);border:1px solid var(--rule);position:relative;overflow:hidden;">
+      <div class="icard-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg>
+      </div>
+      <div class="icard-num">Current Initiative</div>
+      <h3 class="icard-title">Project Metis</h3>
+      <div class="icard-desc">Positioning the Houston/Galveston region as the global leader in brain health and the emerging brain economy.</div>
+      <a href="chf_project-metis_v4.html" class="icard-link">Learn More <span class="la" aria-hidden="true">&#8594;</span></a>
+    </article>
+    <article class="icard reveal d1" style="border-radius:var(--radius-md);border:1px solid var(--rule);position:relative;overflow:hidden;">
+      <div class="icard-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+      </div>
+      <div class="icard-num">Current Initiative</div>
+      <h3 class="icard-title">Vision 2050</h3>
+      <div class="icard-desc">Creating a long-range strategic plan and vision for the Houston region with business, community, and government leaders.</div>
+      <a href="chf_vision-2050_v4.html" class="icard-link">Learn More <span class="la" aria-hidden="true">&#8594;</span></a>
+    </article>
+    <article class="icard reveal d2" style="border-radius:var(--radius-md);border:1px solid var(--rule);position:relative;overflow:hidden;">
+      <div class="icard-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      </div>
+      <div class="icard-num">Past Initiatives</div>
+      <h3 class="icard-title">Energy, Health &amp; Immigration</h3>
+      <div class="icard-desc">Advancing Houston's leadership in energy transition, health equity, and the economic importance of immigration.</div>
+      <a href="chf_energy_v4.html" class="icard-link">Explore <span class="la" aria-hidden="true">&#8594;</span></a>
+    </article>
+  </div>
+</section>
+
+<section class="stats" aria-label="Key statistics">
+  <div class="sc reveal"><div class="sn" data-count="25">0+</div><div class="sl">Years shaping<br>Houston's future</div></div>
+  <div class="sc reveal d1"><div class="sn" data-count="600">0+</div><div class="sl">Business &amp; Civic<br>Forum alumni</div></div>
+  <div class="sc reveal d2"><div class="sn" data-count="30">0+</div><div class="sl">Corporate &amp; foundation<br>supporters</div></div>
+  <div class="sc reveal d3"><div class="sn" data-count="15">0+</div><div class="sl">Major initiatives<br>launched</div></div>
+</section>
+
+<section class="news-sec" aria-labelledby="news-heading">
+  <div class="news-header">
+    <div>
+      <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">News &amp; Media</span></div>
+      <h2 class="sec-h2 reveal d1" id="news-heading">Latest from CHF.</h2>
+    </div>
+    <a href="chf_news_v4.html" class="btn-text reveal">See More News <span class="garr" aria-hidden="true">&#8594;</span></a>
+  </div>
+  <div class="nrow1">
+    <a class="ncard feat reveal" href="media/pdfs/RWC-Jobs-Playbook.pdf" target="_blank" rel="noopener noreferrer">
+      <div class="nimg-wrap"><img class="nimg" src="media/images/Energy-Job.png" alt="Energy Jobs Playbook cover" loading="lazy" width="600" height="338"></div>
+      <div class="nbody">
+        <div class="nmeta"><span class="ntag">Energy</span><time class="ndate" datetime="2026-02-13">February 13, 2026</time></div>
+        <div class="ntitle">Energy Jobs: a guiding document for Houston's Workforce</div>
+        <div class="nexcerpt">A new playbook outlining how Houston can lead the energy transition while protecting workers and building a resilient regional workforce.</div>
+      </div>
+    </a>
+    <a class="ncard reveal d1" href="media/pdfs/ProjectMetisNewsRelease12.9.pdf" target="_blank" rel="noopener noreferrer">
+      <div class="nimg-wrap"><img class="nimg" src="media/images/future-houston-1024x767.png" alt="Project Metis announcement" loading="lazy" width="600" height="338"></div>
+      <div class="nbody">
+        <div class="nmeta"><span class="ntag">Initiative</span><time class="ndate" datetime="2025-12-09">December 9, 2025</time></div>
+        <div class="ntitle">Powerhouse Institutions across Houston/Galveston Launch Project Metis</div>
+      </div>
+    </a>
+    <a class="ncard reveal d2" href="media/pdfs/UTMB-brain-initiative-press-release-09.25.25.pdf" target="_blank" rel="noopener noreferrer">
+      <div class="nimg-wrap"><img class="nimg" src="media/images/David-e1758820273476-1024x767.jpg" alt="Brain Initiative launch event" loading="lazy" width="600" height="338"></div>
+      <div class="nbody">
+        <div class="nmeta"><span class="ntag">Health</span><time class="ndate" datetime="2025-09-25">September 25, 2025</time></div>
+        <div class="ntitle">Center for Houston's Future launches Brain Initiative</div>
+      </div>
+    </a>
+  </div>
+  <div class="news-cta-wrap reveal">
+    <a href="chf_news_v4.html" class="btn-navy">See All News</a>
+  </div>
+</section>
+
+<section class="events-sec" aria-labelledby="events-heading">
+  <div class="events-header">
+    <div>
+      <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Events</span></div>
+      <h2 class="sec-h2 reveal d1" id="events-heading">Upcoming &amp; Recent.</h2>
+    </div>
+    <a href="chf_events_v4.html" class="btn-text reveal">View All Events <span class="garr" aria-hidden="true">&#8594;</span></a>
+  </div>
+  <div class="events-grid">
+    
+    <div class="reveal">
+      <div class="ev-col-title">Upcoming</div>
+      <a class="ev-card" href="chf_event-spring-forum_v4.html">
+        <div class="ev-date-badge upcoming">
+          <span class="ev-badge-month">May</span>
+          <span class="ev-badge-day">15</span>
+        </div>
+        <div class="ev-info">
+          <div class="ev-title">CHF Spring Policy Forum</div>
+          <div class="ev-meta-line">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            9:00 AM – 12:00 PM
+          </div>
+          <div class="ev-meta-line">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Partnership Tower, Houston
+          </div>
+        </div>
+      </a>
+      <a class="ev-card" href="chf_event-brain-health-summit_v4.html">
+        <div class="ev-date-badge upcoming">
+          <span class="ev-badge-month">Jun</span>
+          <span class="ev-badge-day">10</span>
+        </div>
+        <div class="ev-info">
+          <div class="ev-title">Project Metis: Brain Health Summit</div>
+          <div class="ev-meta-line">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            8:30 AM – 4:00 PM
+          </div>
+          <div class="ev-meta-line">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Texas Medical Center, Houston
+          </div>
+        </div>
+      </a>
+      <a class="ev-card" href="chf_event-hydrogen-workshop_v4.html">
+        <div class="ev-date-badge upcoming">
+          <span class="ev-badge-month">Jul</span>
+          <span class="ev-badge-day">22</span>
+        </div>
+        <div class="ev-info">
+          <div class="ev-title">Houston Hydrogen Economy Workshop</div>
+          <div class="ev-meta-line">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            1:00 – 5:00 PM
+          </div>
+          <div class="ev-meta-line">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            C. Baldwin Hotel, Houston
+          </div>
+        </div>
+      </a>
+    </div>
+    
+    <div class="reveal d1">
+      <div class="ev-col-title">Past</div>
+      <a class="ev-card" href="chf_event-annual-meeting-2026_v4.html">
+        <div class="ev-date-badge past">
+          <span class="ev-badge-month">Jan</span>
+          <span class="ev-badge-day">29</span>
+        </div>
+        <div class="ev-info">
+          <div class="ev-title">2026 Annual Meeting</div>
+          <div class="ev-meta-line">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            5:30 – 7:30 PM
+          </div>
+          <div class="ev-meta-line">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Partnership Tower, Houston
+          </div>
+        </div>
+      </a>
+      <a class="ev-card" href="chf_event-dinner-2025_v4.html">
+        <div class="ev-date-badge past">
+          <span class="ev-badge-month">Nov</span>
+          <span class="ev-badge-day">13</span>
+        </div>
+        <div class="ev-info">
+          <div class="ev-title">2025 Dinner and Conversation</div>
+          <div class="ev-meta-line">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            6:00 – 9:00 PM
+          </div>
+          <div class="ev-meta-line">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            River Oaks Country Club, TX
+          </div>
+        </div>
+      </a>
+      <a class="ev-card" href="chf_event-energy-summit_v4.html">
+        <div class="ev-date-badge past">
+          <span class="ev-badge-month">Oct</span>
+          <span class="ev-badge-day">21</span>
+        </div>
+        <div class="ev-info">
+          <div class="ev-title">Energy Independence Summit</div>
+          <div class="ev-meta-line">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            C. Baldwin Hotel, Houston
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="ev-cta-wrap reveal">
+    <a href="chf_events_v4.html" class="btn-navy">View All Events</a>
+  </div>
+</section>
+
+<section class="sup-sec" aria-labelledby="supporters-heading">
+  <h2 class="sup-label reveal" id="supporters-heading">Our Supporters</h2>
+  <div class="sup-logos reveal d1">
+    <img class="sup-img" src="media/images/StLukesHealth_Endorsed_fullcolor_RGB-1.png" alt="St. Luke's Health" loading="lazy" width="120" height="40">
+    <img class="sup-img" src="media/images/jpm_chase_logo_final.jpg" alt="JP Morgan Chase" loading="lazy" width="120" height="40">
+    <img class="sup-img" src="media/images/Topsoe_Logotype_RGB_Positive-1-scaled.png" alt="Topsoe" loading="lazy" width="120" height="40">
+    <img class="sup-img" src="media/images/Md_anderson_foundation.png" alt="MD Anderson Foundation" loading="lazy" width="120" height="40">
+    <img class="sup-img" src="media/images/greater_houston_future.png" alt="Greater Houston Partnership" loading="lazy" width="120" height="40">
+  </div>
+  <div class="sup-cta reveal d2">
+    <a href="chf_supporters_v4.html" class="btn-text">See Our Supporters <span class="garr" aria-hidden="true">&#8594;</span></a>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>101</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[about]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Center for Houston's Future is a nonprofit working to understand future global trends and their impact on the Houston region.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Health & Health Equity]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[2022]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[COVID-19 Highlights Challenges for and Advances by Greater Houston’s Health Care Sector]]></wp:meta_value></wp:postmeta></item>
+
+  <item>
+    <title><![CDATA[Our Team]]></title>
+    <link>https://centerforhoustonsfuture.org/team/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="bento-stats" aria-label="Key statistics">
+  <div class="bento-grid">
+    <div class="bento-card bento-mission reveal">
+      <div class="bento-label">Our Mission</div>
+      <p class="bento-lead">We aim to ensure Houston remains a great place to live and work for all its residents.</p>
+    </div>
+    <div class="bento-card bento-num reveal d1">
+      <div class="bento-big" data-count="1992">1992</div>
+      <div class="bento-cap">Year founded</div>
+    </div>
+    <div class="bento-card bento-num reveal d2">
+      <div class="bento-big" data-count="1400">0+</div>
+      <div class="bento-cap">Forum graduates</div>
+    </div>
+    <div class="bento-card bento-num reveal d3">
+      <div class="bento-big" data-count="15">0+</div>
+      <div class="bento-cap">Major initiatives</div>
+    </div>
+  </div>
+</section>
+
+<section class="pillars-section" aria-labelledby="pillars-heading">
+  <div class="pillars-header">
+    <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">How We Work</span></div>
+    <h2 id="pillars-heading" class="reveal d1">Three key pillars.</h2>
+    <p class="pillars-sub reveal d2">We bring business, government, community and academic stakeholders to engage in planning, research, consensus building and action.</p>
+  </div>
+  <div class="pillars-grid">
+    <article class="pillar-card reveal">
+      <div class="pillar-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+      </div>
+      <h3 class="pillar-title">Strategic Initiatives</h3>
+      <p class="pillar-desc">We conduct economic research and strategic planning. Our work currently includes Project Metis, focused on positioning the Houston/Galveston region as the global leader in brain health and the emerging brain economy.</p>
+      <a href="chf_initiatives_v4.html" class="pillar-link">Explore initiatives <span aria-hidden="true">&#8594;</span></a>
+    </article>
+    <article class="pillar-card reveal d1">
+      <div class="pillar-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+      </div>
+      <h3 class="pillar-title">Community Outreach</h3>
+      <p class="pillar-desc">We hold community events and develop thought leadership. Past strategic initiatives have addressed energy, climate and the energy transition; health and health equity; and the economic importance of immigration.</p>
+      <a href="chf_events_v4.html" class="pillar-link">See events <span aria-hidden="true">&#8594;</span></a>
+    </article>
+    <article class="pillar-card reveal d2">
+      <div class="pillar-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      </div>
+      <h3 class="pillar-title">Leadership Forum</h3>
+      <p class="pillar-desc">Our Business/Civic Leadership Forum develops leaders and has graduated over 1,400 alumni, deepening the bench and widening the circle of civic leadership in the region.</p>
+      <a href="chf_leadership_v4.html" class="pillar-link">Leadership Forum <span aria-hidden="true">&#8594;</span></a>
+    </article>
+  </div>
+</section>
+
+<section class="pullquote-section" aria-label="Featured quote">
+  <blockquote class="pullquote reveal">
+    <p>Much of our strategic work starts with an economic lens and efforts may include road map and project creation.</p>
+  </blockquote>
+</section>
+
+<section class="story-section" aria-labelledby="story-heading">
+  <div class="story-inner">
+    <div class="story-text">
+      <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Our Story</span></div>
+      <h2 id="story-heading" class="reveal d1">From partnership to independence.</h2>
+      <div class="story-body">
+        <p class="reveal d2">The Center, also known as CHF, was created in 1992 as an affiliate of the Greater Houston Partnership to develop research projects and educational programs.</p>
+        <p class="reveal d3">In 2000, after input from business and civic leaders, the Center was spun off from the Greater Houston Partnership, as an independent affiliate with an independent board, to focus on deepening the bench and widening the circle of civic leadership in the region.</p>
+        <p class="reveal">The Center continues its independent affiliation with the Partnership as well as our Business/Civic Leadership Forum, which has graduated over 1,400 leaders.</p>
+      </div>
+    </div>
+    <div class="story-image reveal d2">
+      <img src="media/images/hero-skyline-pexels.jpeg" alt="Aerial view of downtown Houston skyline at night" loading="lazy" width="800" height="600">
+    </div>
+  </div>
+</section>
+
+<section class="team-section" aria-labelledby="staff-heading">
+  <div class="team-header reveal">
+    <div class="section-eyebrow"><div class="eline" aria-hidden="true"></div><span class="etxt">Leadership</span></div>
+    <h2 id="staff-heading">Our Staff</h2>
+    <p class="team-header-sub">The professionals leading CHF's strategic initiatives, community engagement, and leadership programs.</p>
+  </div>
+  <div class="staff-grid">
+    <article class="staff-card reveal">
+      <div class="staff-avatar"><span>DG</span></div>
+      <h3 class="staff-name">David Gow</h3>
+      <div class="staff-title">President and CEO</div>
+      <div class="staff-contact">
+        <a href="mailto:dgow@futurehouston.org"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="2"/></svg> Email</a>
+        <a href="tel:7138449398">713.844.9398</a>
+      </div>
+    </article>
+    <article class="staff-card reveal d1">
+      <div class="staff-avatar"><span>RR</span></div>
+      <h3 class="staff-name">Russell Richard</h3>
+      <div class="staff-title">Managing Director, Leadership Initiatives</div>
+      <div class="staff-contact">
+        <a href="mailto:rrichard@futurehouston.org"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="2"/></svg> Email</a>
+        <a href="tel:7138449323">713.844.9323</a>
+      </div>
+    </article>
+    <article class="staff-card reveal d2">
+      <div class="staff-avatar"><span>LG</span></div>
+      <h3 class="staff-name">Laura Goldberg</h3>
+      <div class="staff-title">Senior VP, Strategic Initiatives, Communications &amp; Community Engagement</div>
+      <div class="staff-contact">
+        <a href="mailto:lgoldberg@futurehouston.org"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="2"/></svg> Email</a>
+        <a href="tel:7138449327">713.844.9327</a>
+      </div>
+    </article>
+    <article class="staff-card reveal d3">
+      <div class="staff-avatar"><span>MW</span></div>
+      <h3 class="staff-name">Miri Sanchez Wilkins</h3>
+      <div class="staff-title">Senior Director, Development</div>
+      <div class="staff-contact">
+        <a href="mailto:mwilkins@futurehouston.org"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="2"/></svg> Email</a>
+        <a href="tel:7138449326">713.844.9326</a>
+      </div>
+    </article>
+    <article class="staff-card reveal">
+      <div class="staff-avatar"><span>MR</span></div>
+      <h3 class="staff-name">Megan Rose</h3>
+      <div class="staff-title">Vice President, Strategic Initiatives</div>
+      <div class="staff-contact">
+        <a href="mailto:mrose@futurehouston.org"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="2"/></svg> Email</a>
+        <a href="tel:8327252657">832.725.2657</a>
+      </div>
+    </article>
+    <article class="staff-card reveal d1">
+      <div class="staff-avatar"><span>KE</span></div>
+      <h3 class="staff-name">Kaylinn Esparza</h3>
+      <div class="staff-title">Manager, Marketing</div>
+      <div class="staff-contact">
+        <a href="mailto:kesparza@futurehouston.org"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="2"/></svg> Email</a>
+        <a href="tel:7138449328">713.844.9328</a>
+      </div>
+    </article>
+    <article class="staff-card reveal d2">
+      <div class="staff-avatar"><span>JB</span></div>
+      <h3 class="staff-name">Jennifer Beers</h3>
+      <div class="staff-title">Senior Coordinator</div>
+      <div class="staff-contact">
+        <a href="mailto:jbeers@futurehouston.org"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6" fill="none" stroke="currentColor" stroke-width="2"/></svg> Email</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="board-section" aria-labelledby="board-heading">
+  <div class="board-inner">
+    <div class="board-header reveal">
+      <div class="section-eyebrow"><div class="eline" aria-hidden="true"></div><span class="etxt">Governance</span></div>
+      <h2 id="board-heading">Board of Directors</h2>
+    </div>
+    <div class="board-grid">
+      <div class="board-card reveal"><div class="board-avatar chair"><span>YS</span></div><div class="board-info"><div class="board-name">Y. Ping Sun</div><div class="board-role">Chair</div></div></div>
+      <div class="board-card reveal d1"><div class="board-avatar"><span>DA</span></div><div class="board-info"><div class="board-name">David Acosta</div></div></div>
+      <div class="board-card reveal d2"><div class="board-avatar"><span>JA</span></div><div class="board-info"><div class="board-name">Jim Ajello</div></div></div>
+      <div class="board-card reveal d3"><div class="board-avatar"><span>AB</span></div><div class="board-info"><div class="board-name">Astley Blair</div></div></div>
+      <div class="board-card reveal"><div class="board-avatar"><span>PC</span></div><div class="board-info"><div class="board-name">Pothik Chatterjee</div></div></div>
+      <div class="board-card reveal d1"><div class="board-avatar"><span>LC</span></div><div class="board-info"><div class="board-name">Lynda Clemmons</div></div></div>
+      <div class="board-card reveal d2"><div class="board-avatar"><span>MD</span></div><div class="board-info"><div class="board-name">Melissa DeMontrond</div></div></div>
+      <div class="board-card reveal d3"><div class="board-avatar"><span>BE</span></div><div class="board-info"><div class="board-name">Bob Eury</div></div></div>
+      <div class="board-card reveal"><div class="board-avatar"><span>SK</span></div><div class="board-info"><div class="board-name">Stephen Klineberg Ph.D.</div></div></div>
+      <div class="board-card reveal d1"><div class="board-avatar"><span>AM</span></div><div class="board-info"><div class="board-name">Arun Mani</div></div></div>
+      <div class="board-card reveal d2"><div class="board-avatar"><span>BM</span></div><div class="board-info"><div class="board-name">Bruce Mann</div></div></div>
+      <div class="board-card reveal d3"><div class="board-avatar"><span>SM</span></div><div class="board-info"><div class="board-name">Stan Marek</div></div></div>
+      <div class="board-card reveal"><div class="board-avatar"><span>MM</span></div><div class="board-info"><div class="board-name">Mitra Miller</div></div></div>
+      <div class="board-card reveal d1"><div class="board-avatar"><span>RS</span></div><div class="board-info"><div class="board-name">Randi Sonenshein</div></div></div>
+      <div class="board-card reveal d2"><div class="board-avatar"><span>AS</span></div><div class="board-info"><div class="board-name">Andy Steinhubl</div></div></div>
+      <div class="board-card reveal d3"><div class="board-avatar"><span>FW</span></div><div class="board-info"><div class="board-name">Freddy Warner</div></div></div>
+      <div class="board-card reveal"><div class="board-avatar"><span>BW</span></div><div class="board-info"><div class="board-name">Beth Wolff</div></div></div>
+      <div class="board-card reveal d1"><div class="board-avatar"><span>CW</span></div><div class="board-info"><div class="board-name">Carlecia Wright</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="exofficio-section" aria-label="Ex-Officio board members">
+  <div class="exofficio-inner">
+    <div class="exofficio-label reveal">Ex-Officio Members</div>
+    <div class="exofficio-grid">
+      <span class="exofficio-tag reveal">Cindy Yeilding</span>
+      <span class="exofficio-tag reveal d1">Steve Kean</span>
+      <span class="exofficio-tag reveal d2">Armando Perez</span>
+      <span class="exofficio-tag memorial reveal d3">Eugene H. Vaughan (1933–2023)</span>
+    </div>
+  </div>
+</section>
+
+<section class="explore-section" aria-label="Explore more">
+  <div class="explore-grid">
+    <a href="chf_supporters_v4.html" class="explore-card reveal">
+      <div class="explore-card-text">
+        <span class="explore-label">Community</span>
+        <span class="explore-title">Our Supporters</span>
+      </div>
+      <span class="explore-arr" aria-hidden="true">&#8594;</span>
+    </a>
+    <a href="chf_financials_v4.html" class="explore-card reveal d1">
+      <div class="explore-card-text">
+        <span class="explore-label">Transparency</span>
+        <span class="explore-title">Financials</span>
+      </div>
+      <span class="explore-arr" aria-hidden="true">&#8594;</span>
+    </a>
+    <a href="chf_contact_v4.html" class="explore-card reveal d2">
+      <div class="explore-card-text">
+        <span class="explore-label">Connect</span>
+        <span class="explore-title">Contact Us</span>
+      </div>
+      <span class="explore-arr" aria-hidden="true">&#8594;</span>
+    </a>
+  </div>
+</section>
+
+<section class="contact-section" aria-labelledby="contact-heading">
+  <div class="contact-grid">
+    <div class="contact-left">
+      <div class="section-eyebrow reveal">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">Get in Touch</span>
+      </div>
+      <h2 id="contact-heading" class="reveal d1">Contact Us</h2>
+      <p class="reveal d2">Have questions about our work or want to get involved? We'd love to hear from you.</p>
+
+      <div class="contact-info-item reveal">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div class="contact-detail">
+          <a href="mailto:info@futurehouston.org">info@futurehouston.org</a>
+        </div>
+      </div>
+
+      <div class="contact-info-item reveal d1">
+        <div class="contact-icon">
+          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div class="contact-detail">
+          701 Avenida de las Americas<br>
+          Suite 900<br>
+          Houston, Texas 77010
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-map reveal d2">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.2!2d-95.3596!3d29.7535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf25ed1c3e85%3A0x8f8f8e8b8b8b8b8b!2s701+Avenida+De+Las+Americas%2C+Houston%2C+TX+77010!5e0!3m2!1sen!2sus!4v1" sandbox="allow-scripts allow-same-origin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Center for Houston's Future office location"></iframe>
+    </div>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>102</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[team]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>101</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Meet the staff and board of directors of Center for Houston's Future.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Our People]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Board]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[The team behind Center for Houston's Future — driving research, leadership, and action across the region.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Our Supporters]]></title>
+    <link>https://centerforhoustonsfuture.org/supporters/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<!-- Elementor-managed content. Configure in Elementor editor. -->
+<p>Center for Houston's Future is grateful to the generous individuals, foundations, and corporations that support our mission. Their investment enables us to convene cross-sector leaders and drive data-informed policy solutions for the greater Houston region.</p>
+
+<h2>Our Generous Supporters</h2>
+<p>We recognize and thank the following supporters for their commitment to Houston's future.</p>
+
+<h3>Founding Partners</h3>
+<p>Supporter listings managed via Elementor template.</p>
+
+<h3>Corporate Sponsors</h3>
+<p>Sponsor listings managed via Elementor template.</p>
+
+<h3>Individual Donors</h3>
+<p>Donor listings managed via Elementor template.</p>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>103</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[supporters]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Center for Houston's Future is supported by leading corporations, foundations, and civic organizations committed to the long-term success of Greater Houston.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Our Supporters]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[future]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Individuals, foundations, and corporations investing in Houston's future.]]></wp:meta_value></wp:postmeta>
+<!-- Parent: About (assign manually after import) -->
+</item>
+
+  <item>
+    <title><![CDATA[Annual Reports & Financials]]></title>
+    <link>https://centerforhoustonsfuture.org/financials/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="logo-grid-section" aria-labelledby="supporters-heading">
+  <div class="logo-grid-header">
+    <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Our Partners</span></div>
+    <h2 id="supporters-heading" class="reveal d1">Leading organizations driving change.</h2>
+    <p class="logo-grid-sub reveal d2">These corporations, foundations, and civic organizations provide the resources and partnership that make our work possible.</p>
+  </div>
+  <div class="logo-grid">
+    <div class="logo-card reveal">
+      <img src="media/images/Topsoe_Logotype_RGB_Positive-1-scaled.png" alt="Topsoe" loading="lazy" width="200" height="80">
+    </div>
+    <div class="logo-card reveal d1">
+      <img src="media/images/jpm_chase_logo_final.jpg" alt="JPMorgan Chase" loading="lazy" width="200" height="80">
+    </div>
+    <div class="logo-card reveal d2">
+      <img src="media/images/BP-cmyk-e1725484483858.png" alt="BP" loading="lazy" width="200" height="80">
+    </div>
+    <div class="logo-card reveal d3">
+      <img src="media/images/St-Lukes-Health-logo.png" alt="St. Luke's Health" loading="lazy" width="200" height="80">
+    </div>
+    <div class="logo-card reveal">
+      <img src="media/images/Md_anderson_foundation.png" alt="MD Anderson Foundation" loading="lazy" width="200" height="80">
+    </div>
+    <div class="logo-card reveal d1">
+      <img src="media/images/greater_houston_future.png" alt="Greater Houston Partnership" loading="lazy" width="200" height="80">
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" aria-labelledby="cta-heading">
+  <div class="cta-inner">
+    <div class="section-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Get Involved</span>
+    </div>
+    <h2 id="cta-heading" class="reveal d1">Become a Supporter</h2>
+    <p class="reveal d2">Interested in supporting CHF's mission? Join the leading organizations investing in the long-term success of Greater Houston.</p>
+    <a href="mailto:info@futurehouston.org" class="cta-btn reveal d3">Get in Touch</a>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>104</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[financials]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Access Center for Houston's Future annual reports, tax documents, and financial statements. CHF is a nonprofit 501(c)3 organization.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Financials]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Financials]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Center for Houston's Future is a nonprofit 501(c)3 organization. Donations are tax deductible to the extent allowed by law.]]></wp:meta_value></wp:postmeta>
+<!-- Parent: About (assign manually after import) -->
+</item>
+
+  <item>
+    <title><![CDATA[Events]]></title>
+    <link>https://centerforhoustonsfuture.org/events/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="reports-section" aria-labelledby="reports-heading">
+  <div class="reports-header reveal">
+    <div class="section-eyebrow"><div class="eline" aria-hidden="true"></div><span class="etxt">Reports</span></div>
+    <h2 id="reports-heading">Annual Reports</h2>
+    <p class="reports-header-sub">Review our annual reports to learn about the impact and accomplishments of Center for Houston's Future.</p>
+  </div>
+  <div class="reports-grid">
+
+    <article class="report-card reveal">
+      <div class="report-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="4" width="32" height="40" rx="3"/><path d="M16 16h16M16 24h16M16 32h10"/><path d="M28 4v10h12" stroke-opacity="0.4"/></svg>
+      </div>
+      <div class="report-year">2022</div>
+      <div class="report-title">Annual Report</div>
+      <a class="report-download" href="media/pdfs/CHF2022AnnualReport.pdf" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        Download PDF
+      </a>
+    </article>
+
+    <article class="report-card reveal d1">
+      <div class="report-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="4" width="32" height="40" rx="3"/><path d="M16 16h16M16 24h16M16 32h10"/><path d="M28 4v10h12" stroke-opacity="0.4"/></svg>
+      </div>
+      <div class="report-year">2021</div>
+      <div class="report-title">Annual Report</div>
+      <a class="report-download" href="media/pdfs/CHF2021AnnualReport.pdf" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        Download PDF
+      </a>
+    </article>
+
+    <article class="report-card reveal d2">
+      <div class="report-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="4" width="32" height="40" rx="3"/><path d="M16 16h16M16 24h16M16 32h10"/><path d="M28 4v10h12" stroke-opacity="0.4"/></svg>
+      </div>
+      <div class="report-year">2020</div>
+      <div class="report-title">Annual Report</div>
+      <a class="report-download" href="media/pdfs/2020CenterforHoustonsFutureYearinReview.pdf" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        Download PDF
+      </a>
+    </article>
+
+    <article class="report-card reveal d3">
+      <div class="report-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="4" width="32" height="40" rx="3"/><path d="M16 16h16M16 24h16M16 32h10"/><path d="M28 4v10h12" stroke-opacity="0.4"/></svg>
+      </div>
+      <div class="report-year">2019</div>
+      <div class="report-title">Annual Report</div>
+      <a class="report-download" href="media/pdfs/2019AnnualReport.pdf" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        Download PDF
+      </a>
+    </article>
+
+    <article class="report-card reveal d4">
+      <div class="report-icon" aria-hidden="true">
+        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="4" width="32" height="40" rx="3"/><path d="M16 16h16M16 24h16M16 32h10"/><path d="M28 4v10h12" stroke-opacity="0.4"/></svg>
+      </div>
+      <div class="report-year">2018</div>
+      <div class="report-title">Annual Report</div>
+      <a class="report-download" href="media/pdfs/CenterforHoustonsFuture2018AnnualReport-5-15-19.pdf" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+        Download PDF
+      </a>
+    </article>
+
+  </div>
+</section>
+
+<section class="docs-section" aria-labelledby="docs-heading">
+  <div class="docs-inner">
+    <div class="docs-header reveal">
+      <div class="section-eyebrow"><div class="eline" aria-hidden="true"></div><span class="etxt">Legal</span></div>
+      <h2 id="docs-heading">Tax &amp; Legal Documents</h2>
+    </div>
+    <div class="docs-grid">
+
+      <a class="doc-card reveal" href="media/pdfs/CHF-2022-990.pdf" target="_blank" rel="noopener noreferrer">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <div class="doc-text">
+          <div class="doc-title">CHF 990 Form</div>
+          <div class="doc-label">Download PDF</div>
+        </div>
+        <span class="doc-arrow" aria-hidden="true">&#8594;</span>
+      </a>
+
+      <a class="doc-card reveal d1" href="media/pdfs/CHF_IRSNonprofitStatusLetter.pdf" target="_blank" rel="noopener noreferrer">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <div class="doc-text">
+          <div class="doc-title">CHF IRS Non-Profit Status Letter</div>
+          <div class="doc-label">Download PDF</div>
+        </div>
+        <span class="doc-arrow" aria-hidden="true">&#8594;</span>
+      </a>
+
+      <a class="doc-card reveal d2" href="media/pdfs/PublicDisclosureCopy-CenterforHoustonsFutureInc.pdf" target="_blank" rel="noopener noreferrer">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <div class="doc-text">
+          <div class="doc-title">2021 CHF Financials</div>
+          <div class="doc-label">Download PDF</div>
+        </div>
+        <span class="doc-arrow" aria-hidden="true">&#8594;</span>
+      </a>
+
+      <a class="doc-card reveal d3" href="media/pdfs/2022-CHF-Financials.pdf" target="_blank" rel="noopener noreferrer">
+        <div class="doc-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <div class="doc-text">
+          <div class="doc-title">2022 CHF Financials</div>
+          <div class="doc-label">Download PDF</div>
+        </div>
+        <span class="doc-arrow" aria-hidden="true">&#8594;</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section class="support-cta" aria-label="Support our mission">
+  <div class="support-inner reveal">
+    <h2>Support Our <span class="grad-text">Mission</span></h2>
+    <p>Your generous contributions help Center for Houston's Future conduct vital research, develop civic leaders, and shape the future of the Houston region.</p>
+    <a class="donate-btn" href="chf_donate_v4.html">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+      Donate Now
+    </a>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>105</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[events]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Join Center for Houston's Future for conferences, forums, and conversations shaping Houston's future.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Events]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Events]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Join us for conferences, forums, and conversations shaping Houston's future.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[News & Media]]></title>
+    <link>https://centerforhoustonsfuture.org/news/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="upcoming-section" aria-labelledby="upcoming-heading">
+  <div class="upcoming-header">
+    <div class="section-eyebrow-body reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Upcoming Events</span>
+    </div>
+    <h2 id="upcoming-heading" class="reveal d1">What's next</h2>
+  </div>
+
+  
+  <div class="view-toggle-bar reveal" id="upcomingViewBar">
+    <span class="view-label">View</span>
+    <button class="view-btn active" data-view="list" data-target="upcomingList" aria-label="List view" aria-pressed="true">
+      <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <button class="view-btn" data-view="grid" data-target="upcomingList" aria-label="Grid view" aria-pressed="false">
+      <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+    </button>
+  </div>
+
+  <div class="events-list" id="upcomingList">
+    
+    <a href="chf_event-spring-forum_v4.html" class="event-card reveal" style="text-decoration:none;color:inherit;">
+      <div class="event-date">
+        <span class="event-date-month">May</span>
+        <span class="event-date-day">15</span>
+        <span class="event-date-year">2026</span>
+      </div>
+      <div class="event-body">
+        <h3 class="event-title">CHF Spring Policy Forum</h3>
+        <div class="event-meta">
+          <span class="event-meta-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            9:00 AM &ndash; 12:00 PM
+          </span>
+          <span class="event-meta-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Partnership Tower, 701 Avenida de las Americas, Suite 900, Houston
+          </span>
+        </div>
+        <p class="event-desc">A half-day forum exploring policy priorities for Houston's economic future, featuring panels on energy transition, workforce development, and healthcare innovation.</p>
+      </div>
+    </a>
+
+    
+    <a href="chf_event-brain-health-summit_v4.html" class="event-card reveal d1" style="text-decoration:none;color:inherit;">
+      <div class="event-date">
+        <span class="event-date-month">Jun</span>
+        <span class="event-date-day">10</span>
+        <span class="event-date-year">2026</span>
+      </div>
+      <div class="event-body">
+        <h3 class="event-title">Project Metis: Brain Health Summit</h3>
+        <div class="event-meta">
+          <span class="event-meta-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            8:30 AM &ndash; 4:00 PM
+          </span>
+          <span class="event-meta-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Texas Medical Center, John P. McGovern Campus, Houston
+          </span>
+        </div>
+        <p class="event-desc">A full-day summit convening leading researchers, healthcare executives, and policymakers to advance Houston's brain health initiative and discuss breakthrough neuroscience research.</p>
+      </div>
+    </a>
+
+    
+    <a href="chf_event-hydrogen-workshop_v4.html" class="event-card reveal d2" style="text-decoration:none;color:inherit;">
+      <div class="event-date">
+        <span class="event-date-month">Jul</span>
+        <span class="event-date-day">22</span>
+        <span class="event-date-year">2026</span>
+      </div>
+      <div class="event-body">
+        <h3 class="event-title">Houston Hydrogen Economy Workshop</h3>
+        <div class="event-meta">
+          <span class="event-meta-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            1:00 &ndash; 5:00 PM
+          </span>
+          <span class="event-meta-item">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            C. Baldwin, Curio Collection by Hilton, 400 Dallas Street, Houston
+          </span>
+        </div>
+        <p class="event-desc">Interactive workshop on Houston's role in the emerging hydrogen economy, featuring presentations from HyVelocity Hub partners and industry leaders.</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section class="past-section" aria-labelledby="past-heading">
+  <div class="past-inner">
+    <div class="past-header">
+      <div class="section-eyebrow-body reveal">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">Past Events</span>
+      </div>
+      <h2 id="past-heading" class="reveal d1">Recent gatherings</h2>
+    </div>
+
+    
+    <div class="view-toggle-bar reveal" id="pastViewBar">
+      <span class="view-label">View</span>
+      <button class="view-btn active" data-view="list" data-target="pastEventsList" aria-label="List view" aria-pressed="true">
+        <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+      <button class="view-btn" data-view="grid" data-target="pastEventsList" aria-label="Grid view" aria-pressed="false">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      </button>
+    </div>
+
+    <div class="events-list" id="pastEventsList">
+      <a href="chf_event-annual-meeting-2026_v4.html" class="event-card reveal" style="text-decoration:none;color:inherit;">
+        <div class="event-date">
+          <span class="event-date-month">Jan</span>
+          <span class="event-date-day">29</span>
+          <span class="event-date-year">2026</span>
+        </div>
+        <div class="event-body">
+          <h3 class="event-title">2026 Annual Meeting</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              5:30 &ndash; 7:30 PM
+            </span>
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Partnership Tower, 701 Avenida de las Americas, Suite 900, Houston
+            </span>
+          </div>
+          <p class="event-desc">CEO David Gow presents the research and conclusions from Vision 2050, shares how Project Metis is taking shape, and unveils our strategic priorities for the year ahead.</p>
+        </div>
+      </a>
+
+      <a href="chf_event-dinner-2025_v4.html" class="event-card reveal d1" style="text-decoration:none;color:inherit;">
+        <div class="event-date">
+          <span class="event-date-month">Nov</span>
+          <span class="event-date-day">13</span>
+          <span class="event-date-year">2025</span>
+        </div>
+        <div class="event-body">
+          <h3 class="event-title">2025 Dinner and Conversation</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              6:00 &ndash; 9:00 PM
+            </span>
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              River Oaks Country Club, TX
+            </span>
+          </div>
+          <p class="event-desc">Featured discussion: Unleashing the Power of Our Brains &mdash; with speakers from UTMB, Rice University, and other institutions.</p>
+        </div>
+      </a>
+
+      <a href="chf_event-energy-summit_v4.html" class="event-card reveal d2" style="text-decoration:none;color:inherit;">
+        <div class="event-date">
+          <span class="event-date-month">Oct</span>
+          <span class="event-date-day">21-23</span>
+          <span class="event-date-year">2025</span>
+        </div>
+        <div class="event-body">
+          <h3 class="event-title">Energy Independence Summit</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              C. Baldwin, Curio Collection by Hilton, 400 Dallas Street, Houston
+            </span>
+          </div>
+          <p class="event-desc">Inaugural summit bringing together leaders from energy, finance, and policy to explore American energy independence.</p>
+        </div>
+      </a>
+
+      <a href="#" class="event-card reveal" style="text-decoration:none;color:inherit;">
+        <div class="event-date">
+          <span class="event-date-month">Aug</span>
+          <span class="event-date-day">14</span>
+          <span class="event-date-year">2025</span>
+        </div>
+        <div class="event-body">
+          <h3 class="event-title">Houston Innovation Summit</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              9:00 AM &ndash; 4:00 PM
+            </span>
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Marriott Marquis Houston
+            </span>
+          </div>
+          <p class="event-desc">A full-day summit spotlighting breakthrough innovation across Houston's key sectors, from biotech to aerospace, with networking and demo sessions.</p>
+        </div>
+      </a>
+
+      <a href="#" class="event-card reveal" style="text-decoration:none;color:inherit;">
+        <div class="event-date">
+          <span class="event-date-month">Jun</span>
+          <span class="event-date-day">19</span>
+          <span class="event-date-year">2025</span>
+        </div>
+        <div class="event-body">
+          <h3 class="event-title">Healthcare Workforce Pipeline Forum</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              1:00 &ndash; 5:00 PM
+            </span>
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Texas Medical Center
+            </span>
+          </div>
+          <p class="event-desc">Convening healthcare systems, educators, and workforce development organizations to address critical staffing gaps and build sustainable talent pipelines.</p>
+        </div>
+      </a>
+
+      <a href="#" class="event-card reveal" style="text-decoration:none;color:inherit;">
+        <div class="event-date">
+          <span class="event-date-month">Apr</span>
+          <span class="event-date-day">8</span>
+          <span class="event-date-year">2025</span>
+        </div>
+        <div class="event-body">
+          <h3 class="event-title">Vision 2050 Community Town Hall</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              6:00 &ndash; 8:00 PM
+            </span>
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              George R. Brown Convention Center
+            </span>
+          </div>
+          <p class="event-desc">An open community forum presenting early findings from the Vision 2050 study and gathering public input on long-range goals for the Houston region.</p>
+        </div>
+      </a>
+
+      <a href="#" class="event-card reveal" style="text-decoration:none;color:inherit;">
+        <div class="event-date">
+          <span class="event-date-month">Feb</span>
+          <span class="event-date-day">20</span>
+          <span class="event-date-year">2025</span>
+        </div>
+        <div class="event-body">
+          <h3 class="event-title">Energy Transition Policy Roundtable</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              8:30 AM &ndash; 12:00 PM
+            </span>
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Partnership Tower
+            </span>
+          </div>
+          <p class="event-desc">An invitation-only roundtable bringing together energy executives and policy experts to discuss regulatory frameworks supporting Houston's energy transition.</p>
+        </div>
+      </a>
+
+      <a href="#" class="event-card reveal" style="text-decoration:none;color:inherit;">
+        <div class="event-date">
+          <span class="event-date-month">Dec</span>
+          <span class="event-date-day">11</span>
+          <span class="event-date-year">2024</span>
+        </div>
+        <div class="event-body">
+          <h3 class="event-title">Year-End Leadership Reception</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              5:30 &ndash; 7:30 PM
+            </span>
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              River Oaks Country Club
+            </span>
+          </div>
+          <p class="event-desc">An evening reception celebrating 2024 accomplishments and previewing the Center's strategic direction for the year ahead with key supporters and community leaders.</p>
+        </div>
+      </a>
+
+      <a href="#" class="event-card reveal" style="text-decoration:none;color:inherit;">
+        <div class="event-date">
+          <span class="event-date-month">Oct</span>
+          <span class="event-date-day">3</span>
+          <span class="event-date-year">2024</span>
+        </div>
+        <div class="event-body">
+          <h3 class="event-title">Immigration &amp; Workforce Summit</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              9:00 AM &ndash; 3:00 PM
+            </span>
+            <span class="event-meta-item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              C. Baldwin Hotel
+            </span>
+          </div>
+          <p class="event-desc">A cross-sector summit examining immigration's role in Houston's workforce, featuring panels on policy reform, employer needs, and community integration strategies.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="skeleton-group" id="eventsLoader" aria-hidden="true" style="display:none;">
+      <div class="skeleton-card">
+        <div class="skeleton-date"><div class="skel skel-sm"></div><div class="skel" style="width:32px;height:28px;"></div><div class="skel skel-sm"></div></div>
+        <div class="skeleton-body"><div class="skel skel-lg"></div><div class="skel skel-md"></div><div class="skel skel-xl"></div></div>
+      </div>
+      <div class="skeleton-card">
+        <div class="skeleton-date"><div class="skel skel-sm"></div><div class="skel" style="width:32px;height:28px;"></div><div class="skel skel-sm"></div></div>
+        <div class="skeleton-body"><div class="skel skel-lg"></div><div class="skel skel-md"></div><div class="skel skel-xl"></div></div>
+      </div>
+      <div class="skeleton-card">
+        <div class="skeleton-date"><div class="skel skel-sm"></div><div class="skel" style="width:32px;height:28px;"></div><div class="skel skel-sm"></div></div>
+        <div class="skeleton-body"><div class="skel skel-lg"></div><div class="skel skel-md"></div><div class="skel skel-xl"></div></div>
+      </div>
+    </div>
+    <div class="scroll-end" id="eventsEnd">You've seen all past events</div>
+    <div class="scroll-sentinel" id="eventsSentinel"></div>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>106</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[news]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Stay informed on CHF's latest research, initiatives, and media coverage shaping the future of the Houston region.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[NEWS & MEDIA]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[News]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Stay informed on CHF's latest research, initiatives, and media coverage.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Donate]]></title>
+    <link>https://centerforhoustonsfuture.org/donate/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="filter-section reveal" aria-label="News categories">
+  <div class="filter-pills" role="toolbar" aria-label="Filter by category">
+    <button class="filter-pill active" data-filter="all" aria-pressed="true">All News</button>
+    <button class="filter-pill" data-filter="energy" aria-pressed="false">Energy &amp; Climate</button>
+    <button class="filter-pill" data-filter="health" aria-pressed="false">Health &amp; Health Equity</button>
+    <button class="filter-pill" data-filter="immigration" aria-pressed="false">Immigration</button>
+  </div>
+</section>
+
+<section class="news-section" aria-label="News articles">
+
+  
+  <div class="view-toggle-bar reveal" id="newsViewBar">
+    <span class="view-label">View</span>
+    <button class="view-btn" data-view="list" data-target="newsGrid" aria-label="List view" aria-pressed="false">
+      <svg viewBox="0 0 24 24"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <button class="view-btn active" data-view="grid" data-target="newsGrid" aria-label="Grid view" aria-pressed="true">
+      <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+    </button>
+  </div>
+
+  <div class="news-grid" id="newsGrid">
+
+    <a href="media/pdfs/RWC-Jobs-Playbook.pdf" target="_blank" rel="noopener noreferrer" class="news-card reveal" data-category="energy">
+      <div class="news-date">Feb 13, 2026</div>
+      <h2 class="news-title">Energy Jobs: a guiding document for Houston's Workforce</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="https://www.houstonchronicle.com/business/article/houston-brain-health-hub-project-metis-20145678.php" target="_blank" rel="noopener noreferrer" class="news-card reveal d1" data-category="health">
+      <div class="news-date">Feb 5, 2026</div>
+      <h2 class="news-title">Houston Chronicle: Houston leaders want to transform the city into a hub for brain health</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="#" class="news-card reveal d2" data-category="general">
+      <div class="news-date">Jan 30, 2026</div>
+      <h2 class="news-title">2025 Year in Review</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="https://news.rice.edu/news/2026/rice-launches-global-brain-initiatives-davos" target="_blank" rel="noopener noreferrer" class="news-card reveal" data-category="health">
+      <div class="news-date">Jan 29, 2026</div>
+      <h2 class="news-title">Rice launches 'global brain initiatives' at Davos economic forum</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="https://news.rice.edu/news/2026/rice-establishes-global-brain-economy-initiative" target="_blank" rel="noopener noreferrer" class="news-card reveal d1" data-category="health">
+      <div class="news-date">Jan 23, 2026</div>
+      <h2 class="news-title">Rice establishes Global Brain Economy Initiative in Davos</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="https://www.bizjournals.com/houston/news/2026/01/houston-health-institutions-neuroscience-funding.html" target="_blank" rel="noopener noreferrer" class="news-card reveal d2" data-category="health">
+      <div class="news-date">Jan 5, 2026</div>
+      <h2 class="news-title">Houston Business Journal: Houston's health institutions prepare to deploy billions in neuroscience research funding</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="#" class="news-card reveal" data-category="health">
+      <div class="news-date">Dec 11, 2025</div>
+      <h2 class="news-title">Innovation Map: Houston institutions launch Project Metis</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="#" class="news-card reveal d1" data-category="health">
+      <div class="news-date">Dec 10, 2025</div>
+      <h2 class="news-title">Galveston Daily News: universities and hospitals launch brain health research initiative</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="media/pdfs/ProjectMetisNewsRelease12.9.pdf" target="_blank" rel="noopener noreferrer" class="news-card reveal d2" data-category="health">
+      <div class="news-date">Dec 9, 2025</div>
+      <h2 class="news-title">Powerhouse Institutions across Houston/Galveston Launch Project Metis</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="media/pdfs/UTMB-brain-initiative-press-release-09.25.25.pdf" target="_blank" rel="noopener noreferrer" class="news-card reveal" data-category="health">
+      <div class="news-date">Sep 25, 2025</div>
+      <h2 class="news-title">Center for Houston's Future launches Brain Initiative</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="#" class="news-card reveal d1" data-category="energy">
+      <div class="news-date">Jul 23, 2025</div>
+      <h2 class="news-title">CHF joins as Supporting Organization for Hydrogen Americas Summit</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="#" class="news-card reveal d2" data-category="energy">
+      <div class="news-date">Jun 24, 2025</div>
+      <h2 class="news-title">Texas as powerhouse of the clean hydrogen economy</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="#" class="news-card reveal" data-category="general">
+      <div class="news-date">Jan 15, 2026</div>
+      <h2 class="news-title">CHF Launches 2026 Strategic Framework</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="#" class="news-card reveal d1" data-category="energy">
+      <div class="news-date">Dec 8, 2025</div>
+      <h2 class="news-title">Hydrogen Hub Receives Federal Milestone Approval</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="#" class="news-card reveal d2" data-category="health">
+      <div class="news-date">Nov 18, 2025</div>
+      <h2 class="news-title">Brain Health Initiative Secures TMC Partnership</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="#" class="news-card reveal" data-category="general">
+      <div class="news-date">Oct 7, 2025</div>
+      <h2 class="news-title">Forum Alumni Network Surpasses 1,400 Members</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="#" class="news-card reveal d1" data-category="energy">
+      <div class="news-date">Sep 15, 2025</div>
+      <h2 class="news-title">Houston Named Top City for Energy Innovation</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+    <a href="#" class="news-card reveal d2" data-category="health">
+      <div class="news-date">Aug 22, 2025</div>
+      <h2 class="news-title">Maternal Health Equity Report Released</h2>
+      <div class="news-arrow">Read more <span aria-hidden="true">&#8594;</span></div>
+    </a>
+
+  </div>
+
+  <div class="skeleton-group" id="newsLoader" aria-hidden="true" style="display:none;">
+    <div class="skeleton-card"><div class="skeleton-body"><div class="skel skel-sm"></div><div class="skel skel-lg"></div><div class="skel skel-xl"></div></div></div>
+    <div class="skeleton-card"><div class="skeleton-body"><div class="skel skel-sm"></div><div class="skel skel-lg"></div><div class="skel skel-xl"></div></div></div>
+    <div class="skeleton-card"><div class="skeleton-body"><div class="skel skel-sm"></div><div class="skel skel-lg"></div><div class="skel skel-xl"></div></div></div>
+  </div>
+  <div class="scroll-end" id="newsEnd">You've seen all articles</div>
+  <div class="scroll-sentinel" id="newsSentinel"></div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>107</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[donate]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Support the Center for Houston's Future. Your generous contribution helps power research, community programs, and civic leadership for the Houston region.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Support Our Mission]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Difference]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Houston Is the Future.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Contact Us]]></title>
+    <link>https://centerforhoustonsfuture.org/contact/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="donate-cta" aria-labelledby="donate-heading">
+  <div class="donate-cta-inner reveal">
+    <h2 id="donate-heading">Your support powers our work</h2>
+    <p>The Center for Houston's Future brings business, government, community and academic stakeholders together for planning, research, consensus building and action on issues critical to the Houston region's long-term success. Your generous contribution helps us continue this vital work.</p>
+    <a class="btn-donate" href="https://interland3.donorperfect.net/weblink/WebLink.aspx?name=E13610&id=1" target="_blank" rel="noopener noreferrer">
+      Donate Today
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+    </a>
+  </div>
+</section>
+
+<section class="impact-section" aria-labelledby="impact-heading">
+  <div class="impact-inner">
+    <div class="impact-header reveal">
+      <h2 id="impact-heading">What your donation supports</h2>
+      <p>Every contribution strengthens our ability to drive meaningful change across the Houston region.</p>
+    </div>
+    <div class="impact-grid">
+      <article class="impact-card reveal">
+        <div class="impact-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+        </div>
+        <h3 class="impact-title">Research &amp; Reports</h3>
+        <p class="impact-desc">Fund groundbreaking economic research and data-driven insights that inform policy and shape Houston's strategic direction for decades to come.</p>
+      </article>
+      <article class="impact-card reveal d1">
+        <div class="impact-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+        </div>
+        <h3 class="impact-title">Community Programs</h3>
+        <p class="impact-desc">Support educational initiatives like Driving the Future and WonderWeek that engage young Houstonians and build pathways to opportunity.</p>
+      </article>
+      <article class="impact-card reveal d2">
+        <div class="impact-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <h3 class="impact-title">Civic Leadership</h3>
+        <p class="impact-desc">Develop the next generation of Houston's business and civic leaders through our renowned leadership programs and community forums.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="other-ways" aria-labelledby="other-heading">
+  <div class="other-ways-inner reveal">
+    <h2 id="other-heading">Other Ways to Help</h2>
+    <p>For questions about donating or sponsorship opportunities, contact us at <a href="mailto:info@futurehouston.org">info@futurehouston.org</a> or call <a href="tel:+17138449325">(713) 844-9325</a>.</p>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>108</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[contact]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Get in touch with the Center for Houston's Future. Visit our office, call, email, or send us a message.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[GET IN TOUCH]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Us]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[We'd love to hear from you.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Business & Civic Leadership Forum]]></title>
+    <link>https://centerforhoustonsfuture.org/leadership/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="contact-info-section" aria-labelledby="info-heading">
+  <div class="contact-info-grid">
+    <div class="contact-cards">
+      <div class="contact-card reveal">
+        <div class="contact-card-icon">
+          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div>
+          <div class="contact-card-label">Address</div>
+          <div class="contact-card-value">701 Avenida de las Americas, Suite 900, Houston, TX 77010</div>
+        </div>
+      </div>
+      <div class="contact-card reveal d1">
+        <div class="contact-card-icon">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+        </div>
+        <div>
+          <div class="contact-card-label">Phone</div>
+          <div class="contact-card-value"><a href="tel:7138449325">(713) 844-9325</a></div>
+        </div>
+      </div>
+      <div class="contact-card reveal d2">
+        <div class="contact-card-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </div>
+        <div>
+          <div class="contact-card-label">Email</div>
+          <div class="contact-card-value"><a href="mailto:info@futurehouston.org">info@futurehouston.org</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-map-wrapper reveal d1">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3464.0!2d-95.3584!3d29.7544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640bf25e89b4ae1%3A0x2b3e0b1e9e0!2s701+Avenida+De+Las+Americas%2C+Houston%2C+TX+77010!5e0!3m2!1sen!2sus!4v1" sandbox="allow-scripts allow-same-origin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Center for Houston's Future office location on Google Maps"></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="contact-form-section" aria-labelledby="form-heading">
+  <div class="contact-form-inner">
+    <div class="contact-form-header">
+      <div class="section-eyebrow reveal">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">SEND A MESSAGE</span>
+      </div>
+      <h2 id="form-heading" class="reveal d1">Drop us a line</h2>
+    </div>
+    <form class="contact-form" action="#" method="post" aria-label="Contact form">
+      <div class="form-row">
+        <div class="form-group reveal">
+          <label for="contact-name">Name</label>
+          <input type="text" id="contact-name" name="name" placeholder="Your full name" autocomplete="name">
+        </div>
+        <div class="form-group reveal d1">
+          <label for="contact-email">Email</label>
+          <input type="email" id="contact-email" name="email" placeholder="you@example.com" autocomplete="email">
+        </div>
+      </div>
+      <div class="form-group reveal d2">
+        <label for="contact-subject">Subject</label>
+        <input type="text" id="contact-subject" name="subject" placeholder="What is this regarding?">
+      </div>
+      <div class="form-group reveal d3">
+        <label for="contact-message">Message</label>
+        <textarea id="contact-message" name="message" placeholder="Tell us how we can help..."></textarea>
+      </div>
+      <button type="submit" class="form-submit reveal">Send Message</button>
+    </form>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>109</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[leadership]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[The Business/Civic Leadership Forum has engaged more than 1,400 diverse leaders from across the Greater Houston region through an immersive civic leadership program.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Leadership]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Leadership]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[We inspire leaders to identify matters of the highest importance to the long-term future of the greater Houston region.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Forum Portal]]></title>
+    <link>https://centerforhoustonsfuture.org/leadership/portal/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="forum-overview" aria-labelledby="overview-heading">
+  <div class="forum-overview-grid">
+    <div>
+      <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Forum</span></div>
+      <h2 id="overview-heading" class="reveal d1">Network. Learn. Engage.</h2>
+      <p class="reveal d2">Since 2000, the Business/Civic Leadership Forum has engaged more than 1,400 diverse leaders from across the Greater Houston region through an immersive three-month civic leadership program. Program components include expert speakers, facilitated discussions, and experiential Learning Journeys. Participants examine critical social, economic, and environmental challenges affecting the region.</p>
+      <div class="forum-ctas reveal d3">
+        <a href="chf_leadership-portal_v4.html" class="pill-btn pill-btn-primary">Forum Application</a>
+        <a href="chf_leadership-top25_v4.html" class="pill-btn pill-btn-outline">Nominate A Participant</a>
+        <a href="media/pdfs/2025-Annual-Report-FINAL.pdf" class="pill-btn pill-btn-outline" target="_blank" rel="noopener noreferrer">Fall 2025 Report</a>
+      </div>
+    </div>
+    <div class="forum-illustration reveal d2">
+      <svg viewBox="0 0 400 360" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        
+        <rect x="40" y="40" width="320" height="280" rx="20" fill="#f5f5f3" stroke="#e2e2de" stroke-width="1"/>
+        
+        <circle cx="140" cy="140" r="32" fill="#193560" opacity="0.12"/>
+        <circle cx="140" cy="128" r="18" fill="#193560" opacity="0.25"/>
+        <path d="M112 172c0-15.5 12.5-28 28-28s28 12.5 28 28" stroke="#193560" stroke-width="3" fill="none" opacity="0.2"/>
+        
+        <circle cx="260" cy="140" r="32" fill="#56B84A" opacity="0.12"/>
+        <circle cx="260" cy="128" r="18" fill="#56B84A" opacity="0.25"/>
+        <path d="M232 172c0-15.5 12.5-28 28-28s28 12.5 28 28" stroke="#56B84A" stroke-width="3" fill="none" opacity="0.2"/>
+        
+        <path d="M168 200 c12 -8 24 -8 32 0 c8 8 24 8 32 0" stroke="#193560" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M160 208 c16 -10 28 -10 40 0 c12 10 28 10 40 0" stroke="#56B84A" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+        
+        <line x1="172" y1="140" x2="228" y2="140" stroke="#56B84A" stroke-width="2" stroke-dasharray="6 4" opacity="0.35"/>
+        <line x1="180" y1="152" x2="220" y2="152" stroke="#193560" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.25"/>
+        
+        <circle cx="200" cy="100" r="4" fill="#56B84A" opacity="0.3"/>
+        <circle cx="100" cy="200" r="3" fill="#193560" opacity="0.2"/>
+        <circle cx="300" cy="200" r="3" fill="#193560" opacity="0.2"/>
+        <circle cx="200" cy="260" r="5" fill="#56B84A" opacity="0.15"/>
+        
+        <circle cx="90" cy="120" r="6" fill="none" stroke="#56B84A" stroke-width="1.5" opacity="0.3"/>
+        <circle cx="310" cy="120" r="6" fill="none" stroke="#193560" stroke-width="1.5" opacity="0.3"/>
+        <line x1="96" y1="120" x2="122" y2="132" stroke="#56B84A" stroke-width="1" opacity="0.2"/>
+        <line x1="304" y1="120" x2="278" y2="132" stroke="#193560" stroke-width="1" opacity="0.2"/>
+        
+        <rect x="120" y="280" width="160" height="8" rx="4" fill="#193560" opacity="0.08"/>
+        <rect x="150" y="296" width="100" height="6" rx="3" fill="#56B84A" opacity="0.1"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<section class="program-details" aria-labelledby="program-heading">
+  <div class="program-details-inner">
+    <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Program</span></div>
+    <h2 id="program-heading" class="reveal d1">Building passionate civic leaders</h2>
+    <p class="reveal d2">Our twice-yearly Business/Civic Leadership Forums build passionate civic leaders as diverse as the Houston region itself, leveraging participants' business and leadership skills to drive lasting change. Programs serve both established and emerging leaders seeking deeper community understanding and civic responsibility.</p>
+  </div>
+</section>
+
+<section class="schedule-section" aria-labelledby="schedule-heading">
+  <div class="schedule-header">
+    <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Schedule</span></div>
+    <h2 id="schedule-heading" class="reveal d1">Spring 2026 Forum</h2>
+  </div>
+  <div class="schedule-timeline">
+    <div class="sched-item reveal">
+      <div class="sched-dot"></div>
+      <div class="sched-date">March 24</div>
+      <div class="sched-info">
+        <div class="sched-event">Welcome Reception</div>
+        <div class="sched-time">5:30 &ndash; 7:30 PM</div>
+      </div>
+    </div>
+    <div class="sched-item reveal d1">
+      <div class="sched-dot"></div>
+      <div class="sched-date">March 31</div>
+      <div class="sched-info">
+        <div class="sched-event">Galveston Overnight Retreat</div>
+        <div class="sched-time">5:30 &ndash; 9:00 PM</div>
+      </div>
+    </div>
+    <div class="sched-item reveal d2">
+      <div class="sched-dot"></div>
+      <div class="sched-date">April 1</div>
+      <div class="sched-info">
+        <div class="sched-event">Galveston Retreat</div>
+        <div class="sched-time">8:00 AM &ndash; 3:00 PM</div>
+      </div>
+    </div>
+    <div class="sched-item reveal">
+      <div class="sched-dot"></div>
+      <div class="sched-date">April 8</div>
+      <div class="sched-info">
+        <div class="sched-event">Session</div>
+        <div class="sched-time">1:00 &ndash; 5:00 PM</div>
+      </div>
+    </div>
+    <div class="sched-item reveal d1">
+      <div class="sched-dot"></div>
+      <div class="sched-date">April 22</div>
+      <div class="sched-info">
+        <div class="sched-event">Session</div>
+        <div class="sched-time">1:00 &ndash; 5:00 PM</div>
+      </div>
+    </div>
+    <div class="sched-item reveal d2">
+      <div class="sched-dot"></div>
+      <div class="sched-date">May 6</div>
+      <div class="sched-info">
+        <div class="sched-event">Session</div>
+        <div class="sched-time">1:00 &ndash; 5:00 PM</div>
+      </div>
+    </div>
+    <div class="sched-item reveal">
+      <div class="sched-dot"></div>
+      <div class="sched-date">May 13</div>
+      <div class="sched-info">
+        <div class="sched-event">Session</div>
+        <div class="sched-time">5:30 &ndash; 7:30 PM</div>
+      </div>
+    </div>
+    <div class="sched-item reveal d1">
+      <div class="sched-dot"></div>
+      <div class="sched-date">May 20</div>
+      <div class="sched-info">
+        <div class="sched-event">Session</div>
+        <div class="sched-time">1:00 &ndash; 5:00 PM</div>
+      </div>
+    </div>
+    <div class="sched-item reveal d2">
+      <div class="sched-dot"></div>
+      <div class="sched-date">June 3</div>
+      <div class="sched-info">
+        <div class="sched-event">Closing</div>
+        <div class="sched-time">12:00 &ndash; 4:00 PM</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="leadership-stats" aria-label="Leadership statistics">
+  <div class="stats-inner">
+    <div class="stats-grid">
+      <div class="stat-card reveal">
+        <div class="stat-big" data-count="1400">0+</div>
+        <div class="stat-label">leaders engaged</div>
+      </div>
+      <div class="stat-card reveal d1">
+        <div class="stat-big" data-count="25">0+</div>
+        <div class="stat-label">years of programming</div>
+      </div>
+      <div class="stat-card reveal d2">
+        <div class="stat-big data-static">2x</div>
+        <div class="stat-label">forums per year</div>
+      </div>
+    </div>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>110</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[portal]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>109</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Access resources, session materials, and connect with fellow Business/Civic Leadership Forum participants through the CHF Forum Portal.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Leadership]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Portal]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Access resources, session materials, and connect with fellow forum participants.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Top 25 Alumni]]></title>
+    <link>https://centerforhoustonsfuture.org/leadership/top-25/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="portal-access" aria-labelledby="portal-heading">
+  <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Access</span></div>
+  <h2 id="portal-heading" class="reveal d1">Portal Access</h2>
+  <p class="reveal d2">Sign in with your forum credentials to access session materials, the participant directory, and exclusive resources.</p>
+  <div class="login-card reveal d3">
+    <form action="#" method="post" aria-label="Portal sign in">
+      <label for="portal-email">Email Address</label>
+      <input type="email" id="portal-email" name="email" placeholder="you@example.com" autocomplete="email" required>
+      <label for="portal-password">Password</label>
+      <input type="password" id="portal-password" name="password" placeholder="Enter your password" autocomplete="current-password" required>
+      <button type="submit" class="login-btn">Sign In</button>
+    </form>
+    <div class="login-helpers">
+      <a href="#">Forgot password?</a>
+      <span>Not a forum member? <a href="chf_contact_v4.html">Contact us</a></span>
+    </div>
+  </div>
+</section>
+
+<section class="portal-resources" aria-labelledby="resources-heading">
+  <div class="portal-resources-inner">
+    <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Resources</span></div>
+    <h2 id="resources-heading" class="reveal d1">Portal Resources</h2>
+    <div class="resource-grid">
+      <div class="resource-card reveal">
+        <div class="resource-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="8" y="4" width="26" height="36" rx="3" stroke="#193560" stroke-width="2.5" fill="none"/>
+            <path d="M14 14h14M14 20h14M14 26h8" stroke="#56B84A" stroke-width="2" stroke-linecap="round"/>
+            <path d="M38 12v28a4 4 0 01-4 4H12" stroke="#193560" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+          </svg>
+        </div>
+        <h3>Session Materials</h3>
+        <p>Access presentations, reading materials, and resources from each forum session, available for download and review.</p>
+      </div>
+      <div class="resource-card reveal d1">
+        <div class="resource-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="18" cy="16" r="7" stroke="#193560" stroke-width="2.5" fill="none"/>
+            <circle cx="34" cy="18" r="5" stroke="#56B84A" stroke-width="2" fill="none"/>
+            <path d="M6 38c0-6.627 5.373-12 12-12 3.314 0 6.314 1.343 8.485 3.515" stroke="#193560" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+            <path d="M28 36c0-3.314 2.686-6 6-6s6 2.686 6 6" stroke="#56B84A" stroke-width="2" stroke-linecap="round" fill="none"/>
+          </svg>
+        </div>
+        <h3>Participant Directory</h3>
+        <p>Browse the current forum cohort and connect with fellow participants to build lasting professional relationships.</p>
+      </div>
+      <div class="resource-card reveal d2">
+        <div class="resource-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="4" y="8" width="28" height="22" rx="4" stroke="#193560" stroke-width="2.5" fill="none"/>
+            <path d="M12 34l-4 6h20l-4-6" stroke="#193560" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.3"/>
+            <circle cx="36" cy="18" r="2.5" fill="#56B84A"/>
+            <circle cx="36" cy="26" r="2.5" fill="#56B84A" opacity="0.5"/>
+            <circle cx="36" cy="34" r="2.5" fill="#56B84A" opacity="0.3"/>
+            <path d="M10 16h16M10 22h10" stroke="#56B84A" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+          </svg>
+        </div>
+        <h3>Discussion Forum</h3>
+        <p>Engage in facilitated discussions, share insights, and continue the conversation between in-person sessions.</p>
+      </div>
+      <div class="resource-card reveal d3">
+        <div class="resource-icon">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="6" y="8" width="36" height="32" rx="4" stroke="#193560" stroke-width="2.5" fill="none"/>
+            <path d="M6 18h36" stroke="#193560" stroke-width="2"/>
+            <circle cx="14" cy="13" r="1.5" fill="#56B84A"/>
+            <circle cx="20" cy="13" r="1.5" fill="#56B84A" opacity="0.5"/>
+            <rect x="12" y="22" width="8" height="6" rx="1.5" fill="#56B84A" opacity="0.3"/>
+            <rect x="24" y="22" width="8" height="6" rx="1.5" fill="#193560" opacity="0.15"/>
+            <rect x="12" y="32" width="8" height="4" rx="1.5" fill="#193560" opacity="0.15"/>
+            <rect x="24" y="32" width="8" height="4" rx="1.5" fill="#56B84A" opacity="0.2"/>
+          </svg>
+        </div>
+        <h3>Event Calendar</h3>
+        <p>View upcoming forum sessions, networking events, special speakers, and important deadlines at a glance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="portal-notice reveal" aria-label="Access notice">
+  <p>For forum participants only. Contact <a href="mailto:info@futurehouston.org">info@futurehouston.org</a> to request access.</p>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>111</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[top-25]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>109</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Celebrating outstanding Business/Civic Leadership Forum alumni who exemplify civic leadership and community impact in the Greater Houston region.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Leadership]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[25]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Celebrating outstanding alumni who exemplify civic leadership and community impact.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[75 Leaders Who Stand Apart]]></title>
+    <link>https://centerforhoustonsfuture.org/leadership/75-leaders/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="content-section" aria-labelledby="intro-heading">
+  <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Recognition</span></div>
+  <h2 id="intro-heading" class="reveal d1">Honoring Exceptional Civic Leaders</h2>
+  <p class="reveal d2">Each year, the Center for Houston's Future recognizes 25 outstanding alumni of the Business/Civic Leadership Forum who have demonstrated extraordinary commitment to the Houston region. These individuals leverage their forum experience to drive meaningful change across sectors, embodying the spirit of engaged civic leadership that defines our community.</p>
+  <p class="reveal d3">The Top 25 program celebrates alumni who go beyond professional achievement to make lasting contributions to Houston's civic fabric, inspiring the next generation of community leaders.</p>
+</section>
+
+<section class="content-section bg-off" aria-labelledby="criteria-heading">
+  <div class="content-inner">
+    <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Criteria</span></div>
+    <h2 id="criteria-heading" class="reveal d1">Selection Criteria</h2>
+    <div class="criteria-grid">
+      <div class="criteria-card reveal">
+        <div class="criteria-number">1</div>
+        <h3>Community Impact</h3>
+        <p>Demonstrated measurable, positive impact on the Greater Houston region through civic involvement, volunteer service, or community-focused initiatives.</p>
+      </div>
+      <div class="criteria-card reveal d1">
+        <div class="criteria-number">2</div>
+        <h3>Leadership Excellence</h3>
+        <p>Exhibited outstanding leadership qualities that inspire others to engage in civic life, whether through formal positions or grassroots efforts.</p>
+      </div>
+      <div class="criteria-card reveal d2">
+        <div class="criteria-number">3</div>
+        <h3>Cross-sector Collaboration</h3>
+        <p>Built meaningful bridges between business, government, nonprofit, and academic sectors to address complex regional challenges.</p>
+      </div>
+      <div class="criteria-card reveal d3">
+        <div class="criteria-number">4</div>
+        <h3>Sustained Engagement</h3>
+        <p>Maintained ongoing commitment to civic leadership beyond the forum program, continuing to contribute to Houston's long-term prosperity.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="content-section" aria-labelledby="honorees-heading">
+  <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Honorees</span></div>
+  <h2 id="honorees-heading" class="reveal d1">Past Honorees</h2>
+  <div class="year-grid">
+    <div class="year-card reveal">
+      <div class="year-num">2025</div>
+      <a href="#">View Honorees &rarr;</a>
+    </div>
+    <div class="year-card reveal d1">
+      <div class="year-num">2024</div>
+      <a href="#">View Honorees &rarr;</a>
+    </div>
+    <div class="year-card reveal d2">
+      <div class="year-num">2023</div>
+      <a href="#">View Honorees &rarr;</a>
+    </div>
+    <div class="year-card reveal d3">
+      <div class="year-num">2022</div>
+      <a href="#">View Honorees &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" aria-label="Nomination call to action">
+  <div class="cta-box reveal">
+    <p>Know an outstanding alumnus? Nominate them for the next Top 25.</p>
+    <a href="#" class="pill-btn pill-btn-green">Submit a Nomination</a>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>112</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[75-leaders]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>109</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[A special recognition celebrating Houston's most impactful civic leaders through the Center for Houston's Future's 75 Leaders Who Stand Apart program.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Leadership]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Stand Apart]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[A special recognition celebrating Houston's most impactful civic leaders.]]></wp:meta_value></wp:postmeta></item>
+
+  <item>
+    <title><![CDATA[Alumni Directory]]></title>
+    <link>https://centerforhoustonsfuture.org/leadership/alumni/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="content-section" aria-labelledby="intro-heading">
+  <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Special Recognition</span></div>
+  <h2 id="intro-heading" class="reveal d1">A Milestone Celebration</h2>
+  <p class="reveal d2">To mark a special anniversary in the history of the Center for Houston's Future and the Business/Civic Leadership Forum, we identified 75 extraordinary leaders whose contributions to the Greater Houston region set them apart. These individuals represent the very best of what civic leadership can achieve when vision, dedication, and collaboration come together.</p>
+  <p class="reveal d3">Selected from more than 1,400 forum alumni spanning over two decades, the 75 Leaders Who Stand Apart embody the transformative impact that engaged citizens can have on their community. Their work spans every sector and touches every corner of the Houston region.</p>
+</section>
+
+<section class="impact-stats" aria-label="Impact statistics">
+  <div class="stats-inner">
+    <div class="stats-grid">
+      <div class="stat-card reveal">
+        <div class="stat-big">75</div>
+        <div class="stat-label">Leaders Honored</div>
+      </div>
+      <div class="stat-card reveal d1">
+        <div class="stat-big">25+</div>
+        <div class="stat-label">Years of Impact</div>
+      </div>
+      <div class="stat-card reveal d2">
+        <div class="stat-big">All</div>
+        <div class="stat-label">Sectors Represented</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-section" aria-labelledby="about-heading">
+  <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">About</span></div>
+  <h2 id="about-heading" class="reveal d1">About This Recognition</h2>
+  <p class="reveal d2">The 75 Leaders Who Stand Apart were selected through a rigorous process that considered the depth and breadth of each nominee's civic contributions. A committee of past honorees, board members, and community stakeholders reviewed nominations based on demonstrated leadership, cross-sector collaboration, and sustained commitment to Houston's long-term prosperity.</p>
+  <p class="reveal d3">Honorees were recognized at a special anniversary celebration that brought together past and present forum participants, community leaders, and elected officials. The event highlighted the enduring legacy of the Business/Civic Leadership Forum and its role in shaping Houston's civic landscape for more than two decades.</p>
+</section>
+
+<section class="cta-section reveal" aria-label="View leaders call to action">
+  <a href="#" class="pill-btn pill-btn-primary">View the complete list of 75 Leaders &rarr;</a>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>113</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[alumni]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>109</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Connect with more than 1,400 Business/Civic Leadership Forum alumni through the CHF Alumni Directory.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Leadership]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Directory]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Connect with more than 1,400 Business/Civic Leadership Forum alumni.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Strategic Initiatives]]></title>
+    <link>https://centerforhoustonsfuture.org/initiatives/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="directory-section" aria-labelledby="directory-heading">
+  <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Directory</span></div>
+  <h2 id="directory-heading" class="reveal d1" style="font-family:var(--font-serif);font-weight:700;font-size:clamp(28px,3vw,40px);line-height:1.15;color:var(--navy);margin-bottom:20px;">Search Alumni</h2>
+
+  <div class="filter-bar reveal d2">
+    <input type="text" placeholder="Search by name, organization, or keyword..." aria-label="Search alumni">
+    <select aria-label="Filter by forum year">
+      <option>All Years</option>
+      <option>Spring 2026</option>
+      <option>Fall 2025</option>
+      <option>Spring 2025</option>
+      <option>Fall 2024</option>
+      <option>Spring 2024</option>
+      <option>Fall 2023</option>
+    </select>
+    <select aria-label="Filter by sector">
+      <option>All Sectors</option>
+      <option>Business</option>
+      <option>Government</option>
+      <option>Nonprofit</option>
+      <option>Education</option>
+      <option>Healthcare</option>
+    </select>
+  </div>
+
+  <div class="directory-notice reveal d3">
+    <p>The alumni directory is available to forum participants. <a href="chf_leadership-portal_v4.html">Sign in to the Forum Portal</a> to access the full directory.</p>
+  </div>
+</section>
+
+<div class="alumni-grid" aria-label="Sample alumni listings">
+  <div class="alumni-card reveal">
+    <div class="alumni-avatar"><span>MR</span></div>
+    <div class="alumni-name">Maria Rodriguez</div>
+    <div class="alumni-title">VP of Strategic Partnerships, Houston Energy Corp.</div>
+    <div class="alumni-meta">
+      <span class="alumni-cohort">Spring 2024</span>
+      <span class="alumni-sector sector-business">Business</span>
+    </div>
+  </div>
+
+  <div class="alumni-card reveal d1">
+    <div class="alumni-avatar" style="background:var(--green-dark);"><span>JW</span></div>
+    <div class="alumni-name">James Washington</div>
+    <div class="alumni-title">Chief of Staff, Harris County Office of Budget Management</div>
+    <div class="alumni-meta">
+      <span class="alumni-cohort">Fall 2023</span>
+      <span class="alumni-sector sector-government">Government</span>
+    </div>
+  </div>
+
+  <div class="alumni-card reveal d2">
+    <div class="alumni-avatar" style="background:#4f46e5;"><span>LP</span></div>
+    <div class="alumni-name">Lisa Pham</div>
+    <div class="alumni-title">Executive Director, Greater Houston Community Foundation</div>
+    <div class="alumni-meta">
+      <span class="alumni-cohort">Spring 2024</span>
+      <span class="alumni-sector sector-nonprofit">Nonprofit</span>
+    </div>
+  </div>
+
+  <div class="alumni-card reveal d3">
+    <div class="alumni-avatar" style="background:#b87a12;"><span>DK</span></div>
+    <div class="alumni-name">David Kim</div>
+    <div class="alumni-title">Dean of Urban Studies, University of Houston</div>
+    <div class="alumni-meta">
+      <span class="alumni-cohort">Fall 2022</span>
+      <span class="alumni-sector sector-education">Education</span>
+    </div>
+  </div>
+
+  <div class="alumni-card reveal">
+    <div class="alumni-avatar" style="background:#dc2626;"><span>SN</span></div>
+    <div class="alumni-name">Sarah Nguyen</div>
+    <div class="alumni-title">Regional Director, Texas Medical Center Health Policy Institute</div>
+    <div class="alumni-meta">
+      <span class="alumni-cohort">Spring 2023</span>
+      <span class="alumni-sector sector-healthcare">Healthcare</span>
+    </div>
+  </div>
+
+  <div class="alumni-card reveal d1">
+    <div class="alumni-avatar"><span>RT</span></div>
+    <div class="alumni-name">Robert Thompson</div>
+    <div class="alumni-title">Managing Partner, Gulf Coast Ventures</div>
+    <div class="alumni-meta">
+      <span class="alumni-cohort">Fall 2024</span>
+      <span class="alumni-sector sector-business">Business</span>
+    </div>
+  </div>
+</div>
+
+<div class="bottom-cta">
+  <div class="bottom-cta-box reveal">
+    <p>Are you a forum alumnus? Sign in to access the full directory and connect with fellow alumni.</p>
+    <a href="chf_leadership-portal_v4.html" class="pill-btn pill-btn-green">Sign In to Portal</a>
+  </div>
+</div>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>114</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[initiatives]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Center for Houston's Future strategic initiatives: planning, research and action to position the Houston region for long-term success.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Strategic Initiatives]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[action]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[We bring business, government, community and academic stakeholders to engage in planning, research, consensus building and action.]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Privacy Policy]]></title>
+    <link>https://centerforhoustonsfuture.org/privacy/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="initiatives-section" aria-labelledby="current-heading">
+  <div class="initiatives-grid">
+    <article class="initiative-card dark reveal">
+      <div class="initiative-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
+          <path d="M2 12h20"/>
+        </svg>
+      </div>
+      <div class="initiative-eyebrow">Current Initiative</div>
+      <h2 class="initiative-title">Project Metis</h2>
+      <p class="initiative-desc">The Center is focusing on a bold initiative to position the Houston/Galveston region as the global leader in brain health and the emerging brain economy.</p>
+      <a href="chf_project-metis_v4.html" class="initiative-link">Learn More <span aria-hidden="true">&#8594;</span></a>
+    </article>
+    <article class="initiative-card light reveal d1">
+      <div class="initiative-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+      </div>
+      <div class="initiative-eyebrow">Current Initiative</div>
+      <h2 class="initiative-title">Vision 2050</h2>
+      <p class="initiative-desc">The Center, working with business, community, and government leaders, is creating a long-range strategic plan and vision for the Houston region.</p>
+      <a href="chf_vision-2050_v4.html" class="initiative-link">Learn More <span aria-hidden="true">&#8594;</span></a>
+    </article>
+  </div>
+</section>
+
+<section class="past-work" aria-labelledby="past-heading">
+  <div class="past-work-inner">
+    <div class="past-work-header">
+      <div class="past-work-header-text">
+        <div class="section-eyebrow reveal"><div class="eline" aria-hidden="true"></div><span class="etxt">Past Work</span></div>
+        <h2 id="past-heading" class="reveal d1">Initiatives, research &amp; events.</h2>
+        <p class="reveal d2">The Center's past initiatives include advancing Houston's leadership in the energy transition, improving health and health equity in our communities, and highlighting the vital economic contributions of immigrants to our region's success.</p>
+      </div>
+    </div>
+
+    <div class="past-pills reveal">
+      <a href="chf_immigration_v4.html" class="past-pill">Immigration <span aria-hidden="true">&#8594;</span></a>
+      <a href="chf_energy_v4.html" class="past-pill">Energy and Climate <span aria-hidden="true">&#8594;</span></a>
+      <a href="chf_health_v4.html" class="past-pill">Health and Health Equity <span aria-hidden="true">&#8594;</span></a>
+    </div>
+
+    <div class="pw-label reveal">Projects &amp; Reports</div>
+    <div class="pw-grid reveal">
+      <a href="chf_hyvelocity_v4.html" class="pw-link">
+        <span class="pw-link-title">HyVelocity Hub</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_driving-future_v4.html" class="pw-link">
+        <span class="pw-link-title">Driving the Future Educational Programming</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_healthcare2022_v4.html" class="pw-link">
+        <span class="pw-link-title">Houston's Economic Future: Health Care 2022</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_wonderweek_v4.html" class="pw-link">
+        <span class="pw-link-title">Kids in Charge Wonderweek</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_maternal-health_v4.html" class="pw-link">
+        <span class="pw-link-title">Social Determinants of Health Impacting Maternal Health</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_immigration-report_v4.html" class="pw-link">
+        <span class="pw-link-title">Houston's Economic Future: Immigration</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+    </div>
+
+    <div class="pw-label reveal">Conferences &amp; Webinars</div>
+    <div class="pw-grid reveal">
+      <a href="chf_signature-conferences_v4.html" class="pw-link">
+        <span class="pw-link-title">Future of Global Energy Conference</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_energy-webcasts_v4.html" class="pw-link">
+        <span class="pw-link-title">Energy and Climate Thought Leadership Webcast Series</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_immigration-conversations_v4.html" class="pw-link">
+        <span class="pw-link-title">How to Have Difficult Conversations on Immigration</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_immigration-covid_v4.html" class="pw-link">
+        <span class="pw-link-title">COVID-19 Essential Workers and Immigration</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+      <a href="chf_immigration-construction_v4.html" class="pw-link">
+        <span class="pw-link-title">Immigration and the Construction Industry</span>
+        <span class="pw-link-arr" aria-hidden="true">&#8594;</span>
+      </a>
+    </div>
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>115</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[privacy]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Privacy Policy for the Center for Houston's Future website. Learn how we collect, use, and protect your information.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Legal]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Policy]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Center for Houston's Future Website Privacy Policy]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Driving the Future]]></title>
+    <link>https://centerforhoustonsfuture.org/driving-future/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="privacy-content" aria-label="Privacy Policy">
+  <div class="privacy-inner">
+
+    <h2 class="reveal">Introduction</h2>
+    <p class="reveal">Center for Houston's Future values its users' privacy and has designed this policy to assure those affiliated with Center for Houston's Future of our commitment to protecting your information.</p>
+
+    <h2 class="reveal">Information We Collect</h2>
+    <p class="reveal">We gather two distinct types of information: (1) Voluntarily provided details including name, address, email address, billing and/or credit card information (for payment processing only); and (2) Automatically collected data through cookies and server logs to assist us in maintaining superior quality service. The Alumni Directory permits logged-in members to view and edit additional information such as Alumni Class, Company Name, Involvement in Social Networks, Areas of Expertise, etc.</p>
+
+    <h2 class="reveal">Use of Information</h2>
+    <p class="reveal">Center for Houston's Future does not now, nor will it in the future, sell, rent, or lease any user lists and/or names to any third parties. The organization uses third-party social media platforms including LinkedIn, Twitter/X, Facebook, YouTube, and other interactive programs.</p>
+
+    <h2 class="reveal">Data Access</h2>
+    <p class="reveal">Users can request an update, change or removal of your information from our website at any time by contacting the organization at <a href="tel:+17138449303">(713) 844-9303</a> or <a href="mailto:info@futurehouston.org">info@futurehouston.org</a>.</p>
+
+    <h2 class="reveal">Children's Privacy</h2>
+    <p class="reveal">We never collect or maintain information on our website from those we know are under 13.</p>
+
+    <h2 class="reveal">Data Security</h2>
+    <p class="reveal">We have implemented appropriate physical, electronic, and managerial procedures to safeguard and secure the information we collect online.</p>
+
+    <h2 class="reveal">Contact</h2>
+    <p class="reveal">If you have questions about this privacy policy, contact us at <a href="mailto:info@futurehouston.org">info@futurehouston.org</a> or write to:</p>
+    <div class="contact-block reveal">
+      <p>Center for Houston's Future<br>
+      701 Avenida de las Americas, Suite 900<br>
+      Houston, Texas 77010</p>
+    </div>
+
+  </div>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>116</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[driving-future]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[After-school enrichment program about low-carbon energy for elementary and middle school students, in collaboration with Children's Museum Houston.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Energy & Climate]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Future]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[After-school enrichment program about low-carbon energy]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Kid Charged WonderWeek]]></title>
+    <link>https://centerforhoustonsfuture.org/wonderweek/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview" aria-labelledby="overview-heading">
+  <div class="overview-grid">
+    <div class="reveal">
+      <div class="section-eyebrow">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">Program Overview</span>
+      </div>
+      <h2 id="overview-heading" class="overview-heading">Inspiring tomorrow's energy innovators</h2>
+      <div class="overview-body">
+        <p>The Driving the Future after-school enrichment program focuses on explaining the concepts of a low-carbon future to elementary and middle school students. It includes teacher training, curriculum, classroom supplies, and on-site support, in collaboration with Children's Museum Houston and Houston-area school districts.</p>
+        <p>The program introduces late elementary and early middle school students to the concept of the energy transition and alternative fuels with the aim of inspiring and empowering them to make a difference in their communities. With concrete and hands-on explorations, our six-week after school program helps prepare students to become innovators of our energy future.</p>
+      </div>
+    </div>
+    <div class="overview-visual reveal d1">
+      <div class="overview-icon-wrap">
+        <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          
+          <path d="M12 52h56v-8a4 4 0 00-4-4H16a4 4 0 00-4 4v8z" stroke-width="2"/>
+          <path d="M20 40l4-12h32l4 12" stroke-width="2"/>
+          
+          <circle cx="24" cy="54" r="5" stroke-width="2"/>
+          <circle cx="56" cy="54" r="5" stroke-width="2"/>
+          
+          <path d="M42 30l-6 8h5l-2 6 7-9h-5l1-5z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+          
+          <path d="M52 18c-6 0-10 4-10 10 4 0 8-2 10-6" stroke-width="1.5" opacity="0.6"/>
+          <path d="M47 23c2 2 3 4 3 6" stroke-width="1.5" opacity="0.6"/>
+          
+          <circle cx="8" cy="46" r="1.5" stroke-width="1" opacity="0.3"/>
+          <circle cx="4" cy="42" r="2" stroke-width="1" opacity="0.2"/>
+          <circle cx="2" cy="36" r="1" stroke-width="1" opacity="0.15"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="goals" aria-labelledby="goals-heading">
+  <div class="goals-inner">
+    <div class="section-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Objectives</span>
+    </div>
+    <h2 id="goals-heading" class="goals-heading reveal d1">Program Goals</h2>
+
+    <div class="goals-grid">
+      <article class="goal-card reveal">
+        <div class="goal-number">1</div>
+        <p class="goal-text">Increasing students' understanding about the relationship between transportation and climate change</p>
+      </article>
+
+      <article class="goal-card reveal d1">
+        <div class="goal-number">2</div>
+        <p class="goal-text">Sharing viable options for climate-friendly approaches to transportation</p>
+      </article>
+
+      <article class="goal-card reveal d2">
+        <div class="goal-number">3</div>
+        <p class="goal-text">Inspiring students to learn more about Houston's leadership in clean fuel technologies</p>
+      </article>
+
+      <article class="goal-card reveal d3">
+        <div class="goal-number">4</div>
+        <p class="goal-text">Building students' understandings specific to hydrogen as a fuel source</p>
+      </article>
+
+      <article class="goal-card reveal d4">
+        <div class="goal-number">5</div>
+        <p class="goal-text">Getting students to articulate their personal positions on the future of clean energy</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="timeline-section" aria-labelledby="timeline-heading">
+  <div class="section-eyebrow reveal">
+    <div class="eline" aria-hidden="true"></div>
+    <span class="etxt">Growth</span>
+  </div>
+  <h2 id="timeline-heading" class="timeline-heading reveal d1">Expansion Timeline</h2>
+
+  <div class="timeline reveal">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Spring 2022</div>
+      <div class="timeline-title">Pilot Launch</div>
+      <p class="timeline-desc">Pilot sessions with strong evaluation results demonstrated the program's effectiveness in engaging students with low-carbon energy concepts.</p>
+      <span class="timeline-funder">Funded by Mitsubishi Corporation</span>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">Fall 2022</div>
+      <div class="timeline-title">HISD Expansion</div>
+      <p class="timeline-desc">Expanded to 6 additional HISD campuses, bringing the program to hundreds more students across the Houston Independent School District.</p>
+      <span class="timeline-funder">CenterPoint Energy Foundation</span>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-date">2023</div>
+      <div class="timeline-title">Galena Park ISD</div>
+      <p class="timeline-desc">Extended to Galena Park ISD, further broadening the program's reach to additional communities in the Houston region.</p>
+    </div>
+  </div>
+</section>
+
+<div class="back-link-section reveal">
+  <a href="chf_energy_v4.html" class="back-link">
+    <span class="back-link-arr" aria-hidden="true">&larr;</span>
+    Back to Energy and Climate
+  </a>
+</div>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>117</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[wonderweek]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Exploring how innovation goes hand in hand with play, curiosity and experimentation as children discover fuel's future.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Energy & Climate]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[WonderWeek]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Exploring how innovation goes hand in hand with play, curiosity and experimentation]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Signature Conferences]]></title>
+    <link>https://centerforhoustonsfuture.org/signature-conferences/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview" aria-labelledby="overview-heading">
+  <div class="overview-grid">
+    <div class="reveal">
+      <div class="section-eyebrow">
+        <div class="eline" aria-hidden="true"></div>
+        <span class="etxt">Overview</span>
+      </div>
+      <h2 id="overview-heading" class="overview-heading">Innovation through play</h2>
+      <div class="overview-body">
+        <p>The Center for Houston's Future partnered with Children's Museum Houston to create programming exploring how innovation goes hand in hand with play, curiosity and experimentation as children discover fuel's future.</p>
+        <p>Kids tested remote-controlled toy cars running on hydrogen fuel and built water molecules to learn how fuel cells change those molecules.</p>
+        <p>In 2023, Chevron sponsored this event. A larger initiative called 'Driving the Future' was funded by CenterPoint Energy Foundation in 2023. Nearly 150 students across 10 schools participated in a six-session after-school program learning about various energy forms, including low or no-carbon sources. The curriculum was developed by both organizations for grades 3-8.</p>
+      </div>
+    </div>
+    <div class="overview-visual reveal d1">
+      <div class="overview-icon-wrap">
+        <svg viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          
+          <path d="M30 12h20M32 12v20l-14 28a4 4 0 003.5 6h37a4 4 0 003.5-6L48 32V12" stroke-width="2.5"/>
+          
+          <circle cx="36" cy="52" r="3" stroke-width="1.5" opacity="0.6"/>
+          <circle cx="46" cy="48" r="2" stroke-width="1.5" opacity="0.5"/>
+          <circle cx="40" cy="56" r="1.5" stroke-width="1.5" opacity="0.4"/>
+          
+          <path d="M58 16l2-4 2 4 4 2-4 2-2 4-2-4-4-2z" stroke-width="1.5" opacity="0.5" fill="currentColor"/>
+          <path d="M18 36l1.5-3 1.5 3 3 1.5-3 1.5-1.5 3-1.5-3-3-1.5z" stroke-width="1.5" opacity="0.4" fill="currentColor"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="highlights" aria-labelledby="highlights-heading">
+  <div class="highlights-inner">
+    <div class="section-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Program Highlights</span>
+    </div>
+    <h2 id="highlights-heading" class="highlights-heading reveal d1">Key highlights</h2>
+
+    <div class="highlights-grid">
+      <article class="highlight-card reveal">
+        <div class="highlight-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+          </svg>
+        </div>
+        <h3 class="highlight-title">Hands-On Learning</h3>
+        <p class="highlight-desc">Kids tested hydrogen-powered remote-controlled cars, experiencing first-hand how clean fuel can power the vehicles of the future through interactive play.</p>
+      </article>
+
+      <article class="highlight-card reveal d1">
+        <div class="highlight-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 16v-4M12 8h.01"/>
+            <path d="M8 12a4 4 0 018 0" fill="none"/>
+          </svg>
+        </div>
+        <h3 class="highlight-title">Science Discovery</h3>
+        <p class="highlight-desc">Students built water molecules to understand how fuel cells work, transforming abstract chemistry concepts into tangible, hands-on learning experiences.</p>
+      </article>
+
+      <article class="highlight-card reveal d2">
+        <div class="highlight-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+          </svg>
+        </div>
+        <h3 class="highlight-title">150 Students</h3>
+        <p class="highlight-desc">Across 10 schools, nearly 150 students participated in the six-session after-school program learning about various energy forms including low or no-carbon sources.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="partners" aria-labelledby="partners-heading">
+  <div class="section-eyebrow reveal">
+    <div class="eline" aria-hidden="true"></div>
+    <span class="etxt">Collaborators</span>
+  </div>
+  <h2 id="partners-heading" class="partners-heading reveal d1">Partners</h2>
+
+  <div class="partner-pills reveal d2">
+    <div class="partner-pill">
+      <span class="partner-pill-dot" aria-hidden="true"></span>
+      Chevron
+    </div>
+    <div class="partner-pill">
+      <span class="partner-pill-dot" aria-hidden="true"></span>
+      CenterPoint Energy Foundation
+    </div>
+    <div class="partner-pill">
+      <span class="partner-pill-dot" aria-hidden="true"></span>
+      Children's Museum Houston
+    </div>
+  </div>
+</section>
+
+<div class="back-section reveal">
+  <a href="chf_energy_v4.html" class="back-link">
+    <span class="arrow" aria-hidden="true">&larr;</span> Back to Energy and Climate
+  </a>
+</div>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>118</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[signature-conferences]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[The Center began hosting conferences on low-carbon energy in 2019, co-hosting the Future of Global Energy Conference with the Greater Houston Partnership.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Energy & Climate]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Conferences]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[The Center began hosting conferences on low-carbon energy in 2019]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Energy Webcast Series]]></title>
+    <link>https://centerforhoustonsfuture.org/energy-webcasts/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="overview" aria-labelledby="overview-heading">
+  <div class="reveal">
+    <div class="section-eyebrow">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">Overview</span>
+    </div>
+    <h2 id="overview-heading" class="overview-heading">Conferences on low-carbon energy</h2>
+    <p class="overview-body">The Center began hosting conferences on low-carbon energy in 2019. In 2021 and 2022, we co-hosted the Future of Global Energy Conference with the Greater Houston Partnership and programmed panels and webcasts focusing on the role of hydrogen in the energy transition.</p>
+  </div>
+</section>
+
+<section class="conf-section conf-section--off" aria-labelledby="conf-2023-heading">
+  <div class="conf-inner">
+    <div class="section-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">2023</span>
+    </div>
+    <h2 id="conf-2023-heading" class="conf-heading reveal d1">2023 Future of Global Energy Conference</h2>
+    <p class="conf-subhead reveal d2">Houston's Role in Leading the Energy Transition &mdash; Presented by Chevron</p>
+
+    <div class="conf-grid conf-grid--5">
+      <article class="conf-card reveal">
+        <div class="conf-card-num">1</div>
+        <h3 class="conf-card-title">Community Engagement and Equity</h3>
+        <p class="conf-card-sponsor">Sponsored by Sempra Infrastructure</p>
+      </article>
+
+      <article class="conf-card reveal d1">
+        <div class="conf-card-num">2</div>
+        <h3 class="conf-card-title">Funding the Transition</h3>
+      </article>
+
+      <article class="conf-card reveal d2">
+        <div class="conf-card-num">3</div>
+        <h3 class="conf-card-title">Building a Workforce for the Transition</h3>
+        <p class="conf-card-sponsor">Sponsored by PwC</p>
+      </article>
+
+      <article class="conf-card reveal d3">
+        <div class="conf-card-num">4</div>
+        <h3 class="conf-card-title">Innovation &amp; Technology for the Transition</h3>
+      </article>
+
+      <article class="conf-card reveal d4">
+        <div class="conf-card-num">5</div>
+        <h3 class="conf-card-title">The Future of Global Energy Luncheon</h3>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="conf-section conf-section--white" aria-labelledby="conf-2022-heading">
+  <div class="conf-inner">
+    <div class="section-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">2022</span>
+    </div>
+    <h2 id="conf-2022-heading" class="conf-heading reveal d1" style="margin-bottom:48px">2022 Virtual Sessions on Hydrogen</h2>
+
+    <div class="conf-grid">
+      <article class="conf-card reveal">
+        <div class="conf-card-num">1</div>
+        <h3 class="conf-card-title">Hydrogen Hubs</h3>
+      </article>
+
+      <article class="conf-card reveal d1">
+        <div class="conf-card-num">2</div>
+        <h3 class="conf-card-title">Houston Hydrogen Hub Update</h3>
+      </article>
+
+      <article class="conf-card reveal d2">
+        <div class="conf-card-num">3</div>
+        <h3 class="conf-card-title">Next Generation of Hydrogen Technology Development</h3>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="conf-section conf-section--off" aria-labelledby="conf-2021-heading">
+  <div class="conf-inner">
+    <div class="section-eyebrow reveal">
+      <div class="eline" aria-hidden="true"></div>
+      <span class="etxt">2021</span>
+    </div>
+    <h2 id="conf-2021-heading" class="conf-heading reveal d1" style="margin-bottom:48px">2021 Virtual Sessions on Hydrogen</h2>
+
+    <div class="conf-grid">
+      <article class="conf-card reveal">
+        <div class="conf-card-num">1</div>
+        <h3 class="conf-card-title">What Will it Take to Launch Houston's Hydrogen Hub?</h3>
+      </article>
+
+      <article class="conf-card reveal d1">
+        <div class="conf-card-num">2</div>
+        <h3 class="conf-card-title">Who Wins in Producing Hydrogen's Many Colored Rainbow?</h3>
+      </article>
+
+      <article class="conf-card reveal d2">
+        <div class="conf-card-num">3</div>
+        <h3 class="conf-card-title">Growing Early Applications for Low-Carbon Hydrogen in Houston</h3>
+      </article>
+
+      <article class="conf-card reveal d3">
+        <div class="conf-card-num">4</div>
+        <h3 class="conf-card-title">What Federal and State Policies Are Needed? (Session 1)</h3>
+      </article>
+
+      <article class="conf-card reveal d4">
+        <div class="conf-card-num">5</div>
+        <h3 class="conf-card-title">What Federal and State Policies Are Needed? (Session 2)</h3>
+      </article>
+
+      <article class="conf-card reveal">
+        <div class="conf-card-num">6</div>
+        <h3 class="conf-card-title">Day 3 Program Summary</h3>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="back-link-section reveal">
+  <a href="chf_energy_v4.html" class="back-link">
+    <span class="back-link-arr" aria-hidden="true">&larr;</span>
+    Back to Energy and Climate
+  </a>
+</div>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>119</wp:post_id>
+    <wp:post_date>2026-01-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[energy-webcasts]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[page]]></wp:post_type>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Featuring industry leaders, academic experts, journalists and activists on climate and energy transition topics.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-page</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Energy & Climate]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Webcasts]]></wp:meta_value></wp:postmeta><wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[Featuring industry leaders, academic experts, journalists and activists on climate and energy transition]]></wp:meta_value></wp:postmeta>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,260 @@
+{
+  "version": "0.4",
+  "title": "CHF Interior Page",
+  "type": "page",
+  "content": [
+    {
+      "id": "int0001",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "min_height": { "unit": "px", "size": 340 },
+        "background_background": "classic",
+        "background_color": "#0f1a2e",
+        "background_image": { "url": "", "id": "" },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(15,26,46,0.82)",
+        "padding": { "unit": "px", "top": "120", "right": "24", "bottom": "64", "left": "24", "isLinked": false },
+        "css_classes": "chf-hero chf-hero--interior"
+      },
+      "elements": [
+        {
+          "id": "int0002",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 960 },
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_gap": { "unit": "px", "size": 16, "column": "16", "row": "16" },
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "int0003",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "EYEBROW TEXT",
+                "header_size": "span",
+                "align": "center",
+                "title_color": "#56B84A",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 11 },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": { "unit": "px", "size": 2 },
+                "background_background": "classic",
+                "background_color": "rgba(86,184,74,0.12)",
+                "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "padding": { "unit": "px", "top": "8", "right": "20", "bottom": "8", "left": "20", "isLinked": false },
+                "css_classes": "chf-pill-badge"
+              },
+              "elements": []
+            },
+            {
+              "id": "int0004",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Page Title",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Merriweather",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_font_size_tablet": { "unit": "px", "size": 36 },
+                "typography_font_size_mobile": { "unit": "px", "size": 28 },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.2 }
+              },
+              "elements": []
+            },
+            {
+              "id": "int0005",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>A brief description of this page and what visitors will find here.</p>",
+                "align": "center",
+                "text_color": "rgba(255,255,255,0.7)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 17 },
+                "typography_line_height": { "unit": "em", "size": 1.6 },
+                "max_width": { "unit": "px", "size": 600 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int0006",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false },
+        "css_classes": "chf-content"
+      },
+      "elements": [
+        {
+          "id": "int0007",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 960 },
+            "flex_direction": "column",
+            "flex_justify_content": "flex-start",
+            "flex_align_items": "center",
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "int0008",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "",
+                "__dynamic__": {
+                  "editor": "[elementor-tag id=\"\" name=\"post-content\" settings=\"{}\"]"
+                },
+                "align": "left",
+                "text_color": "#333333",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 16 },
+                "typography_line_height": { "unit": "em", "size": 1.7 },
+                "max_width": { "unit": "px", "size": 680 },
+                "css_classes": "chf-prose"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "int0009",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "background_background": "gradient",
+        "background_color": "#1B2A4A",
+        "background_color_b": "#0f1a2e",
+        "background_gradient_angle": { "unit": "deg", "size": 135 },
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false },
+        "css_classes": "chf-newsletter"
+      },
+      "elements": [
+        {
+          "id": "int000a",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 680 },
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_gap": { "unit": "px", "size": 24, "column": "24", "row": "24" },
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "int000b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Stay Connected",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Merriweather",
+                "typography_font_size": { "unit": "px", "size": 32 },
+                "typography_font_size_tablet": { "unit": "px", "size": 28 },
+                "typography_font_size_mobile": { "unit": "px", "size": 24 },
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            },
+            {
+              "id": "int000c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Subscribe to our newsletter for the latest updates on Houston's future — research, events, and opportunities to get involved.</p>",
+                "align": "center",
+                "text_color": "rgba(255,255,255,0.7)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 16 },
+                "typography_line_height": { "unit": "em", "size": 1.6 }
+              },
+              "elements": []
+            },
+            {
+              "id": "int000d",
+              "elType": "widget",
+              "widgetType": "form",
+              "settings": {
+                "form_name": "Newsletter Signup",
+                "form_fields": [
+                  {
+                    "_id": "email",
+                    "field_type": "email",
+                    "field_label": "Email Address",
+                    "placeholder": "Enter your email address",
+                    "required": "true",
+                    "width": "75"
+                  },
+                  {
+                    "_id": "submit",
+                    "field_type": "submit",
+                    "field_label": "Subscribe",
+                    "width": "25"
+                  }
+                ],
+                "button_size": "md",
+                "button_text": "Subscribe",
+                "button_color": "#FFFFFF",
+                "button_background_color": "#56B84A",
+                "button_hover_color": "#FFFFFF",
+                "button_background_hover_color": "#3d8f35",
+                "button_border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "field_text_color": "#333333",
+                "field_background_color": "#FFFFFF",
+                "field_border_color": "transparent",
+                "field_border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "column_gap": { "unit": "px", "size": 8 },
+                "css_classes": "chf-newsletter__form"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "metadata": {"type": "page", "title": "CHF Interior Page"}
+}

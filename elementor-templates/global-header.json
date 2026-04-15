@@ -1,0 +1,140 @@
+{
+  "version": "0.4",
+  "title": "CHF Global Header",
+  "type": "header",
+  "content": [
+    {
+      "id": "hdr0001",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "row",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#1B2A4A",
+        "min_height": { "unit": "px", "size": 72 },
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+        "z_index": 100,
+        "sticky": "top",
+        "sticky_on": ["desktop", "tablet", "mobile"],
+        "sticky_offset": 0,
+        "css_classes": "chf-header"
+      },
+      "elements": [
+        {
+          "id": "hdr0002",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "flex_wrap": "nowrap",
+            "padding": { "unit": "px", "top": "0", "right": "24", "bottom": "0", "left": "24", "isLinked": false },
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "hdr0003",
+              "elType": "widget",
+              "widgetType": "site-logo",
+              "settings": {
+                "logo_width": { "unit": "px", "size": 40 },
+                "logo_height": { "unit": "px", "size": 40 },
+                "link": { "url": "/", "is_external": false, "nofollow": false },
+                "align": "left",
+                "width": { "unit": "px", "size": 160 },
+                "css_classes": "chf-header__logo"
+              },
+              "elements": []
+            },
+            {
+              "id": "hdr0004",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "menu": "primary",
+                "layout": "horizontal",
+                "align_items": "center",
+                "submenu_icon": { "value": "fas fa-chevron-down", "library": "fa-solid" },
+                "pointer": "underline",
+                "animation_line": "grow",
+                "text_color": "#FFFFFF",
+                "text_color_hover": "#FFFFFF",
+                "pointer_color": "#56B84A",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_font_weight": "600",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": { "unit": "px", "size": 0.5 },
+                "gap_between_items": { "unit": "px", "size": 28 },
+                "dropdown_background_color": "#FFFFFF",
+                "dropdown_border_border": "solid",
+                "dropdown_border_width": { "unit": "px", "top": "2", "right": "0", "bottom": "0", "left": "0", "isLinked": false },
+                "dropdown_border_color": "#56B84A",
+                "dropdown_box_shadow_box_shadow": {
+                  "horizontal": 0,
+                  "vertical": 8,
+                  "blur": 24,
+                  "spread": -4,
+                  "color": "rgba(0,0,0,0.12)"
+                },
+                "dropdown_typography_font_family": "Inter",
+                "dropdown_typography_font_size": { "unit": "px", "size": 13 },
+                "dropdown_typography_font_weight": "500",
+                "dropdown_typography_text_transform": "none",
+                "dropdown_text_color": "#1B2A4A",
+                "dropdown_text_color_hover": "#56B84A",
+                "dropdown_padding": { "unit": "px", "top": "12", "right": "20", "bottom": "12", "left": "20", "isLinked": false },
+                "toggle_color": "#FFFFFF",
+                "toggle_size": { "unit": "px", "size": 22 },
+                "toggle_border_radius": { "unit": "px", "size": 0 },
+                "breakpoint": "mobile",
+                "full_width": "stretch",
+                "dropdown_position": "absolute",
+                "css_classes": "chf-header__nav",
+                "_element_custom_css": ".chf-header__nav .elementor-nav-menu--toggle { display: none; } @media (max-width: 768px) { .chf-header__nav .elementor-nav-menu--toggle { display: flex; } .chf-header__nav .elementor-nav-menu { display: none; } .chf-header__nav .elementor-nav-menu--dropdown { position: fixed; top: 0; right: 0; width: 300px; height: 100vh; background: #1B2A4A; z-index: 9999; padding: 72px 24px 24px; overflow-y: auto; transform: translateX(100%); transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1); } .chf-header__nav .elementor-nav-menu--dropdown.active { transform: translateX(0); } }"
+              },
+              "elements": []
+            },
+            {
+              "id": "hdr0005",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Donate",
+                "link": { "url": "/donate/", "is_external": false, "nofollow": false },
+                "align": "right",
+                "size": "sm",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": { "unit": "px", "size": 0.5 },
+                "button_text_color": "#FFFFFF",
+                "background_color": "#56B84A",
+                "button_text_color_hover": "#FFFFFF",
+                "button_background_hover_color": "#3d8f35",
+                "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "button_padding": { "unit": "px", "top": "10", "right": "24", "bottom": "10", "left": "24", "isLinked": false },
+                "hover_animation": "grow",
+                "css_classes": "chf-header__donate"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  },
+  "metadata": {
+    "wp_page_template": "elementor_header_footer"
+  }
+}

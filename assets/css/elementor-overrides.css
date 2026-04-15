@@ -1,0 +1,487 @@
+/**
+ * Elementor Overrides
+ * Clean overrides for Elementor's default styling to match CHF brand.
+ * Selectors are specific enough to override defaults but not so specific
+ * that they block customization in the Elementor editor.
+ *
+ * @package CHF
+ * @since 5.0.0
+ */
+
+/* ==========================================================================
+   1. Container Defaults
+   ========================================================================== */
+
+.elementor-container {
+  max-width: 1200px;
+}
+
+/* Remove Elementor default bottom margin on sections */
+.elementor-section {
+  margin-bottom: 0;
+}
+
+/* Reset Elementor's default widget spacing — let the editor control gaps */
+.elementor-widget:not(:last-child) {
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   2. Heading Widget Overrides
+   ========================================================================== */
+
+.elementor-heading-title {
+  color: var(--navy);
+  text-wrap: balance;
+}
+
+/* Serif family for major headings */
+h1.elementor-heading-title,
+h2.elementor-heading-title,
+h3.elementor-heading-title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+h1.elementor-heading-title {
+  font-size: clamp(32px, 5vw, 56px);
+}
+
+h2.elementor-heading-title {
+  font-size: clamp(26px, 4vw, 42px);
+}
+
+h3.elementor-heading-title {
+  font-size: clamp(22px, 3vw, 32px);
+}
+
+/* Sans family for sub-headings */
+h4.elementor-heading-title,
+h5.elementor-heading-title,
+h6.elementor-heading-title {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h4.elementor-heading-title {
+  font-size: clamp(18px, 2.5vw, 24px);
+}
+
+/* White headings inside dark sections */
+.section-dark .elementor-heading-title,
+.section-gradient .elementor-heading-title {
+  color: var(--white);
+}
+
+/* ==========================================================================
+   3. Button Widget Overrides
+   ========================================================================== */
+
+.elementor-button {
+  min-height: 48px;
+  padding: 12px 28px;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-radius: var(--radius-pill);
+  transition:
+    background-color 0.25s var(--ease-out-quart),
+    color 0.25s var(--ease-out-quart),
+    box-shadow 0.3s var(--ease-out-quart),
+    transform 0.2s var(--ease-spring);
+}
+
+/* Override Elementor's default purple/blue button color */
+.elementor-button,
+.elementor-widget-button .elementor-button {
+  background-color: var(--green);
+  border-color: var(--green);
+  color: var(--white);
+}
+
+.elementor-button:hover,
+.elementor-widget-button .elementor-button:hover {
+  background-color: var(--green-dark);
+  border-color: var(--green-dark);
+  box-shadow: var(--green-glow);
+  color: var(--white);
+}
+
+.elementor-button:active {
+  transform: scale(0.97);
+}
+
+.elementor-button:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+
+/* Button icon spacing */
+.elementor-button .elementor-button-icon {
+  transition: transform 0.25s var(--ease-out-quart);
+}
+
+.elementor-button:hover .elementor-button-icon {
+  transform: translateX(2px);
+}
+
+/* ==========================================================================
+   4. Nav Menu Widget Overrides (Header)
+   ========================================================================== */
+
+.elementor-nav-menu a {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--navy);
+  text-decoration: none;
+  position: relative;
+}
+
+/* Hover indicator: green underline from center */
+.elementor-nav-menu--main > .elementor-nav-menu > li > a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--green);
+  transition: width 0.3s var(--ease-out-quart), left 0.3s var(--ease-out-quart);
+}
+
+.elementor-nav-menu--main > .elementor-nav-menu > li > a:hover::after,
+.elementor-nav-menu--main > .elementor-nav-menu > li.current-menu-item > a::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Dropdown styling */
+.elementor-nav-menu--dropdown {
+  border-top: 2px solid var(--green);
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  box-shadow: var(--shadow);
+}
+
+.elementor-nav-menu--dropdown a {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--navy);
+  padding: 10px 20px;
+}
+
+.elementor-nav-menu--dropdown a:hover {
+  color: var(--green);
+  background-color: var(--off);
+}
+
+/* ==========================================================================
+   5. Form Widget Overrides (Newsletter)
+   ========================================================================== */
+
+.elementor-form .elementor-field-group {
+  margin-bottom: 0;
+}
+
+.elementor-form .elementor-field {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  color: var(--navy);
+  background-color: var(--white);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius-pill);
+  padding: 14px 20px;
+  min-height: 48px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.elementor-form .elementor-field:focus {
+  border-color: var(--green);
+  box-shadow: var(--focus-ring);
+  outline: none;
+}
+
+.elementor-form .elementor-field::placeholder {
+  color: #999;
+}
+
+/* Pill-joined newsletter style: input + button side by side */
+.elementor-form .elementor-field-group.elementor-field-type-submit {
+  flex-shrink: 0;
+}
+
+.elementor-form .elementor-field-group.elementor-field-type-submit .elementor-button {
+  background-color: var(--green);
+  color: var(--white);
+  border-radius: 0 var(--radius-pill) var(--radius-pill) 0;
+  min-height: 48px;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.elementor-form .elementor-field-group.elementor-field-type-submit .elementor-button:hover {
+  background-color: var(--green-dark);
+  box-shadow: var(--green-glow);
+}
+
+/* Inline form layout: remove left radius on submit, right radius on adjacent input */
+.elementor-form .elementor-field-group:not(:last-child) .elementor-field {
+  border-radius: var(--radius-pill) 0 0 var(--radius-pill);
+  border-right: none;
+}
+
+/* Error & success messages */
+.elementor-message {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+}
+
+.elementor-message.elementor-message-success {
+  background-color: rgba(86, 184, 74, 0.1);
+  color: var(--green-dark);
+}
+
+/* ==========================================================================
+   6. Social Icons Overrides
+   ========================================================================== */
+
+.elementor-social-icon {
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 50%;
+  font-size: 16px;
+  transition:
+    background-color 0.25s var(--ease-out-quart),
+    border-color 0.25s var(--ease-out-quart),
+    transform 0.35s var(--ease-spring);
+}
+
+.elementor-social-icon:hover {
+  background-color: var(--green) !important;
+  border-color: var(--green);
+  transform: scale(1.1);
+}
+
+/* ==========================================================================
+   7. Image Widget
+   ========================================================================== */
+
+.elementor-image img {
+  border-radius: var(--radius-md);
+}
+
+/* Remove radius for full-width / hero images */
+.elementor-section-full_width .elementor-image img,
+.elementor-widget-image.no-radius img {
+  border-radius: 0;
+}
+
+/* ==========================================================================
+   8. Posts / Archive Widget
+   ========================================================================== */
+
+.elementor-posts .elementor-post {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition:
+    transform 0.35s var(--ease-spring),
+    box-shadow 0.35s var(--ease-out-quart);
+}
+
+.elementor-posts .elementor-post:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.elementor-posts .elementor-post__thumbnail {
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  overflow: hidden;
+}
+
+.elementor-posts .elementor-post__thumbnail img {
+  border-radius: 0;
+  transition: transform 0.5s var(--ease-out-expo);
+}
+
+.elementor-posts .elementor-post:hover .elementor-post__thumbnail img {
+  transform: scale(1.04);
+}
+
+.elementor-posts .elementor-post__title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  color: var(--navy);
+  line-height: 1.3;
+}
+
+.elementor-posts .elementor-post__title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.elementor-posts .elementor-post__title a:hover {
+  color: var(--green);
+}
+
+.elementor-posts .elementor-post__excerpt {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--navy);
+  opacity: 0.8;
+}
+
+.elementor-posts .elementor-post__meta-data {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--green);
+}
+
+.elementor-posts .elementor-post__read-more {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--green);
+}
+
+/* ==========================================================================
+   9. Section Background Overrides
+   ========================================================================== */
+
+/* Dark navy sections set via Elementor data attributes */
+.elementor-section[data-settings*="navy"],
+.elementor-section.section-dark {
+  background-color: var(--navy-deep);
+  color: var(--white);
+}
+
+.elementor-section[data-settings*="navy"] .elementor-heading-title,
+.elementor-section.section-dark .elementor-heading-title {
+  color: var(--white);
+}
+
+.elementor-section[data-settings*="navy"] .elementor-widget-text-editor,
+.elementor-section.section-dark .elementor-widget-text-editor {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Divider widget override */
+.elementor-divider .elementor-divider-separator {
+  border-color: var(--rule);
+}
+
+.section-dark .elementor-divider .elementor-divider-separator {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Icon widget color defaults */
+.elementor-icon {
+  color: var(--green);
+}
+
+/* Text editor widget typography */
+.elementor-widget-text-editor {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--navy);
+}
+
+/* ==========================================================================
+   10. Responsive Fixes
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  /* Tighter container padding on tablet */
+  .elementor-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Stack nav menu items */
+  .elementor-nav-menu a {
+    font-size: 14px;
+    padding: 12px 0;
+  }
+
+  /* Reduce button size on mobile */
+  .elementor-button {
+    min-height: 44px;
+    padding: 10px 24px;
+    font-size: 12px;
+  }
+
+  /* Posts grid: single column on tablet if needed */
+  .elementor-posts .elementor-post__title {
+    font-size: 18px;
+  }
+
+  /* Social icons: smaller on mobile */
+  .elementor-social-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 14px;
+  }
+
+  /* Form fields: full width stack */
+  .elementor-form .elementor-field-group:not(:last-child) .elementor-field {
+    border-radius: var(--radius-pill);
+    border-right: 1px solid var(--rule);
+  }
+
+  .elementor-form .elementor-field-group.elementor-field-type-submit .elementor-button {
+    border-radius: var(--radius-pill);
+    margin-top: 8px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Minimal container padding on small screens */
+  .elementor-container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  /* Clamp heading sizes tighter */
+  h1.elementor-heading-title {
+    font-size: clamp(28px, 7vw, 40px);
+  }
+
+  h2.elementor-heading-title {
+    font-size: clamp(24px, 6vw, 32px);
+  }
+
+  h3.elementor-heading-title {
+    font-size: clamp(20px, 5vw, 26px);
+  }
+
+  /* Buttons: full width on small screens */
+  .elementor-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Reduce image border radius for small screens */
+  .elementor-image img {
+    border-radius: 8px;
+  }
+}

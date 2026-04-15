@@ -1,0 +1,489 @@
+{
+  "version": "0.4",
+  "title": "CHF Initiative Single",
+  "type": "single",
+  "content": [
+    {
+      "id": "ini0001",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "min_height": { "unit": "px", "size": 380 },
+        "background_background": "classic",
+        "background_color": "#0f1a2e",
+        "background_image": { "url": "", "id": "" },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(15,26,46,0.8)",
+        "padding": { "unit": "px", "top": "120", "right": "24", "bottom": "64", "left": "24", "isLinked": false },
+        "css_classes": "chf-hero chf-hero--initiative"
+      },
+      "elements": [
+        {
+          "id": "ini0002",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 960 },
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_gap": { "unit": "px", "size": 16, "column": "16", "row": "16" },
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "ini0003",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Initiative Eyebrow",
+                "__dynamic__": {
+                  "title": "[elementor-tag id=\"\" name=\"acf\" settings=\"{\\\"key\\\":\\\"hero_eyebrow\\\"}\"]"
+                },
+                "header_size": "span",
+                "align": "center",
+                "title_color": "#56B84A",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 11 },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": { "unit": "px", "size": 2 },
+                "background_background": "classic",
+                "background_color": "rgba(86,184,74,0.12)",
+                "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "padding": { "unit": "px", "top": "8", "right": "20", "bottom": "8", "left": "20", "isLinked": false },
+                "css_classes": "chf-pill-badge"
+              },
+              "elements": []
+            },
+            {
+              "id": "ini0004",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Initiative Title",
+                "__dynamic__": {
+                  "title": "[elementor-tag id=\"\" name=\"post-title\" settings=\"{}\"]"
+                },
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Merriweather",
+                "typography_font_size": { "unit": "px", "size": 48 },
+                "typography_font_size_tablet": { "unit": "px", "size": 36 },
+                "typography_font_size_mobile": { "unit": "px", "size": 28 },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.2 }
+              },
+              "elements": []
+            },
+            {
+              "id": "ini0005",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "",
+                "__dynamic__": {
+                  "editor": "[elementor-tag id=\"\" name=\"acf\" settings=\"{\\\"key\\\":\\\"hero_subtitle\\\"}\"]"
+                },
+                "align": "center",
+                "text_color": "rgba(255,255,255,0.7)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 17 },
+                "typography_line_height": { "unit": "em", "size": 1.6 },
+                "max_width": { "unit": "px", "size": 600 }
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ini0006",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "flex-start",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false },
+        "css_classes": "chf-content chf-content--initiative"
+      },
+      "elements": [
+        {
+          "id": "ini0007",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "flex-start",
+            "flex_gap": { "unit": "px", "size": 48, "column": "48", "row": "48" },
+            "flex_wrap": "wrap",
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "ini0008",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_grow": 2,
+                "min_width": { "unit": "px", "size": 400 }
+              },
+              "elements": [
+                {
+                  "id": "ini0009",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "",
+                    "__dynamic__": {
+                      "editor": "[elementor-tag id=\"\" name=\"post-content\" settings=\"{}\"]"
+                    },
+                    "align": "left",
+                    "text_color": "#333333",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 16 },
+                    "typography_line_height": { "unit": "em", "size": 1.7 },
+                    "css_classes": "chf-prose"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "ini000a",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_grow": 1,
+                "flex_gap": { "unit": "px", "size": 32, "column": "32", "row": "32" },
+                "min_width": { "unit": "px", "size": 280 },
+                "max_width": { "unit": "px", "size": 360 },
+                "position": "sticky",
+                "position_top": { "unit": "px", "size": 100 }
+              },
+              "elements": [
+                {
+                  "id": "ini000b",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": { "unit": "px", "size": 16, "column": "16", "row": "16" },
+                    "background_background": "classic",
+                    "background_color": "#f7f6f4",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true },
+                    "css_classes": "chf-sidebar-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "ini000c",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Related Initiatives",
+                        "header_size": "h3",
+                        "title_color": "#1B2A4A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Merriweather",
+                        "typography_font_size": { "unit": "px", "size": 18 },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ini000d",
+                      "elType": "widget",
+                      "widgetType": "icon-list",
+                      "settings": {
+                        "icon_list": [
+                          {
+                            "_id": "r1",
+                            "text": "Energy & Climate",
+                            "link": { "url": "/initiatives/energy-climate/", "is_external": false },
+                            "selected_icon": { "value": "fas fa-chevron-right", "library": "fa-solid" }
+                          },
+                          {
+                            "_id": "r2",
+                            "text": "Health & Health Equity",
+                            "link": { "url": "/initiatives/health-equity/", "is_external": false },
+                            "selected_icon": { "value": "fas fa-chevron-right", "library": "fa-solid" }
+                          },
+                          {
+                            "_id": "r3",
+                            "text": "Immigration",
+                            "link": { "url": "/initiatives/immigration/", "is_external": false },
+                            "selected_icon": { "value": "fas fa-chevron-right", "library": "fa-solid" }
+                          }
+                        ],
+                        "icon_color": "#56B84A",
+                        "icon_size": { "unit": "px", "size": 12 },
+                        "text_color": "#1B2A4A",
+                        "text_color_hover": "#56B84A",
+                        "text_typography_typography": "custom",
+                        "text_typography_font_family": "Inter",
+                        "text_typography_font_size": { "unit": "px", "size": 14 },
+                        "text_typography_font_weight": "500",
+                        "icon_self_align": "center",
+                        "space_between": { "unit": "px", "size": 12 }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "ini000e",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_gap": { "unit": "px", "size": 16, "column": "16", "row": "16" },
+                    "background_background": "classic",
+                    "background_color": "#f7f6f4",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true },
+                    "css_classes": "chf-sidebar-box"
+                  },
+                  "elements": [
+                    {
+                      "id": "ini000f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Key Resources",
+                        "header_size": "h3",
+                        "title_color": "#1B2A4A",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Merriweather",
+                        "typography_font_size": { "unit": "px", "size": 18 },
+                        "typography_font_weight": "700"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ini0010",
+                      "elType": "widget",
+                      "widgetType": "icon-list",
+                      "settings": {
+                        "icon_list": [
+                          {
+                            "_id": "d1",
+                            "text": "2025 Annual Report (PDF)",
+                            "link": { "url": "#", "is_external": false },
+                            "selected_icon": { "value": "fas fa-file-pdf", "library": "fa-solid" }
+                          },
+                          {
+                            "_id": "d2",
+                            "text": "Research Brief",
+                            "link": { "url": "#", "is_external": false },
+                            "selected_icon": { "value": "fas fa-file-alt", "library": "fa-solid" }
+                          },
+                          {
+                            "_id": "d3",
+                            "text": "Impact Data Dashboard",
+                            "link": { "url": "#", "is_external": true },
+                            "selected_icon": { "value": "fas fa-external-link-alt", "library": "fa-solid" }
+                          }
+                        ],
+                        "icon_color": "#56B84A",
+                        "icon_size": { "unit": "px", "size": 14 },
+                        "text_color": "#1B2A4A",
+                        "text_color_hover": "#56B84A",
+                        "text_typography_typography": "custom",
+                        "text_typography_font_family": "Inter",
+                        "text_typography_font_size": { "unit": "px", "size": 14 },
+                        "text_typography_font_weight": "500",
+                        "icon_self_align": "center",
+                        "space_between": { "unit": "px", "size": 12 }
+                      },
+                      "elements": []
+                    }
+                  ]
+                },
+                {
+                  "id": "ini0011",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_justify_content": "flex-start",
+                    "flex_align_items": "center",
+                    "flex_gap": { "unit": "px", "size": 8, "column": "8", "row": "8" }
+                  },
+                  "elements": [
+                    {
+                      "id": "ini0012",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Category:",
+                        "header_size": "span",
+                        "title_color": "#999999",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": { "unit": "px", "size": 12 },
+                        "typography_font_weight": "500"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "ini0013",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings": {
+                        "title": "Initiative Category",
+                        "__dynamic__": {
+                          "title": "[elementor-tag id=\"\" name=\"post-terms\" settings=\"{\\\"taxonomy\\\":\\\"initiative_category\\\"}\"]"
+                        },
+                        "header_size": "span",
+                        "title_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Inter",
+                        "typography_font_size": { "unit": "px", "size": 11 },
+                        "typography_font_weight": "600",
+                        "typography_text_transform": "uppercase",
+                        "typography_letter_spacing": { "unit": "px", "size": 0.5 },
+                        "background_background": "classic",
+                        "background_color": "#1B2A4A",
+                        "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                        "padding": { "unit": "px", "top": "6", "right": "14", "bottom": "6", "left": "14", "isLinked": false },
+                        "css_classes": "chf-category-badge"
+                      },
+                      "elements": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ini0014",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "background_background": "gradient",
+        "background_color": "#1B2A4A",
+        "background_color_b": "#0f1a2e",
+        "background_gradient_angle": { "unit": "deg", "size": 135 },
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false },
+        "css_classes": "chf-newsletter"
+      },
+      "elements": [
+        {
+          "id": "ini0015",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 680 },
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_gap": { "unit": "px", "size": 24, "column": "24", "row": "24" },
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "ini0016",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Stay Connected",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Merriweather",
+                "typography_font_size": { "unit": "px", "size": 32 },
+                "typography_font_size_tablet": { "unit": "px", "size": 28 },
+                "typography_font_size_mobile": { "unit": "px", "size": 24 },
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            },
+            {
+              "id": "ini0017",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Subscribe to our newsletter for the latest updates on Houston's future — research, events, and opportunities to get involved.</p>",
+                "align": "center",
+                "text_color": "rgba(255,255,255,0.7)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 16 },
+                "typography_line_height": { "unit": "em", "size": 1.6 }
+              },
+              "elements": []
+            },
+            {
+              "id": "ini0018",
+              "elType": "widget",
+              "widgetType": "form",
+              "settings": {
+                "form_name": "Newsletter Signup",
+                "form_fields": [
+                  {
+                    "_id": "email",
+                    "field_type": "email",
+                    "field_label": "Email Address",
+                    "placeholder": "Enter your email address",
+                    "required": "true",
+                    "width": "75"
+                  },
+                  {
+                    "_id": "submit",
+                    "field_type": "submit",
+                    "field_label": "Subscribe",
+                    "width": "25"
+                  }
+                ],
+                "button_size": "md",
+                "button_text": "Subscribe",
+                "button_color": "#FFFFFF",
+                "button_background_color": "#56B84A",
+                "button_hover_color": "#FFFFFF",
+                "button_background_hover_color": "#3d8f35",
+                "button_border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "field_text_color": "#333333",
+                "field_background_color": "#FFFFFF",
+                "field_border_color": "transparent",
+                "field_border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "column_gap": { "unit": "px", "size": 8 },
+                "css_classes": "chf-newsletter__form"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "metadata": {"type": "single", "title": "CHF Initiative Single"}
+}

@@ -1,0 +1,1878 @@
+{
+  "version": "0.4",
+  "title": "CHF Homepage",
+  "type": "page",
+  "content": [
+    {
+      "id": "hp00001",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "min_height": { "unit": "vh", "size": 100 },
+        "background_background": "classic",
+        "background_color": "#0f1a2e",
+        "background_image": { "url": "", "id": "" },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(15,26,46,0.75)",
+        "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "0", "left": "0", "isLinked": true },
+        "css_classes": "chf-hero chf-hero--home"
+      },
+      "elements": [
+        {
+          "id": "hp00002",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 1200 },
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_gap": { "unit": "px", "size": 24, "column": "24", "row": "24" },
+            "padding": { "unit": "px", "top": "120", "right": "24", "bottom": "80", "left": "24", "isLinked": false },
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "hp00003",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "HOUSTON'S PREMIER THINK TANK",
+                "header_size": "span",
+                "align": "center",
+                "title_color": "#56B84A",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 11 },
+                "typography_font_weight": "700",
+                "typography_text_transform": "uppercase",
+                "typography_letter_spacing": { "unit": "px", "size": 2 },
+                "background_background": "classic",
+                "background_color": "rgba(86,184,74,0.12)",
+                "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "padding": { "unit": "px", "top": "8", "right": "20", "bottom": "8", "left": "20", "isLinked": false },
+                "css_classes": "chf-pill-badge"
+              },
+              "elements": []
+            },
+            {
+              "id": "hp00004",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Shaping Houston's <span class=\"grad-text\">Future</span>",
+                "header_size": "h1",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Merriweather",
+                "typography_font_size": { "unit": "px", "size": 64 },
+                "typography_font_size_tablet": { "unit": "px", "size": 36 },
+                "typography_font_size_mobile": { "unit": "px", "size": 28 },
+                "typography_font_weight": "700",
+                "typography_line_height": { "unit": "em", "size": 1.15 },
+                "css_classes": "chf-hero__title"
+              },
+              "elements": []
+            },
+            {
+              "id": "hp00005",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>We convene Houston's leaders across sectors to address our region's most critical challenges — energy transition, health equity, and the economic power of immigration.</p>",
+                "align": "center",
+                "text_color": "rgba(255,255,255,0.75)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 17 },
+                "typography_line_height": { "unit": "em", "size": 1.7 },
+                "max_width": { "unit": "px", "size": 600 }
+              },
+              "elements": []
+            },
+            {
+              "id": "hp00006",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 16, "column": "16", "row": "16" },
+                "flex_wrap": "wrap"
+              },
+              "elements": [
+                {
+                  "id": "hp00007",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Our Initiatives",
+                    "link": { "url": "/initiatives/", "is_external": false, "nofollow": false },
+                    "align": "center",
+                    "size": "md",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "600",
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "#56B84A",
+                    "button_text_color_hover": "#FFFFFF",
+                    "button_background_hover_color": "#3d8f35",
+                    "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                    "button_padding": { "unit": "px", "top": "14", "right": "32", "bottom": "14", "left": "32", "isLinked": false },
+                    "css_classes": "chf-btn chf-btn--primary"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "hp00008",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Watch Video",
+                    "link": { "url": "#video", "is_external": false, "nofollow": false },
+                    "align": "center",
+                    "size": "md",
+                    "icon": { "value": "fas fa-play", "library": "fa-solid" },
+                    "icon_indent": { "unit": "px", "size": 8 },
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "600",
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "transparent",
+                    "button_text_color_hover": "#56B84A",
+                    "button_background_hover_color": "transparent",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "2", "right": "2", "bottom": "2", "left": "2", "isLinked": true },
+                    "border_color": "#FFFFFF",
+                    "border_color_hover": "#56B84A",
+                    "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                    "button_padding": { "unit": "px", "top": "14", "right": "32", "bottom": "14", "left": "32", "isLinked": false },
+                    "css_classes": "chf-btn chf-btn--outline"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hp00009",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_justify_content": "center",
+            "flex_align_items": "stretch",
+            "flex_gap": { "unit": "px", "size": 0, "column": "0", "row": "0" },
+            "position": "absolute",
+            "position_bottom": { "unit": "px", "size": 0 },
+            "width": { "unit": "%", "size": 100 },
+            "background_background": "classic",
+            "background_color": "rgba(15,26,46,0.65)",
+            "backdrop_filter_blur": { "unit": "px", "size": 16 },
+            "border_border": "solid",
+            "border_width": { "unit": "px", "top": "2", "right": "0", "bottom": "0", "left": "0", "isLinked": false },
+            "border_color": "#56B84A",
+            "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "0", "left": "0", "isLinked": false },
+            "padding": { "unit": "px", "top": "24", "right": "0", "bottom": "24", "left": "0", "isLinked": false },
+            "css_classes": "chf-quick-bar"
+          },
+          "elements": [
+            {
+              "id": "hp0000a",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "width": { "unit": "%", "size": 33.33 },
+                "padding": { "unit": "px", "top": "0", "right": "24", "bottom": "0", "left": "24", "isLinked": false },
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": "0", "right": "1", "bottom": "0", "left": "0", "isLinked": false },
+                "border_color": "rgba(255,255,255,0.15)"
+              },
+              "elements": [
+                {
+                  "id": "hp0000b",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "25+",
+                    "header_size": "span",
+                    "align": "center",
+                    "title_color": "#C9A84C",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Merriweather",
+                    "typography_font_size": { "unit": "px", "size": 36 },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "hp0000c",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "YEARS OF IMPACT",
+                    "header_size": "span",
+                    "align": "center",
+                    "title_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 11 },
+                    "typography_font_weight": "600",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": { "unit": "px", "size": 1.5 }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "hp0000d",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "width": { "unit": "%", "size": 33.33 },
+                "padding": { "unit": "px", "top": "0", "right": "24", "bottom": "0", "left": "24", "isLinked": false },
+                "border_border": "solid",
+                "border_width": { "unit": "px", "top": "0", "right": "1", "bottom": "0", "left": "0", "isLinked": false },
+                "border_color": "rgba(255,255,255,0.15)"
+              },
+              "elements": [
+                {
+                  "id": "hp0000e",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "1000+",
+                    "header_size": "span",
+                    "align": "center",
+                    "title_color": "#C9A84C",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Merriweather",
+                    "typography_font_size": { "unit": "px", "size": 36 },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "hp0000f",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "COMMUNITY LEADERS",
+                    "header_size": "span",
+                    "align": "center",
+                    "title_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 11 },
+                    "typography_font_weight": "600",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": { "unit": "px", "size": 1.5 }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "hp00010",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "width": { "unit": "%", "size": 33.34 },
+                "padding": { "unit": "px", "top": "0", "right": "24", "bottom": "0", "left": "24", "isLinked": false }
+              },
+              "elements": [
+                {
+                  "id": "hp00011",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "3",
+                    "header_size": "span",
+                    "align": "center",
+                    "title_color": "#C9A84C",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Merriweather",
+                    "typography_font_size": { "unit": "px", "size": 36 },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "hp00012",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "FOCUS AREAS",
+                    "header_size": "span",
+                    "align": "center",
+                    "title_color": "rgba(255,255,255,0.6)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 11 },
+                    "typography_font_weight": "600",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": { "unit": "px", "size": 1.5 }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp00013",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#f7f6f4",
+        "padding": { "unit": "px", "top": "20", "right": "0", "bottom": "20", "left": "0", "isLinked": false },
+        "overflow": "hidden",
+        "css_classes": "chf-marquee"
+      },
+      "elements": [
+        {
+          "id": "hp00014",
+          "elType": "widget",
+          "widgetType": "image-carousel",
+          "settings": {
+            "carousel": [
+              { "url": "", "id": "" },
+              { "url": "", "id": "" },
+              { "url": "", "id": "" },
+              { "url": "", "id": "" },
+              { "url": "", "id": "" },
+              { "url": "", "id": "" }
+            ],
+            "slides_to_show": "6",
+            "slides_to_show_tablet": "4",
+            "slides_to_show_mobile": "2",
+            "slides_to_scroll": "1",
+            "autoplay": "yes",
+            "autoplay_speed": 0,
+            "infinite": "yes",
+            "speed": 5000,
+            "pause_on_hover": "no",
+            "navigation": "none",
+            "image_stretch": "no",
+            "image_size": "medium",
+            "image_spacing_custom": { "unit": "px", "size": 40 },
+            "image_opacity": "0.5",
+            "image_opacity_hover": "1",
+            "css_classes": "chf-marquee__carousel"
+          },
+          "elements": []
+        }
+      ]
+    },
+    {
+      "id": "hp00015",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": { "unit": "px", "top": "96", "right": "24", "bottom": "96", "left": "24", "isLinked": false },
+        "css_classes": "chf-initiatives"
+      },
+      "elements": [
+        {
+          "id": "hp00016",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 1200 },
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_gap": { "unit": "px", "size": 48, "column": "48", "row": "48" },
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "hp00017",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 12, "column": "12", "row": "12" }
+              },
+              "elements": [
+                {
+                  "id": "hp00018",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "WHAT WE DO",
+                    "header_size": "span",
+                    "align": "center",
+                    "title_color": "#56B84A",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 11 },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": { "unit": "px", "size": 2 }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "hp00019",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Strategic Focus Areas",
+                    "header_size": "h2",
+                    "align": "center",
+                    "title_color": "#1B2A4A",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Merriweather",
+                    "typography_font_size": { "unit": "px", "size": 40 },
+                    "typography_font_size_tablet": { "unit": "px", "size": 28 },
+                    "typography_font_size_mobile": { "unit": "px", "size": 24 },
+                    "typography_font_weight": "700",
+                    "typography_line_height": { "unit": "em", "size": 1.2 }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "hp0001a",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "row",
+                "flex_justify_content": "center",
+                "flex_align_items": "stretch",
+                "flex_gap": { "unit": "px", "size": 32, "column": "32", "row": "32" },
+                "flex_wrap": "wrap"
+              },
+              "elements": [
+                {
+                  "id": "hp0001b",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_justify_content": "flex-start",
+                    "flex_align_items": "stretch",
+                    "width": { "unit": "%", "size": 31 },
+                    "min_width": { "unit": "px", "size": 300 },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#e5e5e5",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 8,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.06)"
+                    },
+                    "overflow": "hidden",
+                    "transition_duration": { "unit": "ms", "size": 300 },
+                    "motion_fx_translateY_effect": "yes",
+                    "css_classes": "chf-initiative-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "hp0001c",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "", "id": "" },
+                        "image_size": "medium_large",
+                        "width": { "unit": "%", "size": 100 },
+                        "height": { "unit": "px", "size": 220 },
+                        "object_fit": "cover"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "hp0001d",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": { "unit": "px", "size": 12, "column": "12", "row": "12" },
+                        "padding": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true }
+                      },
+                      "elements": [
+                        {
+                          "id": "hp0001e",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Energy & Climate",
+                            "header_size": "h3",
+                            "title_color": "#1B2A4A",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Merriweather",
+                            "typography_font_size": { "unit": "px", "size": 22 },
+                            "typography_font_weight": "700",
+                            "typography_line_height": { "unit": "em", "size": 1.3 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp0001f",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>Positioning Houston as a global leader in the energy transition while ensuring economic resilience and environmental sustainability.</p>",
+                            "text_color": "#555555",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 15 },
+                            "typography_line_height": { "unit": "em", "size": 1.6 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp00020",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "Learn More →",
+                            "link": { "url": "/initiatives/energy-climate/", "is_external": false, "nofollow": false },
+                            "button_type": "link",
+                            "size": "xs",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 14 },
+                            "typography_font_weight": "600",
+                            "button_text_color": "#56B84A",
+                            "button_text_color_hover": "#3d8f35",
+                            "background_color": "transparent",
+                            "button_padding": { "unit": "px", "top": "8", "right": "0", "bottom": "8", "left": "0", "isLinked": false }
+                          },
+                          "elements": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hp00021",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_justify_content": "flex-start",
+                    "flex_align_items": "stretch",
+                    "width": { "unit": "%", "size": 31 },
+                    "min_width": { "unit": "px", "size": 300 },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#e5e5e5",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 8,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.06)"
+                    },
+                    "overflow": "hidden",
+                    "css_classes": "chf-initiative-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "hp00022",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "", "id": "" },
+                        "image_size": "medium_large",
+                        "width": { "unit": "%", "size": 100 },
+                        "height": { "unit": "px", "size": 220 },
+                        "object_fit": "cover"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "hp00023",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": { "unit": "px", "size": 12, "column": "12", "row": "12" },
+                        "padding": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true }
+                      },
+                      "elements": [
+                        {
+                          "id": "hp00024",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Health & Health Equity",
+                            "header_size": "h3",
+                            "title_color": "#1B2A4A",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Merriweather",
+                            "typography_font_size": { "unit": "px", "size": 22 },
+                            "typography_font_weight": "700",
+                            "typography_line_height": { "unit": "em", "size": 1.3 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp00025",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>Advancing strategies to improve health outcomes and reduce disparities across Houston's diverse communities.</p>",
+                            "text_color": "#555555",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 15 },
+                            "typography_line_height": { "unit": "em", "size": 1.6 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp00026",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "Learn More →",
+                            "link": { "url": "/initiatives/health-equity/", "is_external": false, "nofollow": false },
+                            "button_type": "link",
+                            "size": "xs",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 14 },
+                            "typography_font_weight": "600",
+                            "button_text_color": "#56B84A",
+                            "button_text_color_hover": "#3d8f35",
+                            "background_color": "transparent",
+                            "button_padding": { "unit": "px", "top": "8", "right": "0", "bottom": "8", "left": "0", "isLinked": false }
+                          },
+                          "elements": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hp00027",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "column",
+                    "flex_justify_content": "flex-start",
+                    "flex_align_items": "stretch",
+                    "width": { "unit": "%", "size": 31 },
+                    "min_width": { "unit": "px", "size": 300 },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "#e5e5e5",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 8,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.06)"
+                    },
+                    "overflow": "hidden",
+                    "css_classes": "chf-initiative-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "hp00028",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "", "id": "" },
+                        "image_size": "medium_large",
+                        "width": { "unit": "%", "size": 100 },
+                        "height": { "unit": "px", "size": 220 },
+                        "object_fit": "cover"
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "hp00029",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": { "unit": "px", "size": 12, "column": "12", "row": "12" },
+                        "padding": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true }
+                      },
+                      "elements": [
+                        {
+                          "id": "hp0002a",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Immigration",
+                            "header_size": "h3",
+                            "title_color": "#1B2A4A",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Merriweather",
+                            "typography_font_size": { "unit": "px", "size": 22 },
+                            "typography_font_weight": "700",
+                            "typography_line_height": { "unit": "em", "size": 1.3 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp0002b",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>Championing the economic and cultural contributions of immigrants to Houston's growth, prosperity, and global competitiveness.</p>",
+                            "text_color": "#555555",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 15 },
+                            "typography_line_height": { "unit": "em", "size": 1.6 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp0002c",
+                          "elType": "widget",
+                          "widgetType": "button",
+                          "settings": {
+                            "text": "Learn More →",
+                            "link": { "url": "/initiatives/immigration/", "is_external": false, "nofollow": false },
+                            "button_type": "link",
+                            "size": "xs",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 14 },
+                            "typography_font_weight": "600",
+                            "button_text_color": "#56B84A",
+                            "button_text_color_hover": "#3d8f35",
+                            "background_color": "transparent",
+                            "button_padding": { "unit": "px", "top": "8", "right": "0", "bottom": "8", "left": "0", "isLinked": false }
+                          },
+                          "elements": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp0002d",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#1B2A4A",
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false },
+        "css_classes": "chf-stats"
+      },
+      "elements": [
+        {
+          "id": "hp0002e",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "flex_gap": { "unit": "px", "size": 32, "column": "32", "row": "32" },
+            "flex_wrap": "wrap",
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "hp0002f",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 8, "column": "8", "row": "8" },
+                "width": { "unit": "%", "size": 22 },
+                "min_width": { "unit": "px", "size": 140 }
+              },
+              "elements": [
+                {
+                  "id": "hp00030",
+                  "elType": "widget",
+                  "widgetType": "counter",
+                  "settings": {
+                    "starting_number": 0,
+                    "ending_number": 25,
+                    "suffix": "+",
+                    "title": "Years",
+                    "align": "center",
+                    "number_color": "#C9A84C",
+                    "number_typography_typography": "custom",
+                    "number_typography_font_family": "Merriweather",
+                    "number_typography_font_size": { "unit": "px", "size": 56 },
+                    "number_typography_font_size_mobile": { "unit": "px", "size": 36 },
+                    "number_typography_font_weight": "700",
+                    "title_color": "rgba(255,255,255,0.6)",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Inter",
+                    "title_typography_font_size": { "unit": "px", "size": 14 },
+                    "title_typography_font_weight": "600",
+                    "title_typography_text_transform": "uppercase",
+                    "title_typography_letter_spacing": { "unit": "px", "size": 1 }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "hp00031",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 8, "column": "8", "row": "8" },
+                "width": { "unit": "%", "size": 22 },
+                "min_width": { "unit": "px", "size": 140 }
+              },
+              "elements": [
+                {
+                  "id": "hp00032",
+                  "elType": "widget",
+                  "widgetType": "counter",
+                  "settings": {
+                    "starting_number": 0,
+                    "ending_number": 1000,
+                    "suffix": "+",
+                    "title": "Leaders",
+                    "align": "center",
+                    "number_color": "#C9A84C",
+                    "number_typography_typography": "custom",
+                    "number_typography_font_family": "Merriweather",
+                    "number_typography_font_size": { "unit": "px", "size": 56 },
+                    "number_typography_font_size_mobile": { "unit": "px", "size": 36 },
+                    "number_typography_font_weight": "700",
+                    "title_color": "rgba(255,255,255,0.6)",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Inter",
+                    "title_typography_font_size": { "unit": "px", "size": 14 },
+                    "title_typography_font_weight": "600",
+                    "title_typography_text_transform": "uppercase",
+                    "title_typography_letter_spacing": { "unit": "px", "size": 1 }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "hp00033",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 8, "column": "8", "row": "8" },
+                "width": { "unit": "%", "size": 22 },
+                "min_width": { "unit": "px", "size": 140 }
+              },
+              "elements": [
+                {
+                  "id": "hp00034",
+                  "elType": "widget",
+                  "widgetType": "counter",
+                  "settings": {
+                    "starting_number": 0,
+                    "ending_number": 3,
+                    "suffix": "",
+                    "title": "Focus Areas",
+                    "align": "center",
+                    "number_color": "#C9A84C",
+                    "number_typography_typography": "custom",
+                    "number_typography_font_family": "Merriweather",
+                    "number_typography_font_size": { "unit": "px", "size": 56 },
+                    "number_typography_font_size_mobile": { "unit": "px", "size": 36 },
+                    "number_typography_font_weight": "700",
+                    "title_color": "rgba(255,255,255,0.6)",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Inter",
+                    "title_typography_font_size": { "unit": "px", "size": 14 },
+                    "title_typography_font_weight": "600",
+                    "title_typography_text_transform": "uppercase",
+                    "title_typography_letter_spacing": { "unit": "px", "size": 1 }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "hp00035",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "flex_gap": { "unit": "px", "size": 8, "column": "8", "row": "8" },
+                "width": { "unit": "%", "size": 22 },
+                "min_width": { "unit": "px", "size": 140 }
+              },
+              "elements": [
+                {
+                  "id": "hp00036",
+                  "elType": "widget",
+                  "widgetType": "counter",
+                  "settings": {
+                    "starting_number": 0,
+                    "ending_number": 2,
+                    "prefix": "$",
+                    "suffix": "B+",
+                    "title": "Impact",
+                    "align": "center",
+                    "number_color": "#C9A84C",
+                    "number_typography_typography": "custom",
+                    "number_typography_font_family": "Merriweather",
+                    "number_typography_font_size": { "unit": "px", "size": 56 },
+                    "number_typography_font_size_mobile": { "unit": "px", "size": 36 },
+                    "number_typography_font_weight": "700",
+                    "title_color": "rgba(255,255,255,0.6)",
+                    "title_typography_typography": "custom",
+                    "title_typography_font_family": "Inter",
+                    "title_typography_font_size": { "unit": "px", "size": 14 },
+                    "title_typography_font_weight": "600",
+                    "title_typography_text_transform": "uppercase",
+                    "title_typography_letter_spacing": { "unit": "px", "size": 1 }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp00037",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#f7f6f4",
+        "padding": { "unit": "px", "top": "96", "right": "24", "bottom": "96", "left": "24", "isLinked": false },
+        "css_classes": "chf-news-events"
+      },
+      "elements": [
+        {
+          "id": "hp00038",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "flex-start",
+            "flex_gap": { "unit": "px", "size": 48, "column": "48", "row": "48" },
+            "flex_wrap": "wrap",
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "hp00039",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 24, "column": "24", "row": "24" },
+                "width": { "unit": "%", "size": 48 },
+                "min_width": { "unit": "px", "size": 320 }
+              },
+              "elements": [
+                {
+                  "id": "hp0003a",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Latest News",
+                    "header_size": "h2",
+                    "title_color": "#1B2A4A",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Merriweather",
+                    "typography_font_size": { "unit": "px", "size": 28 },
+                    "typography_font_size_tablet": { "unit": "px", "size": 28 },
+                    "typography_font_size_mobile": { "unit": "px", "size": 24 },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "hp0003b",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_align_items": "flex-start",
+                    "flex_gap": { "unit": "px", "size": 16, "column": "16", "row": "16" },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 8,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.05)"
+                    },
+                    "css_classes": "chf-news-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "hp0003c",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "", "id": "" },
+                        "image_size": "thumbnail",
+                        "width": { "unit": "px", "size": 100 },
+                        "height": { "unit": "px", "size": 80 },
+                        "object_fit": "cover",
+                        "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "hp0003d",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": { "unit": "px", "size": 4, "column": "4", "row": "4" },
+                        "flex_grow": 1
+                      },
+                      "elements": [
+                        {
+                          "id": "hp0003e",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "News Article Title Placeholder",
+                            "header_size": "h4",
+                            "title_color": "#1B2A4A",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 15 },
+                            "typography_font_weight": "600",
+                            "typography_line_height": { "unit": "em", "size": 1.4 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp0003f",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>March 15, 2026</p>",
+                            "text_color": "#999999",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 12 },
+                            "typography_font_weight": "500"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp00040",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>Brief excerpt of the news article content goes here with a summary of the story...</p>",
+                            "text_color": "#666666",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 13 },
+                            "typography_line_height": { "unit": "em", "size": 1.5 }
+                          },
+                          "elements": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hp00041",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_align_items": "flex-start",
+                    "flex_gap": { "unit": "px", "size": 16, "column": "16", "row": "16" },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 8,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.05)"
+                    },
+                    "css_classes": "chf-news-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "hp00042",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "", "id": "" },
+                        "image_size": "thumbnail",
+                        "width": { "unit": "px", "size": 100 },
+                        "height": { "unit": "px", "size": 80 },
+                        "object_fit": "cover",
+                        "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "hp00043",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": { "unit": "px", "size": 4, "column": "4", "row": "4" },
+                        "flex_grow": 1
+                      },
+                      "elements": [
+                        {
+                          "id": "hp00044",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Second News Article Title",
+                            "header_size": "h4",
+                            "title_color": "#1B2A4A",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 15 },
+                            "typography_font_weight": "600",
+                            "typography_line_height": { "unit": "em", "size": 1.4 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp00045",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>March 10, 2026</p>",
+                            "text_color": "#999999",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 12 },
+                            "typography_font_weight": "500"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp00046",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>Brief excerpt of the second news article goes here with relevant summary content...</p>",
+                            "text_color": "#666666",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 13 },
+                            "typography_line_height": { "unit": "em", "size": 1.5 }
+                          },
+                          "elements": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hp00047",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_align_items": "flex-start",
+                    "flex_gap": { "unit": "px", "size": 16, "column": "16", "row": "16" },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 8,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.05)"
+                    },
+                    "css_classes": "chf-news-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "hp00048",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings": {
+                        "image": { "url": "", "id": "" },
+                        "image_size": "thumbnail",
+                        "width": { "unit": "px", "size": 100 },
+                        "height": { "unit": "px", "size": 80 },
+                        "object_fit": "cover",
+                        "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }
+                      },
+                      "elements": []
+                    },
+                    {
+                      "id": "hp00049",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": { "unit": "px", "size": 4, "column": "4", "row": "4" },
+                        "flex_grow": 1
+                      },
+                      "elements": [
+                        {
+                          "id": "hp0004a",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Third News Article Title",
+                            "header_size": "h4",
+                            "title_color": "#1B2A4A",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 15 },
+                            "typography_font_weight": "600",
+                            "typography_line_height": { "unit": "em", "size": 1.4 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp0004b",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>March 5, 2026</p>",
+                            "text_color": "#999999",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 12 },
+                            "typography_font_weight": "500"
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp0004c",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>Brief excerpt of the third news article content goes here with key highlights...</p>",
+                            "text_color": "#666666",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 13 },
+                            "typography_line_height": { "unit": "em", "size": 1.5 }
+                          },
+                          "elements": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hp0004d",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View All News",
+                    "link": { "url": "/news/", "is_external": false, "nofollow": false },
+                    "align": "left",
+                    "size": "sm",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "600",
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "#1B2A4A",
+                    "button_text_color_hover": "#FFFFFF",
+                    "button_background_hover_color": "#0f1a2e",
+                    "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                    "button_padding": { "unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28", "isLinked": false }
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "hp0004e",
+              "elType": "container",
+              "settings": {
+                "content_width": "full",
+                "flex_direction": "column",
+                "flex_gap": { "unit": "px", "size": 24, "column": "24", "row": "24" },
+                "width": { "unit": "%", "size": 48 },
+                "min_width": { "unit": "px", "size": 320 }
+              },
+              "elements": [
+                {
+                  "id": "hp0004f",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Upcoming Events",
+                    "header_size": "h2",
+                    "title_color": "#1B2A4A",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Merriweather",
+                    "typography_font_size": { "unit": "px", "size": 28 },
+                    "typography_font_size_tablet": { "unit": "px", "size": 28 },
+                    "typography_font_size_mobile": { "unit": "px", "size": 24 },
+                    "typography_font_weight": "700"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "hp00050",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_align_items": "center",
+                    "flex_gap": { "unit": "px", "size": 16, "column": "16", "row": "16" },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 8,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.05)"
+                    },
+                    "css_classes": "chf-event-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "hp00051",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "width": { "unit": "px", "size": 64 },
+                        "min_height": { "unit": "px", "size": 64 },
+                        "background_background": "classic",
+                        "background_color": "#56B84A",
+                        "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }
+                      },
+                      "elements": [
+                        {
+                          "id": "hp00052",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "APR",
+                            "header_size": "span",
+                            "align": "center",
+                            "title_color": "#FFFFFF",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 10 },
+                            "typography_font_weight": "700",
+                            "typography_text_transform": "uppercase",
+                            "typography_letter_spacing": { "unit": "px", "size": 1 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp00053",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "22",
+                            "header_size": "span",
+                            "align": "center",
+                            "title_color": "#FFFFFF",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Merriweather",
+                            "typography_font_size": { "unit": "px", "size": 22 },
+                            "typography_font_weight": "700"
+                          },
+                          "elements": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "hp00054",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": { "unit": "px", "size": 4, "column": "4", "row": "4" },
+                        "flex_grow": 1
+                      },
+                      "elements": [
+                        {
+                          "id": "hp00055",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Annual Energy Summit 2026",
+                            "header_size": "h4",
+                            "title_color": "#1B2A4A",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 15 },
+                            "typography_font_weight": "600",
+                            "typography_line_height": { "unit": "em", "size": 1.4 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp00056",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>9:00 AM - 5:00 PM &bull; George R. Brown Convention Center</p>",
+                            "text_color": "#999999",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 12 },
+                            "typography_font_weight": "500"
+                          },
+                          "elements": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hp00057",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_align_items": "center",
+                    "flex_gap": { "unit": "px", "size": 16, "column": "16", "row": "16" },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 8,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.05)"
+                    },
+                    "css_classes": "chf-event-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "hp00058",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "width": { "unit": "px", "size": 64 },
+                        "min_height": { "unit": "px", "size": 64 },
+                        "background_background": "classic",
+                        "background_color": "#56B84A",
+                        "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }
+                      },
+                      "elements": [
+                        {
+                          "id": "hp00059",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "MAY",
+                            "header_size": "span",
+                            "align": "center",
+                            "title_color": "#FFFFFF",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 10 },
+                            "typography_font_weight": "700",
+                            "typography_text_transform": "uppercase",
+                            "typography_letter_spacing": { "unit": "px", "size": 1 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp0005a",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "10",
+                            "header_size": "span",
+                            "align": "center",
+                            "title_color": "#FFFFFF",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Merriweather",
+                            "typography_font_size": { "unit": "px", "size": 22 },
+                            "typography_font_weight": "700"
+                          },
+                          "elements": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "hp0005b",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": { "unit": "px", "size": 4, "column": "4", "row": "4" },
+                        "flex_grow": 1
+                      },
+                      "elements": [
+                        {
+                          "id": "hp0005c",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Health Equity Forum",
+                            "header_size": "h4",
+                            "title_color": "#1B2A4A",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 15 },
+                            "typography_font_weight": "600",
+                            "typography_line_height": { "unit": "em", "size": 1.4 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp0005d",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>8:30 AM - 12:00 PM &bull; Houston Methodist Research Institute</p>",
+                            "text_color": "#999999",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 12 },
+                            "typography_font_weight": "500"
+                          },
+                          "elements": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hp0005e",
+                  "elType": "container",
+                  "settings": {
+                    "content_width": "full",
+                    "flex_direction": "row",
+                    "flex_align_items": "center",
+                    "flex_gap": { "unit": "px", "size": 16, "column": "16", "row": "16" },
+                    "background_background": "classic",
+                    "background_color": "#FFFFFF",
+                    "border_radius": { "unit": "px", "top": "12", "right": "12", "bottom": "12", "left": "12", "isLinked": true },
+                    "padding": { "unit": "px", "top": "16", "right": "16", "bottom": "16", "left": "16", "isLinked": true },
+                    "box_shadow_box_shadow": {
+                      "horizontal": 0,
+                      "vertical": 2,
+                      "blur": 8,
+                      "spread": 0,
+                      "color": "rgba(0,0,0,0.05)"
+                    },
+                    "css_classes": "chf-event-card"
+                  },
+                  "elements": [
+                    {
+                      "id": "hp0005f",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "width": { "unit": "px", "size": 64 },
+                        "min_height": { "unit": "px", "size": 64 },
+                        "background_background": "classic",
+                        "background_color": "#56B84A",
+                        "border_radius": { "unit": "px", "top": "8", "right": "8", "bottom": "8", "left": "8", "isLinked": true }
+                      },
+                      "elements": [
+                        {
+                          "id": "hp00060",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "JUN",
+                            "header_size": "span",
+                            "align": "center",
+                            "title_color": "#FFFFFF",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 10 },
+                            "typography_font_weight": "700",
+                            "typography_text_transform": "uppercase",
+                            "typography_letter_spacing": { "unit": "px", "size": 1 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp00061",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "03",
+                            "header_size": "span",
+                            "align": "center",
+                            "title_color": "#FFFFFF",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Merriweather",
+                            "typography_font_size": { "unit": "px", "size": 22 },
+                            "typography_font_weight": "700"
+                          },
+                          "elements": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "hp00062",
+                      "elType": "container",
+                      "settings": {
+                        "content_width": "full",
+                        "flex_direction": "column",
+                        "flex_gap": { "unit": "px", "size": 4, "column": "4", "row": "4" },
+                        "flex_grow": 1
+                      },
+                      "elements": [
+                        {
+                          "id": "hp00063",
+                          "elType": "widget",
+                          "widgetType": "heading",
+                          "settings": {
+                            "title": "Immigration Economic Impact Workshop",
+                            "header_size": "h4",
+                            "title_color": "#1B2A4A",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 15 },
+                            "typography_font_weight": "600",
+                            "typography_line_height": { "unit": "em", "size": 1.4 }
+                          },
+                          "elements": []
+                        },
+                        {
+                          "id": "hp00064",
+                          "elType": "widget",
+                          "widgetType": "text-editor",
+                          "settings": {
+                            "editor": "<p>2:00 PM - 4:30 PM &bull; Rice University Baker Hall</p>",
+                            "text_color": "#999999",
+                            "typography_typography": "custom",
+                            "typography_font_family": "Inter",
+                            "typography_font_size": { "unit": "px", "size": 12 },
+                            "typography_font_weight": "500"
+                          },
+                          "elements": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "hp00065",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "View All Events",
+                    "link": { "url": "/events/", "is_external": false, "nofollow": false },
+                    "align": "left",
+                    "size": "sm",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "600",
+                    "button_text_color": "#FFFFFF",
+                    "background_color": "#1B2A4A",
+                    "button_text_color_hover": "#FFFFFF",
+                    "button_background_hover_color": "#0f1a2e",
+                    "border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                    "button_padding": { "unit": "px", "top": "12", "right": "28", "bottom": "12", "left": "28", "isLinked": false }
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hp00066",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_justify_content": "center",
+        "flex_align_items": "center",
+        "background_background": "gradient",
+        "background_color": "#1B2A4A",
+        "background_color_b": "#0f1a2e",
+        "background_gradient_angle": { "unit": "deg", "size": 135 },
+        "padding": { "unit": "px", "top": "80", "right": "24", "bottom": "80", "left": "24", "isLinked": false },
+        "css_classes": "chf-newsletter"
+      },
+      "elements": [
+        {
+          "id": "hp00067",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 680 },
+            "flex_direction": "column",
+            "flex_justify_content": "center",
+            "flex_align_items": "center",
+            "flex_gap": { "unit": "px", "size": 24, "column": "24", "row": "24" },
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "hp00068",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Stay Connected",
+                "header_size": "h2",
+                "align": "center",
+                "title_color": "#FFFFFF",
+                "typography_typography": "custom",
+                "typography_font_family": "Merriweather",
+                "typography_font_size": { "unit": "px", "size": 32 },
+                "typography_font_size_tablet": { "unit": "px", "size": 28 },
+                "typography_font_size_mobile": { "unit": "px", "size": 24 },
+                "typography_font_weight": "700"
+              },
+              "elements": []
+            },
+            {
+              "id": "hp00069",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Subscribe to our newsletter for the latest updates on Houston's future — research, events, and opportunities to get involved.</p>",
+                "align": "center",
+                "text_color": "rgba(255,255,255,0.7)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 16 },
+                "typography_line_height": { "unit": "em", "size": 1.6 }
+              },
+              "elements": []
+            },
+            {
+              "id": "hp0006a",
+              "elType": "widget",
+              "widgetType": "form",
+              "settings": {
+                "form_name": "Newsletter Signup",
+                "form_fields": [
+                  {
+                    "_id": "email",
+                    "field_type": "email",
+                    "field_label": "Email Address",
+                    "placeholder": "Enter your email address",
+                    "required": "true",
+                    "width": "75"
+                  },
+                  {
+                    "_id": "submit",
+                    "field_type": "submit",
+                    "field_label": "Subscribe",
+                    "width": "25"
+                  }
+                ],
+                "button_size": "md",
+                "button_text": "Subscribe",
+                "button_color": "#FFFFFF",
+                "button_background_color": "#56B84A",
+                "button_hover_color": "#FFFFFF",
+                "button_background_hover_color": "#3d8f35",
+                "button_border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "field_text_color": "#333333",
+                "field_background_color": "#FFFFFF",
+                "field_border_color": "transparent",
+                "field_border_radius": { "unit": "px", "top": "28", "right": "28", "bottom": "28", "left": "28", "isLinked": true },
+                "column_gap": { "unit": "px", "size": 8 },
+                "css_classes": "chf-newsletter__form"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "template": "elementor_header_footer"
+  },
+  "metadata": {"type": "page", "title": "CHF Homepage"}
+}

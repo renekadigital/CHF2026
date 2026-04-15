@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+  xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+  <title>Center for Houston&#039;s Future</title>
+  <link>https://centerforhoustonsfuture.org</link>
+  <description>Houston&#039;s premier cross-sector think tank driving research, civic leadership, and strategic initiatives for the region&#039;s future.</description>
+  <language>en-US</language>
+  <wp:wxr_version>1.2</wp:wxr_version>
+  <wp:base_site_url>https://centerforhoustonsfuture.org</wp:base_site_url>
+  <wp:base_blog_url>https://centerforhoustonsfuture.org</wp:base_blog_url>
+  <generator>https://wordpress.org/?v=6.7</generator>
+
+  <wp:author>
+    <wp:author_id>1</wp:author_id>
+    <wp:author_login><![CDATA[admin]]></wp:author_login>
+    <wp:author_email><![CDATA[admin@centerforhoustonsfuture.org]]></wp:author_email>
+    <wp:author_display_name><![CDATA[CHF Admin]]></wp:author_display_name>
+    <wp:author_first_name><![CDATA[]]></wp:author_first_name>
+    <wp:author_last_name><![CDATA[]]></wp:author_last_name>
+  </wp:author>
+
+  <!-- ==================== CATEGORIES ==================== -->
+
+  <wp:category>
+    <wp:term_id>10</wp:term_id>
+    <wp:category_nicename><![CDATA[energy-climate]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Energy & Climate]]></wp:cat_name>
+  </wp:category>
+
+  <wp:category>
+    <wp:term_id>11</wp:term_id>
+    <wp:category_nicename><![CDATA[health-equity]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Health & Health Equity]]></wp:cat_name>
+  </wp:category>
+
+  <wp:category>
+    <wp:term_id>12</wp:term_id>
+    <wp:category_nicename><![CDATA[immigration]]></wp:category_nicename>
+    <wp:category_parent><![CDATA[]]></wp:category_parent>
+    <wp:cat_name><![CDATA[Immigration]]></wp:cat_name>
+  </wp:category>
+
+  <!-- ==================== CUSTOM TAXONOMY: initiative_category ==================== -->
+
+  <wp:term>
+    <wp:term_id>20</wp:term_id>
+    <wp:term_taxonomy><![CDATA[initiative_category]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[energy-climate]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Energy & Climate]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>21</wp:term_id>
+    <wp:term_taxonomy><![CDATA[initiative_category]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[health-equity]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Health & Health Equity]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>22</wp:term_id>
+    <wp:term_taxonomy><![CDATA[initiative_category]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[immigration]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Immigration]]></wp:term_name>
+  </wp:term>
+
+  <!-- ==================== CUSTOM TAXONOMY: event_type ==================== -->
+
+  <wp:term>
+    <wp:term_id>30</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[conference]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Conference]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>31</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[forum]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Forum]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>32</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[workshop]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Workshop]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>33</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[dinner]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Dinner]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>34</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[summit]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Summit]]></wp:term_name>
+  </wp:term>
+
+  <wp:term>
+    <wp:term_id>35</wp:term_id>
+    <wp:term_taxonomy><![CDATA[event_type]]></wp:term_taxonomy>
+    <wp:term_slug><![CDATA[meeting]]></wp:term_slug>
+    <wp:term_parent><![CDATA[]]></wp:term_parent>
+    <wp:term_name><![CDATA[Meeting]]></wp:term_name>
+  </wp:term>
+
+
+  <!-- ==================== PAGES (20) ==================== -->
+
+  
+  <!-- ==================== EVENTS (import 3rd) ==================== -->
+
+  <item>
+    <title><![CDATA[CHF Spring Policy Forum]]></title>
+    <link>https://centerforhoustonsfuture.org/events/spring-forum/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<section class="resources-section" aria-labelledby="resources-heading">
+  <div class="resources-eyebrow reveal">
+    <div class="eline" aria-hidden="true"></div>
+    <span class="etxt">Partner Organizations</span>
+  </div>
+  <h2 id="resources-heading" class="resources-heading reveal d1">Research &amp; Policy Resources</h2>
+  <p class="resources-intro reveal d2">Explore immigration research and policy analysis from these leading non-partisan organizations.</p>
+
+  <div class="resources-grid">
+
+    <a class="resource-card reveal d1" href="https://bipartisanpolicy.org/" target="_blank" rel="noopener noreferrer">
+      <div class="resource-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z"/></svg>
+      </div>
+      <div class="resource-content">
+        <div class="resource-name">Bipartisan Policy Center</div>
+      </div>
+      <svg class="resource-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+
+    <a class="resource-card reveal d2" href="https://www.cato.org/immigration" target="_blank" rel="noopener noreferrer">
+      <div class="resource-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z"/></svg>
+      </div>
+      <div class="resource-content">
+        <div class="resource-name">Cato Institute</div>
+      </div>
+      <svg class="resource-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+
+    <a class="resource-card reveal d1" href="https://www.fwd.us/" target="_blank" rel="noopener noreferrer">
+      <div class="resource-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z"/></svg>
+      </div>
+      <div class="resource-content">
+        <div class="resource-name">FWD.us</div>
+      </div>
+      <svg class="resource-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+
+    <a class="resource-card reveal d2" href="https://www.bushcenter.org/" target="_blank" rel="noopener noreferrer">
+      <div class="resource-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z"/></svg>
+      </div>
+      <div class="resource-content">
+        <div class="resource-name">George W. Bush Institute</div>
+      </div>
+      <svg class="resource-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+
+    <a class="resource-card reveal d1" href="https://www.migrationpolicy.org/" target="_blank" rel="noopener noreferrer">
+      <div class="resource-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z"/></svg>
+      </div>
+      <div class="resource-content">
+        <div class="resource-name">Migration Policy Institute</div>
+      </div>
+      <svg class="resource-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+
+    <a class="resource-card reveal d2" href="https://immigrationforum.org/" target="_blank" rel="noopener noreferrer">
+      <div class="resource-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z"/></svg>
+      </div>
+      <div class="resource-content">
+        <div class="resource-name">National Immigration Forum</div>
+      </div>
+      <svg class="resource-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+
+    <a class="resource-card reveal d1" href="https://www.newamericaneconomy.org/" target="_blank" rel="noopener noreferrer">
+      <div class="resource-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z"/></svg>
+      </div>
+      <div class="resource-content">
+        <div class="resource-name">New American Economy</div>
+      </div>
+      <svg class="resource-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+
+    <a class="resource-card reveal d2" href="https://www.bakerinstitute.org/" target="_blank" rel="noopener noreferrer">
+      <div class="resource-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M4 4.5A2.5 2.5 0 016.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15z"/></svg>
+      </div>
+      <div class="resource-content">
+        <div class="resource-name">Rice University's Baker Institute CUSMX</div>
+      </div>
+      <svg class="resource-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+
+  </div>
+</section>
+
+<section class="back-section reveal">
+  <a href="chf_immigration_v4.html" class="back-link">
+    <span class="arr" aria-hidden="true">&larr;</span> Back to Immigration
+  </a>
+</section>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>300</wp:post_id>
+    <wp:post_date>2026-03-15 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[spring-forum]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[chf_event]]></wp:post_type>
+    <category domain="event_type" nicename="forum"><![CDATA[Forum]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Join CHF for a half-day policy forum on Houston's economic future featuring panels on energy, workforce, and healthcare.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_date</wp:meta_key><wp:meta_value><![CDATA[20260514]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_time</wp:meta_key><wp:meta_value><![CDATA[8:00 AM - 1:00 PM]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_location</wp:meta_key><wp:meta_value><![CDATA[Houston, TX]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Upcoming Event]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Forum]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[May 15, 2026]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Project Metis: Brain Health Summit]]></title>
+    <link>https://centerforhoustonsfuture.org/events/brain-health-summit/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<div style="padding:80px var(--container-pad);max-width:900px;margin:auto;">
+
+    <div class="reveal" style="margin-bottom:32px;padding:24px 28px;background:var(--off);border-radius:var(--radius-md);border:1px solid var(--rule);display:flex;flex-direction:column;gap:12px;">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <svg style="width:18px;height:18px;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span style="color:var(--text);font-weight:600;">9:00 AM &ndash; 12:00 PM</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <svg style="width:18px;height:18px;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span style="color:var(--mid);">Partnership Tower, 701 Avenida de las Americas, Suite 900, Houston</span>
+      </div>
+      <a href="#register" style="margin-top:8px;display:inline-flex;align-self:flex-start;padding:12px 28px;background:var(--navy);color:var(--white);text-decoration:none;font-weight:700;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;border-radius:var(--radius-pill);transition:background 0.2s,box-shadow 0.2s;">
+        Register Now <span aria-hidden="true" style="margin-left:6px;">&#8594;</span>
+      </a>
+    </div>
+
+    <div class="reveal" style="font-size:17px;line-height:1.8;color:var(--mid);">
+      <p>A half-day forum exploring policy priorities for Houston's economic future, featuring panels on energy transition, workforce development, and healthcare innovation.</p><p>Panelists include leaders from the energy sector, healthcare institutions, and city government. Topics include Houston's role in the national energy transition, workforce pipeline development, and emerging health technology investments.</p><p>This forum builds on CHF's decades of cross-sector convening experience, bringing together diverse stakeholders to shape actionable policy recommendations for the Houston region.</p>
+    </div>
+
+    <div class="event-map reveal">
+      <h2>Location</h2>
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps?q=Partnership+Tower+701+Avenida+de+las+Americas+Houston+TX&output=embed" sandbox="allow-scripts allow-same-origin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Event location map"></iframe>
+      </div>
+    </div>
+
+    <div class="event-registration reveal" id="register">
+      <h2>Register for This Event</h2>
+      <p class="reg-sub">Secure your spot. All fields are required unless noted.</p>
+      <form class="reg-form" action="#" method="post" aria-label="Event registration">
+        <div class="form-row">
+          <div>
+            <label for="reg-first">First Name</label>
+            <input type="text" id="reg-first" name="first_name" autocomplete="given-name" required>
+          </div>
+          <div>
+            <label for="reg-last">Last Name</label>
+            <input type="text" id="reg-last" name="last_name" autocomplete="family-name" required>
+          </div>
+        </div>
+        <div>
+          <label for="reg-email">Email Address</label>
+          <input type="email" id="reg-email" name="email" autocomplete="email" required>
+        </div>
+        <div>
+          <label for="reg-org">Organization <span style="color:var(--muted);font-weight:400;">(optional)</span></label>
+          <input type="text" id="reg-org" name="organization" autocomplete="organization">
+        </div>
+        <button type="submit" class="reg-submit">Register Now &#8594;</button>
+      </form>
+      <p class="reg-or-external">Or register via <a href="#" target="_blank" rel="noopener noreferrer">Eventbrite</a></p>
+    </div>
+  </div>
+
+  <div style="padding:0 var(--container-pad) 48px;max-width:900px;margin:auto;">
+    <a href="chf_events_v4.html" class="reveal" style="display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--navy);text-decoration:none;transition:color 0.2s;">
+      <span aria-hidden="true">&#8592;</span> Back to Events
+    </a>
+  </div>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>301</wp:post_id>
+    <wp:post_date>2026-03-15 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[brain-health-summit]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[chf_event]]></wp:post_type>
+    <category domain="event_type" nicename="summit"><![CDATA[Summit]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Full-day summit advancing Houston's brain health initiative with leading researchers and healthcare executives.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_date</wp:meta_key><wp:meta_value><![CDATA[20260610]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta>
+    <wp:meta_key>event_time</wp:meta_key>
+    <wp:meta_value><![CDATA[6:30 PM – 8:30 PM CST]]></wp:meta_value>
+</wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_location</wp:meta_key><wp:meta_value><![CDATA[Houston, TX]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Upcoming Event]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Summit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[June 10, 2026]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Houston Hydrogen Economy Workshop]]></title>
+    <link>https://centerforhoustonsfuture.org/events/hydrogen-workshop/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<div style="padding:80px var(--container-pad);max-width:900px;margin:auto;">
+
+    <div class="reveal" style="margin-bottom:32px;padding:24px 28px;background:var(--off);border-radius:var(--radius-md);border:1px solid var(--rule);display:flex;flex-direction:column;gap:12px;">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <svg style="width:18px;height:18px;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span style="color:var(--text);font-weight:600;">8:30 AM &ndash; 4:00 PM</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <svg style="width:18px;height:18px;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span style="color:var(--mid);">Texas Medical Center, John P. McGovern Campus, Houston</span>
+      </div>
+      <a href="#register" style="margin-top:8px;display:inline-flex;align-self:flex-start;padding:12px 28px;background:var(--navy);color:var(--white);text-decoration:none;font-weight:700;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;border-radius:var(--radius-pill);transition:background 0.2s,box-shadow 0.2s;">
+        Register Now <span aria-hidden="true" style="margin-left:6px;">&#8594;</span>
+      </a>
+    </div>
+
+    <div class="reveal" style="font-size:17px;line-height:1.8;color:var(--mid);">
+      <p>A full-day summit convening leading researchers, healthcare executives, and policymakers to advance Houston's brain health initiative and discuss breakthrough neuroscience research.</p><p>The summit features keynote addresses from leading neuroscientists, panel discussions on translational research, and interactive workshops on clinical applications. Attendees will have the opportunity to connect with researchers from Rice University, UTMB, and the Texas Medical Center.</p><p>Project Metis represents an unprecedented collaboration among Houston's leading institutions, and this summit marks a major milestone in the initiative's development.</p>
+    </div>
+
+    <div class="event-map reveal">
+      <h2>Location</h2>
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps?q=Texas+Medical+Center+John+P+McGovern+Campus+Houston+TX&output=embed" sandbox="allow-scripts allow-same-origin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Event location map"></iframe>
+      </div>
+    </div>
+
+    <div class="event-registration reveal" id="register">
+      <h2>Register for This Event</h2>
+      <p class="reg-sub">Secure your spot. All fields are required unless noted.</p>
+      <form class="reg-form" action="#" method="post" aria-label="Event registration">
+        <div class="form-row">
+          <div>
+            <label for="reg-first">First Name</label>
+            <input type="text" id="reg-first" name="first_name" autocomplete="given-name" required>
+          </div>
+          <div>
+            <label for="reg-last">Last Name</label>
+            <input type="text" id="reg-last" name="last_name" autocomplete="family-name" required>
+          </div>
+        </div>
+        <div>
+          <label for="reg-email">Email Address</label>
+          <input type="email" id="reg-email" name="email" autocomplete="email" required>
+        </div>
+        <div>
+          <label for="reg-org">Organization <span style="color:var(--muted);font-weight:400;">(optional)</span></label>
+          <input type="text" id="reg-org" name="organization" autocomplete="organization">
+        </div>
+        <button type="submit" class="reg-submit">Register Now &#8594;</button>
+      </form>
+      <p class="reg-or-external">Or register via <a href="#" target="_blank" rel="noopener noreferrer">Eventbrite</a></p>
+    </div>
+  </div>
+
+  <div style="padding:0 var(--container-pad) 48px;max-width:900px;margin:auto;">
+    <a href="chf_events_v4.html" class="reveal" style="display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--navy);text-decoration:none;transition:color 0.2s;">
+      <span aria-hidden="true">&#8592;</span> Back to Events
+    </a>
+  </div>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>302</wp:post_id>
+    <wp:post_date>2026-03-15 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[hydrogen-workshop]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[chf_event]]></wp:post_type>
+    <category domain="event_type" nicename="workshop"><![CDATA[Workshop]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Interactive workshop on Houston's hydrogen economy with HyVelocity Hub partners and industry leaders.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_date</wp:meta_key><wp:meta_value><![CDATA[20260722]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta>
+    <wp:meta_key>event_time</wp:meta_key>
+    <wp:meta_value><![CDATA[10:00 AM – 3:00 PM CST]]></wp:meta_value>
+</wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_location</wp:meta_key><wp:meta_value><![CDATA[Houston, TX]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Upcoming Event]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Workshop]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[July 22, 2026]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[2026 Annual Meeting]]></title>
+    <link>https://centerforhoustonsfuture.org/events/annual-meeting-2026/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<div style="padding:80px var(--container-pad);max-width:900px;margin:auto;">
+
+    <div class="reveal" style="margin-bottom:32px;padding:24px 28px;background:var(--off);border-radius:var(--radius-md);border:1px solid var(--rule);display:flex;flex-direction:column;gap:12px;">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <svg style="width:18px;height:18px;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span style="color:var(--text);font-weight:600;">1:00 &ndash; 5:00 PM</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <svg style="width:18px;height:18px;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span style="color:var(--mid);">C. Baldwin, Curio Collection by Hilton, 400 Dallas Street, Houston</span>
+      </div>
+      <a href="#register" style="margin-top:8px;display:inline-flex;align-self:flex-start;padding:12px 28px;background:var(--navy);color:var(--white);text-decoration:none;font-weight:700;font-size:13px;letter-spacing:0.08em;text-transform:uppercase;border-radius:var(--radius-pill);transition:background 0.2s,box-shadow 0.2s;">
+        Register Now <span aria-hidden="true" style="margin-left:6px;">&#8594;</span>
+      </a>
+    </div>
+
+    <div class="reveal" style="font-size:17px;line-height:1.8;color:var(--mid);">
+      <p>Interactive workshop on Houston's role in the emerging hydrogen economy, featuring presentations from HyVelocity Hub partners and industry leaders.</p><p>Topics include hydrogen production technologies, infrastructure development along the Gulf Coast, workforce training programs, and federal funding opportunities.</p><p>This workshop builds on CHF's extensive research into clean hydrogen's potential to drive economic growth in the Houston region, leveraging the city's existing energy infrastructure and workforce expertise.</p>
+    </div>
+
+    <div class="event-map reveal">
+      <h2>Location</h2>
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps?q=C+Baldwin+Hotel+400+Dallas+Street+Houston+TX&output=embed" sandbox="allow-scripts allow-same-origin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Event location map"></iframe>
+      </div>
+    </div>
+
+    <div class="event-registration reveal" id="register">
+      <h2>Register for This Event</h2>
+      <p class="reg-sub">Secure your spot. All fields are required unless noted.</p>
+      <form class="reg-form" action="#" method="post" aria-label="Event registration">
+        <div class="form-row">
+          <div>
+            <label for="reg-first">First Name</label>
+            <input type="text" id="reg-first" name="first_name" autocomplete="given-name" required>
+          </div>
+          <div>
+            <label for="reg-last">Last Name</label>
+            <input type="text" id="reg-last" name="last_name" autocomplete="family-name" required>
+          </div>
+        </div>
+        <div>
+          <label for="reg-email">Email Address</label>
+          <input type="email" id="reg-email" name="email" autocomplete="email" required>
+        </div>
+        <div>
+          <label for="reg-org">Organization <span style="color:var(--muted);font-weight:400;">(optional)</span></label>
+          <input type="text" id="reg-org" name="organization" autocomplete="organization">
+        </div>
+        <button type="submit" class="reg-submit">Register Now &#8594;</button>
+      </form>
+      <p class="reg-or-external">Or register via <a href="#" target="_blank" rel="noopener noreferrer">Eventbrite</a></p>
+    </div>
+  </div>
+
+  <div style="padding:0 var(--container-pad) 48px;max-width:900px;margin:auto;">
+    <a href="chf_events_v4.html" class="reveal" style="display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--navy);text-decoration:none;transition:color 0.2s;">
+      <span aria-hidden="true">&#8592;</span> Back to Events
+    </a>
+  </div>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>303</wp:post_id>
+    <wp:post_date>2026-03-15 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[annual-meeting-2026]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[chf_event]]></wp:post_type>
+    <category domain="event_type" nicename="meeting"><![CDATA[Meeting]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[CHF's 2026 Annual Meeting featuring Vision 2050 findings and Project Metis updates.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_date</wp:meta_key><wp:meta_value><![CDATA[20260918]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta>
+    <wp:meta_key>event_time</wp:meta_key>
+    <wp:meta_value><![CDATA[2:00 PM – 4:00 PM CST]]></wp:meta_value>
+</wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_location</wp:meta_key><wp:meta_value><![CDATA[Houston, TX]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Upcoming Event]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Meeting]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[January 29, 2026]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[2025 Dinner and Conversation]]></title>
+    <link>https://centerforhoustonsfuture.org/events/dinner-2025/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<div style="padding:80px var(--container-pad);max-width:900px;margin:auto;">
+
+    <div class="reveal" style="margin-bottom:32px;padding:24px 28px;background:var(--off);border-radius:var(--radius-md);border:1px solid var(--rule);display:flex;flex-direction:column;gap:12px;">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <svg style="width:18px;height:18px;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span style="color:var(--text);font-weight:600;">5:30 &ndash; 7:30 PM</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <svg style="width:18px;height:18px;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span style="color:var(--mid);">Partnership Tower, 701 Avenida de las Americas, Suite 900, Houston</span>
+      </div>
+    </div>
+
+    <div class="reveal" style="font-size:17px;line-height:1.8;color:var(--mid);">
+      <p>CEO David Gow presents the research and conclusions from Vision 2050, shares how Project Metis is taking shape, and unveils our strategic priorities for the year ahead.</p><p>The annual meeting brought together over 200 business, civic, and academic leaders for an evening of strategic discussion about Houston's future. Highlights included the public preview of Vision 2050 findings and the announcement of new partnerships under the Project Metis initiative.</p><p>Attendees engaged in lively Q&amp;A sessions and networking, reflecting the collaborative spirit that defines CHF's approach to regional planning.</p>
+    </div>
+
+    <div class="event-gallery reveal">
+      <h2>Event Gallery</h2>
+      <div class="gallery-grid">
+        <img src="media/images/future-houston-1024x767.png" alt="Annual meeting attendees" loading="lazy" width="800" height="533">
+        <img src="media/images/skyline-new.jpeg" alt="CEO David Gow presenting" loading="lazy" width="800" height="533">
+        <img src="media/images/Energy-Job.png" alt="Panel discussion" loading="lazy" width="800" height="533">
+      </div>
+    </div>
+
+    <div class="event-map reveal">
+      <h2>Location</h2>
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps?q=Partnership+Tower+701+Avenida+de+las+Americas+Houston+TX&output=embed" sandbox="allow-scripts allow-same-origin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Event location map"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div style="padding:0 var(--container-pad) 48px;max-width:900px;margin:auto;">
+    <a href="chf_events_v4.html" class="reveal" style="display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--navy);text-decoration:none;transition:color 0.2s;">
+      <span aria-hidden="true">&#8592;</span> Back to Events
+    </a>
+  </div>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>304</wp:post_id>
+    <wp:post_date>2025-12-01 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[dinner-2025]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[chf_event]]></wp:post_type>
+    <category domain="event_type" nicename="dinner"><![CDATA[Dinner]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[CHF's 2025 Dinner and Conversation on brain health research with speakers from UTMB and Rice.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_date</wp:meta_key><wp:meta_value><![CDATA[20251204]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta>
+    <wp:meta_key>event_time</wp:meta_key>
+    <wp:meta_value><![CDATA[6:00 PM – 9:00 PM CST]]></wp:meta_value>
+</wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_location</wp:meta_key><wp:meta_value><![CDATA[Houston, TX]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Past Event]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Conversation]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[November 13, 2025]]></wp:meta_value></wp:postmeta>
+</item>
+
+  <item>
+    <title><![CDATA[Energy Independence Summit]]></title>
+    <link>https://centerforhoustonsfuture.org/events/energy-summit/</link>
+    <dc:creator><![CDATA[admin]]></dc:creator>
+    <content:encoded><![CDATA[<div style="padding:80px var(--container-pad);max-width:900px;margin:auto;">
+
+    <div class="reveal" style="margin-bottom:32px;padding:24px 28px;background:var(--off);border-radius:var(--radius-md);border:1px solid var(--rule);display:flex;flex-direction:column;gap:12px;">
+      <div style="display:flex;align-items:center;gap:10px;">
+        <svg style="width:18px;height:18px;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <span style="color:var(--text);font-weight:600;">6:00 &ndash; 9:00 PM</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <svg style="width:18px;height:18px;flex-shrink:0;" viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <span style="color:var(--mid);">River Oaks Country Club, TX</span>
+      </div>
+    </div>
+
+    <div class="reveal" style="font-size:17px;line-height:1.8;color:var(--mid);">
+      <p>Featured discussion: Unleashing the Power of Our Brains &mdash; with speakers from UTMB, Rice University, and other institutions.</p><p>This signature event brought together Houston's top leaders for an intimate dinner and moderated conversation about the emerging field of brain health research. Speakers discussed how Houston's unique concentration of medical institutions positions the city as a potential global leader in neuroscience.</p><p>The evening sparked conversations that ultimately contributed to the formation of Project Metis, CHF's groundbreaking brain health initiative.</p>
+    </div>
+
+    <div class="event-gallery reveal">
+      <h2>Event Gallery</h2>
+      <div class="gallery-grid">
+        <img src="media/images/future-houston-1024x767.png" alt="Dinner and conversation event" loading="lazy" width="800" height="533">
+        <img src="media/images/skyline-new.jpeg" alt="Guest speakers" loading="lazy" width="800" height="533">
+      </div>
+    </div>
+
+    <div class="event-map reveal">
+      <h2>Location</h2>
+      <div class="map-embed">
+        <iframe src="https://www.google.com/maps?q=River+Oaks+Country+Club+Houston+TX&output=embed" sandbox="allow-scripts allow-same-origin" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Event location map"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div style="padding:0 var(--container-pad) 48px;max-width:900px;margin:auto;">
+    <a href="chf_events_v4.html" class="reveal" style="display:inline-flex;align-items:center;gap:8px;font-weight:600;font-size:14px;color:var(--navy);text-decoration:none;transition:color 0.2s;">
+      <span aria-hidden="true">&#8592;</span> Back to Events
+    </a>
+  </div>]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>305</wp:post_id>
+    <wp:post_date>2026-01-15 00:00:00</wp:post_date>
+    <wp:post_name><![CDATA[energy-summit]]></wp:post_name>
+    <wp:status><![CDATA[publish]]></wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:post_type><![CDATA[chf_event]]></wp:post_type>
+    <category domain="event_type" nicename="summit"><![CDATA[Summit]]></category>
+    <wp:postmeta><wp:meta_key>_yoast_wpseo_metadesc</wp:meta_key><wp:meta_value><![CDATA[Three-day summit exploring American energy independence with leaders from energy, finance, and policy.]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_date</wp:meta_key><wp:meta_value><![CDATA[20260225]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta>
+    <wp:meta_key>event_time</wp:meta_key>
+    <wp:meta_value><![CDATA[8:30 AM – 5:00 PM CST]]></wp:meta_value>
+</wp:postmeta>
+    <wp:postmeta><wp:meta_key>event_location</wp:meta_key><wp:meta_value><![CDATA[Houston, TX]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_eyebrow</wp:meta_key><wp:meta_value><![CDATA[Past Event]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>hero_highlight_word</wp:meta_key><wp:meta_value><![CDATA[Summit]]></wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_edit_mode</wp:meta_key><wp:meta_value>builder</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_elementor_template_type</wp:meta_key><wp:meta_value>wp-post</wp:meta_value></wp:postmeta>
+    <wp:postmeta><wp:meta_key>_wp_page_template</wp:meta_key><wp:meta_value>elementor_header_footer</wp:meta_value></wp:postmeta>
+  <wp:postmeta><wp:meta_key>hero_subtitle</wp:meta_key><wp:meta_value><![CDATA[October 21–23, 2025]]></wp:meta_value></wp:postmeta>
+</item>
+
+</channel>
+</rss>

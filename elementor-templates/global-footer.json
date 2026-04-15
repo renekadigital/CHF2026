@@ -1,0 +1,414 @@
+{
+  "version": "0.4",
+  "title": "CHF Global Footer",
+  "type": "footer",
+  "content": [
+    {
+      "id": "ftr0001",
+      "elType": "container",
+      "settings": {
+        "content_width": "full",
+        "flex_direction": "column",
+        "flex_align_items": "center",
+        "background_background": "classic",
+        "background_color": "#0f1a2e",
+        "padding": { "unit": "px", "top": "64", "right": "24", "bottom": "64", "left": "24", "isLinked": false },
+        "css_classes": "chf-footer"
+      },
+      "elements": [
+        {
+          "id": "ftr0002",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_wrap": "wrap",
+            "flex_gap": { "unit": "px", "size": 40, "column": "40", "row": "40" },
+            "border_border": "solid",
+            "border_width": { "unit": "px", "top": "0", "right": "0", "bottom": "1", "left": "0", "isLinked": false },
+            "border_color": "rgba(255,255,255,0.08)",
+            "padding": { "unit": "px", "top": "0", "right": "0", "bottom": "48", "left": "0", "isLinked": false },
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "ftr0003",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_grow": "1.5",
+                "min_width": { "unit": "px", "size": 280 },
+                "flex_gap": { "unit": "px", "size": 0 }
+              },
+              "elements": [
+                {
+                  "id": "ftr0004",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings": {
+                    "image": { "url": "", "id": "" },
+                    "image_size": "full",
+                    "height": { "unit": "px", "size": 56 },
+                    "width": { "unit": "px", "size": 180 },
+                    "align": "left",
+                    "css_filters_css_filter": "brightness(0) invert(1)",
+                    "margin": { "unit": "px", "top": "0", "right": "0", "bottom": "16", "left": "0", "isLinked": false },
+                    "css_classes": "chf-footer__logo"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ftr0005",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p>Houston's premier cross-sector think tank convening leaders to address the region's most pressing challenges and shape a thriving future for all.</p>",
+                    "align": "left",
+                    "text_color": "rgba(255,255,255,0.5)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_line_height": { "unit": "em", "size": 1.65 },
+                    "margin": { "unit": "px", "top": "0", "right": "0", "bottom": "20", "left": "0", "isLinked": false },
+                    "max_width": { "unit": "px", "size": 320 }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ftr0006",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p style=\"margin-bottom:6px;\">1700 Post Oak Blvd, Suite 600<br>Houston, TX 77056</p><p style=\"margin-bottom:6px;\">Phone: (713) 961-7100</p><p>Email: <a href=\"mailto:info@futurehouston.org\" style=\"color:#56B84A;text-decoration:none;\">info@futurehouston.org</a></p>",
+                    "align": "left",
+                    "text_color": "rgba(255,255,255,0.5)",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 13 },
+                    "typography_line_height": { "unit": "em", "size": 1.6 },
+                    "margin": { "unit": "px", "top": "0", "right": "0", "bottom": "24", "left": "0", "isLinked": false }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ftr0007",
+                  "elType": "widget",
+                  "widgetType": "social-icons",
+                  "settings": {
+                    "social_icon_list": [
+                      {
+                        "_id": "sc00001",
+                        "social_icon": { "value": "fab fa-linkedin-in", "library": "fa-brands" },
+                        "link": { "url": "#", "is_external": true, "nofollow": true }
+                      },
+                      {
+                        "_id": "sc00002",
+                        "social_icon": { "value": "fab fa-x-twitter", "library": "fa-brands" },
+                        "link": { "url": "#", "is_external": true, "nofollow": true }
+                      },
+                      {
+                        "_id": "sc00003",
+                        "social_icon": { "value": "fab fa-youtube", "library": "fa-brands" },
+                        "link": { "url": "#", "is_external": true, "nofollow": true }
+                      },
+                      {
+                        "_id": "sc00004",
+                        "social_icon": { "value": "fab fa-instagram", "library": "fa-brands" },
+                        "link": { "url": "#", "is_external": true, "nofollow": true }
+                      },
+                      {
+                        "_id": "sc00005",
+                        "social_icon": { "value": "fab fa-facebook-f", "library": "fa-brands" },
+                        "link": { "url": "#", "is_external": true, "nofollow": true }
+                      }
+                    ],
+                    "shape": "circle",
+                    "icon_size": { "unit": "px", "size": 14 },
+                    "icon_padding": { "unit": "em", "size": 0.7 },
+                    "icon_spacing": { "unit": "px", "size": 10 },
+                    "icon_color": "custom",
+                    "icon_primary_color": "transparent",
+                    "icon_secondary_color": "rgba(255,255,255,0.6)",
+                    "icon_primary_color_hover": "#56B84A",
+                    "icon_secondary_color_hover": "#FFFFFF",
+                    "border_border": "solid",
+                    "border_width": { "unit": "px", "top": "1", "right": "1", "bottom": "1", "left": "1", "isLinked": true },
+                    "border_color": "rgba(255,255,255,0.14)",
+                    "border_radius": { "unit": "%", "top": "50", "right": "50", "bottom": "50", "left": "50", "isLinked": true },
+                    "hover_animation": "grow",
+                    "columns": "5",
+                    "align": "left",
+                    "css_classes": "chf-footer__social",
+                    "_element_custom_css": ".chf-footer__social .elementor-social-icon { width: 38px; height: 38px; transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1); } .chf-footer__social .elementor-social-icon:hover { transform: scale(1.1); }"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "ftr0008",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_grow": "1",
+                "min_width": { "unit": "px", "size": 140 },
+                "flex_gap": { "unit": "px", "size": 16 }
+              },
+              "elements": [
+                {
+                  "id": "ftr0009",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "ABOUT",
+                    "header_size": "h4",
+                    "align": "left",
+                    "title_color": "#C9A84C",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 12 },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": { "unit": "em", "size": 0.18 },
+                    "margin": { "unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ftr000a",
+                  "elType": "widget",
+                  "widgetType": "nav-menu",
+                  "settings": {
+                    "menu": "footer-about",
+                    "layout": "vertical",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "text_color_hover": "#56B84A",
+                    "pointer": "none",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "400",
+                    "typography_line_height": { "unit": "em", "size": 2.2 },
+                    "indicator_color": "transparent",
+                    "css_classes": "chf-footer__nav"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "ftr000b",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_grow": "1",
+                "min_width": { "unit": "px", "size": 140 },
+                "flex_gap": { "unit": "px", "size": 16 }
+              },
+              "elements": [
+                {
+                  "id": "ftr000c",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "INITIATIVES",
+                    "header_size": "h4",
+                    "align": "left",
+                    "title_color": "#C9A84C",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 12 },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": { "unit": "em", "size": 0.18 },
+                    "margin": { "unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ftr000d",
+                  "elType": "widget",
+                  "widgetType": "nav-menu",
+                  "settings": {
+                    "menu": "footer-initiatives",
+                    "layout": "vertical",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "text_color_hover": "#56B84A",
+                    "pointer": "none",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "400",
+                    "typography_line_height": { "unit": "em", "size": 2.2 },
+                    "indicator_color": "transparent",
+                    "css_classes": "chf-footer__nav"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "ftr000e",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_grow": "1",
+                "min_width": { "unit": "px", "size": 140 },
+                "flex_gap": { "unit": "px", "size": 16 }
+              },
+              "elements": [
+                {
+                  "id": "ftr000f",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "LEADERSHIP",
+                    "header_size": "h4",
+                    "align": "left",
+                    "title_color": "#C9A84C",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 12 },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": { "unit": "em", "size": 0.18 },
+                    "margin": { "unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ftr0010",
+                  "elType": "widget",
+                  "widgetType": "nav-menu",
+                  "settings": {
+                    "menu": "footer-leadership",
+                    "layout": "vertical",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "text_color_hover": "#56B84A",
+                    "pointer": "none",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "400",
+                    "typography_line_height": { "unit": "em", "size": 2.2 },
+                    "indicator_color": "transparent",
+                    "css_classes": "chf-footer__nav"
+                  },
+                  "elements": []
+                }
+              ]
+            },
+            {
+              "id": "ftr0011",
+              "elType": "container",
+              "settings": {
+                "flex_direction": "column",
+                "flex_grow": "1",
+                "min_width": { "unit": "px", "size": 140 },
+                "flex_gap": { "unit": "px", "size": 16 }
+              },
+              "elements": [
+                {
+                  "id": "ftr0012",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "CONNECT",
+                    "header_size": "h4",
+                    "align": "left",
+                    "title_color": "#C9A84C",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 12 },
+                    "typography_font_weight": "700",
+                    "typography_text_transform": "uppercase",
+                    "typography_letter_spacing": { "unit": "em", "size": 0.18 },
+                    "margin": { "unit": "px", "top": "0", "right": "0", "bottom": "4", "left": "0", "isLinked": false }
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "ftr0013",
+                  "elType": "widget",
+                  "widgetType": "nav-menu",
+                  "settings": {
+                    "menu": "footer-connect",
+                    "layout": "vertical",
+                    "text_color": "rgba(255,255,255,0.6)",
+                    "text_color_hover": "#56B84A",
+                    "pointer": "none",
+                    "typography_typography": "custom",
+                    "typography_font_family": "Inter",
+                    "typography_font_size": { "unit": "px", "size": 14 },
+                    "typography_font_weight": "400",
+                    "typography_line_height": { "unit": "em", "size": 2.2 },
+                    "indicator_color": "transparent",
+                    "css_classes": "chf-footer__nav"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ftr0014",
+          "elType": "container",
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": { "unit": "px", "size": 1200 },
+            "flex_direction": "row",
+            "flex_justify_content": "space-between",
+            "flex_align_items": "center",
+            "flex_wrap": "wrap",
+            "padding": { "unit": "px", "top": "32", "right": "0", "bottom": "0", "left": "0", "isLinked": false },
+            "border_border": "solid",
+            "border_width": { "unit": "px", "top": "1", "right": "0", "bottom": "0", "left": "0", "isLinked": false },
+            "border_color": "rgba(255,255,255,0.08)",
+            "width": { "unit": "%", "size": 100 }
+          },
+          "elements": [
+            {
+              "id": "ftr0015",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>&copy; 2026 Center for Houston's Future. All rights reserved.</p>",
+                "align": "left",
+                "text_color": "rgba(255,255,255,0.3)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_line_height": { "unit": "em", "size": 1.5 }
+              },
+              "elements": []
+            },
+            {
+              "id": "ftr0016",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p><a href=\"/privacy-policy/\" style=\"color:rgba(255,255,255,0.3);text-decoration:none;\">Privacy Policy</a> &nbsp;|&nbsp; <a href=\"/site-map/\" style=\"color:rgba(255,255,255,0.3);text-decoration:none;\">Site Map</a></p>",
+                "align": "right",
+                "text_color": "rgba(255,255,255,0.3)",
+                "typography_typography": "custom",
+                "typography_font_family": "Inter",
+                "typography_font_size": { "unit": "px", "size": 12 },
+                "typography_line_height": { "unit": "em", "size": 1.5 },
+                "_element_custom_css": ".chf-footer a:hover { color: rgba(255,255,255,0.6) !important; }"
+              },
+              "elements": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  },
+  "metadata": {
+    "wp_page_template": "elementor_header_footer"
+  }
+}

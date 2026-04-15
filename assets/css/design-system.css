@@ -1,0 +1,468 @@
+/**
+ * CHF Design System
+ * Global design foundation for Center for Houston's Future.
+ * Complements Elementor — provides reset, typography, utilities, and animations.
+ *
+ * Design tokens are defined in style.css :root
+ * @package CHF
+ * @since 5.0.0
+ */
+
+/* ==========================================================================
+   1. CSS Reset / Normalization
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+/* Remove default list styles inside Elementor containers */
+.elementor-widget-container ul,
+.elementor-widget-container ol,
+.elementor-container ul,
+.elementor-container ol {
+  list-style: none;
+  padding: 0;
+}
+
+/* Restore list styles for text editor widget content */
+.elementor-widget-text-editor ul,
+.elementor-widget-text-editor ol {
+  padding-left: 1.5em;
+}
+
+.elementor-widget-text-editor ul {
+  list-style: disc;
+}
+
+.elementor-widget-text-editor ol {
+  list-style: decimal;
+}
+
+/* ==========================================================================
+   2. Typography System
+   ========================================================================== */
+
+body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--navy);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--navy);
+  text-wrap: balance;
+}
+
+h1 { font-size: clamp(32px, 5vw, 56px); }
+h2 { font-size: clamp(26px, 4vw, 42px); }
+h3 { font-size: clamp(22px, 3vw, 32px); }
+h4 { font-size: clamp(18px, 2.5vw, 24px); }
+
+h5, h6 {
+  font-family: var(--font-sans);
+}
+
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+p {
+  max-width: 72ch;
+}
+
+/* Gradient text utility */
+.grad-text {
+  background: linear-gradient(135deg, var(--green), var(--green-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ==========================================================================
+   3. Link Styles
+   ========================================================================== */
+
+a {
+  color: var(--green);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.15em;
+  transition: text-decoration-color 0.25s;
+}
+
+a:hover {
+  text-decoration-color: currentColor;
+}
+
+/* ==========================================================================
+   4. Focus Styles (Accessibility)
+   ========================================================================== */
+
+:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+
+.focus-ring {
+  box-shadow: var(--focus-ring);
+}
+
+/* ==========================================================================
+   5. Button Base Utilities
+   ========================================================================== */
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 0 32px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--green);
+  border: 2px solid var(--green);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition:
+    background-color 0.25s var(--ease-out-quart),
+    box-shadow 0.3s var(--ease-out-quart),
+    transform 0.25s var(--ease-spring);
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--green-dark);
+  border-color: var(--green-dark);
+  box-shadow: var(--green-glow);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.btn-primary:active {
+  transform: scale(0.97);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 52px;
+  padding: 0 32px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--green);
+  background-color: transparent;
+  border: 2px solid var(--green);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  transition:
+    background-color 0.25s var(--ease-out-quart),
+    color 0.25s var(--ease-out-quart),
+    box-shadow 0.3s var(--ease-out-quart);
+  text-decoration: none;
+}
+
+.btn-outline:hover {
+  background-color: var(--green);
+  color: var(--white);
+  box-shadow: var(--green-glow);
+  text-decoration: none;
+}
+
+/* White variant for dark sections */
+.section-dark .btn-outline {
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.section-dark .btn-outline:hover {
+  background-color: var(--white);
+  color: var(--navy);
+  border-color: var(--white);
+}
+
+.btn-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--green);
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: gap 0.25s var(--ease-out-quart);
+  text-decoration: none;
+}
+
+.btn-text::after {
+  content: '\2192';
+  display: inline-block;
+  transition: transform 0.25s var(--ease-out-quart);
+}
+
+.btn-text:hover {
+  gap: 10px;
+  text-decoration: none;
+}
+
+.btn-text:hover::after {
+  transform: translateX(2px);
+}
+
+/* ==========================================================================
+   6. Card Utilities
+   ========================================================================== */
+
+.card-hover {
+  transition:
+    transform 0.35s var(--ease-spring),
+    box-shadow 0.35s var(--ease-out-quart);
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+/* ==========================================================================
+   7. Section Utilities
+   ========================================================================== */
+
+.section-dark {
+  background-color: var(--navy-deep);
+  color: var(--white);
+}
+
+.section-dark h1,
+.section-dark h2,
+.section-dark h3,
+.section-dark h4,
+.section-dark h5,
+.section-dark h6 {
+  color: var(--white);
+}
+
+.section-dark a:not(.btn-primary):not(.btn-outline):not(.btn-text) {
+  color: var(--green);
+}
+
+.section-off {
+  background-color: var(--off);
+}
+
+.section-gradient {
+  background: linear-gradient(160deg, var(--navy-deep) 0%, #162038 50%, #1a2840 100%);
+  color: var(--white);
+}
+
+.section-gradient h1,
+.section-gradient h2,
+.section-gradient h3,
+.section-gradient h4,
+.section-gradient h5,
+.section-gradient h6 {
+  color: var(--white);
+}
+
+/* ==========================================================================
+   8. Eyebrow Badge
+   ========================================================================== */
+
+.section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 16px;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--green);
+  background-color: rgba(86, 184, 74, 0.12);
+  border-radius: var(--radius-pill);
+  line-height: 1;
+}
+
+/* ==========================================================================
+   9. Skip Link (Accessibility)
+   ========================================================================== */
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10000;
+  padding: 12px 24px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--white);
+  background-color: var(--green);
+  border-radius: var(--radius-pill);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: top 0.2s;
+}
+
+.skip-link:focus {
+  top: 12px;
+  outline: 2px solid var(--white);
+  outline-offset: 2px;
+}
+
+/* ==========================================================================
+   10. Scroll Reveal Animation
+   ========================================================================== */
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 0.7s var(--ease-out-expo),
+    transform 0.7s var(--ease-out-expo);
+}
+
+/* Stagger children when using reveal on a parent */
+.reveal.visible > *:nth-child(1) { transition-delay: 0s; }
+.reveal.visible > *:nth-child(2) { transition-delay: 0.08s; }
+.reveal.visible > *:nth-child(3) { transition-delay: 0.16s; }
+.reveal.visible > *:nth-child(4) { transition-delay: 0.24s; }
+.reveal.visible > *:nth-child(5) { transition-delay: 0.32s; }
+
+/* ==========================================================================
+   11. Reduced Motion
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* ==========================================================================
+   12. Print Styles
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+    color: #000 !important;
+  }
+
+  a[href]::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.85em;
+  }
+
+  a[href^="#"]::after,
+  a[href^="javascript"]::after {
+    content: '';
+  }
+
+  nav,
+  .site-header,
+  .skip-link,
+  .back-to-top,
+  .btn-primary,
+  .btn-outline,
+  .btn-text,
+  .section-eyebrow,
+  .elementor-widget-social-icons,
+  .newsletter-section,
+  .section-gradient,
+  footer .social-icons,
+  #nav {
+    display: none !important;
+  }
+
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+}

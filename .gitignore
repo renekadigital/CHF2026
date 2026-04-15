@@ -1,0 +1,93 @@
+# ============================================================
+# CHF Theme — .gitignore
+# Keeps credentials, OS cruft, and build artifacts out of git.
+# ============================================================
+
+# ----- macOS / Windows / Linux cruft -----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ----- Editor / IDE -----
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.buildpath
+.phpstorm.meta.php
+_ide_helper.php
+.history/
+
+# ----- OS temp files -----
+*.tmp
+*.temp
+*.log
+*.pid
+
+# ----- Credentials (NEVER commit these) -----
+# The template is committed, the filled-in copy is not
+CREDENTIALS.md
+credentials.md
+secrets.yml
+secrets.json
+.env
+.env.local
+.env.production
+*.pem
+*.key
+id_rsa*
+wp-config.php
+wp-config-local.php
+
+# ----- Node / build artifacts (if ever added) -----
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json.bak
+dist/
+build/
+.cache/
+
+# ----- Python build artifacts -----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+
+# ----- Temp build files from docs PDF generation -----
+_build-packet.html
+_build-*.html
+docs/_build/
+
+# ----- Archives (theme source is the source of truth) -----
+*.zip
+*.tar.gz
+*.tar.bz2
+*.rar
+# exception: keep the intentional content-import XML files
+!chf-content-import.xml
+!chf-import-split/*.xml
+
+# ----- Backups -----
+*.bak
+*.backup
+*.old
+*.orig
+
+# ----- WordPress core + uploads (theme repo only ships theme files) -----
+# If someone clones this inside wp-content/themes/, these shouldn't be staged
+../wp-admin/
+../wp-includes/
+../wp-content/uploads/
+../wp-content/plugins/
