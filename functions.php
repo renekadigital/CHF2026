@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Constants
  * --------------------------------------------------------------------------
  */
-define( 'CHF_VERSION', '5.0.0' );
+define( 'CHF_VERSION', '5.1.0' );
 define( 'CHF_DIR', get_stylesheet_directory() );
 define( 'CHF_URI', get_stylesheet_directory_uri() );
 
@@ -278,3 +278,10 @@ add_action( 'admin_notices', 'chf_elementor_required_notice' );
 require_once CHF_DIR . '/inc/custom-post-types.php';
 require_once CHF_DIR . '/inc/security.php';
 require_once CHF_DIR . '/inc/elementor-setup.php';
+require_once CHF_DIR . '/inc/wpcli-commands.php';
+require_once CHF_DIR . '/inc/custom-post-types-extended.php';
+require_once CHF_DIR . '/inc/acf-field-groups-extended.php';
+require_once CHF_DIR . '/inc/schema.php';
+require_once CHF_DIR . '/inc/role-manager.php';
+require_once CHF_DIR . '/inc/permalinks.php';        // must load AFTER custom-post-types.php
+require_once CHF_DIR . '/inc/elementor-queries.php'; // Posts widget custom Query IDs
