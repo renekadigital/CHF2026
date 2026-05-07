@@ -282,6 +282,7 @@ require_once CHF_DIR . '/inc/wpcli-commands.php';
 require_once CHF_DIR . '/inc/custom-post-types-extended.php';
 require_once CHF_DIR . '/inc/acf-field-groups-extended.php';
 require_once CHF_DIR . '/inc/schema.php';
+require_once CHF_DIR . '/inc/social-meta.php';       // OG + Twitter Cards (Reneka SEO/GEO standard, Phase 2)
 require_once CHF_DIR . '/inc/role-manager.php';
 require_once CHF_DIR . '/inc/permalinks.php';        // must load AFTER custom-post-types.php
 require_once CHF_DIR . '/inc/elementor-queries.php'; // Posts widget custom Query IDs

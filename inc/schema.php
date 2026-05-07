@@ -91,6 +91,16 @@ function chf_emit_homepage_schema() {
 				'name'       => get_bloginfo( 'name' ),
 				'publisher'  => array( '@id' => home_url( '/#organization' ) ),
 				'inLanguage' => 'en-US',
+				// SearchAction — Reneka SEO/GEO standard: WebSite schema on the
+				// homepage with SearchAction if site search exists.
+				'potentialAction' => array(
+					'@type'       => 'SearchAction',
+					'target'      => array(
+						'@type'       => 'EntryPoint',
+						'urlTemplate' => home_url( '/?s={search_term_string}' ),
+					),
+					'query-input' => 'required name=search_term_string',
+				),
 			),
 		),
 	);
@@ -98,6 +108,255 @@ function chf_emit_homepage_schema() {
 	chf_print_schema( $schema );
 }
 add_action( 'wp_head', 'chf_emit_homepage_schema', 20 );
+
+/**
+ * --------------------------------------------------------------------------
+ * BreadcrumbList — non-home pages
+ * --------------------------------------------------------------------------
+ *
+ * Reneka SEO/GEO standard: BreadcrumbList schema on every non-homepage URL.
+ * Only emits when no SEO plugin (Yoast, RankMath, SEOPress) is handling
+ * it — those plugins emit their own BreadcrumbList and we don't want a
+ * conflicting block on the page.
+ *
+ * @since 5.1.0
+ * @return void
+ */
+function chf_emit_breadcrumb_schema() {
+	if ( is_front_page() ) {
+		return;
+	}
+
+	// Defer to active SEO plugins.
+	if ( defined( 'WPSEO_VERSION' ) || defined( 'RANK_MATH_VERSION' ) || defined( 'SEOPRESS_VERSION' ) ) {
+		return;
+	}
+
+	$crumbs = array();
+	$position = 1;
+
+	$crumbs[] = array(
+		'@type'    => 'ListItem',
+		'position' => $position++,
+		'name'     => 'Home',
+		'item'     => home_url( '/' ),
+	);
+
+	if ( is_singular() ) {
+		$post_id = get_the_ID();
+
+		// CPT archive crumb.
+		$post_type = get_post_type();
+		$archive_link = get_post_type_archive_link( $post_type );
+		if ( $archive_link && $archive_link !== home_url( '/' ) ) {
+			$post_type_obj = get_post_type_object( $post_type );
+			$crumbs[] = array(
+				'@type'    => 'ListItem',
+				'position' => $position++,
+				'name'     => $post_type_obj && ! empty( $post_type_obj->labels->name ) ? $post_type_obj->labels->name : ucfirst( $post_type ),
+				'item'     => $archive_link,
+			);
+		}
+
+		// Parent crumb for hierarchical pages.
+		if ( is_page() ) {
+			$ancestors = array_reverse( get_post_ancestors( $post_id ) );
+			foreach ( $ancestors as $ancestor_id ) {
+				$crumbs[] = array(
+					'@type'    => 'ListItem',
+					'position' => $position++,
+					'name'     => get_the_title( $ancestor_id ),
+					'item'     => get_permalink( $ancestor_id ),
+				);
+			}
+		}
+
+		// Parent initiative crumb for sub-initiatives (Option A permalink).
+		if ( $post_type === 'chf_initiative' ) {
+			$parent_id = get_field( 'parent_initiative', $post_id );
+			if ( $parent_id ) {
+				$parent = is_object( $parent_id ) ? $parent_id : get_post( (int) $parent_id );
+				if ( $parent ) {
+					$crumbs[] = array(
+						'@type'    => 'ListItem',
+						'position' => $position++,
+						'name'     => get_the_title( $parent->ID ),
+						'item'     => get_permalink( $parent->ID ),
+					);
+				}
+			}
+		}
+
+		// Self.
+		$crumbs[] = array(
+			'@type'    => 'ListItem',
+			'position' => $position++,
+			'name'     => get_the_title(),
+			'item'     => get_permalink(),
+		);
+	} elseif ( is_post_type_archive() || is_archive() ) {
+		$crumbs[] = array(
+			'@type'    => 'ListItem',
+			'position' => $position++,
+			'name'     => wp_strip_all_tags( get_the_archive_title() ),
+			'item'     => '',
+		);
+	}
+
+	if ( count( $crumbs ) < 2 ) {
+		return;
+	}
+
+	$schema = array(
+		'@context'        => 'https://schema.org',
+		'@type'           => 'BreadcrumbList',
+		'itemListElement' => $crumbs,
+	);
+
+	chf_print_schema( $schema );
+}
+add_action( 'wp_head', 'chf_emit_breadcrumb_schema', 20 );
+
+/**
+ * --------------------------------------------------------------------------
+ * BlogPosting — News posts
+ * --------------------------------------------------------------------------
+ *
+ * Reneka SEO/GEO standard: Article or BlogPosting schema on every blog
+ * post (headline, datePublished, dateModified, author with Person schema,
+ * image, publisher). Defers to active SEO plugins.
+ *
+ * @since 5.1.0
+ * @return void
+ */
+function chf_emit_blogposting_schema() {
+	if ( ! is_singular( 'post' ) ) {
+		return;
+	}
+	if ( defined( 'WPSEO_VERSION' ) || defined( 'RANK_MATH_VERSION' ) || defined( 'SEOPRESS_VERSION' ) ) {
+		return;
+	}
+
+	$post_id   = get_the_ID();
+	$author_id = get_post_field( 'post_author', $post_id );
+	$image     = get_the_post_thumbnail_url( $post_id, 'full' );
+
+	$schema = array(
+		'@context'         => 'https://schema.org',
+		'@type'            => 'BlogPosting',
+		'headline'         => get_the_title(),
+		'description'      => wp_strip_all_tags( get_the_excerpt() ),
+		'mainEntityOfPage' => get_permalink(),
+		'datePublished'    => get_the_date( DATE_W3C ),
+		'dateModified'     => get_the_modified_date( DATE_W3C ),
+		'author'           => array(
+			'@type' => 'Person',
+			'name'  => get_the_author_meta( 'display_name', $author_id ),
+			'url'   => get_author_posts_url( $author_id ),
+		),
+		'publisher'        => array( '@id' => home_url( '/#organization' ) ),
+	);
+
+	if ( $image ) {
+		$schema['image'] = $image;
+	}
+
+	chf_print_schema( $schema );
+}
+add_action( 'wp_head', 'chf_emit_blogposting_schema', 20 );
+
+/**
+ * --------------------------------------------------------------------------
+ * FAQPage — opt-in via [chf_faq_schema] shortcode
+ * --------------------------------------------------------------------------
+ *
+ * Reneka SEO/GEO standard: FAQPage schema where the page has a real FAQ
+ * section. Editors mark FAQ blocks in the page builder and use this
+ * shortcode to emit the matching schema.
+ *
+ * Usage in a page (Elementor, Gutenberg, or shortcode block):
+ *
+ *   [chf_faq_schema]
+ *   Q: What is the Center for Houston's Future?
+ *   A: A nonprofit driving the long-term prosperity of the Houston region.
+ *   Q: How do I join the Leadership Forum?
+ *   A: Applications open in spring; visit /leadership/ to apply.
+ *   [/chf_faq_schema]
+ *
+ * The shortcode prints nothing visible — it injects the JSON-LD into the
+ * post's <head> via wp_footer (since shortcodes are parsed during render,
+ * not on wp_head). Render the visible FAQ alongside this shortcode.
+ *
+ * @since 5.1.0
+ *
+ * @param array  $atts Shortcode attributes (unused).
+ * @param string $content Q/A pairs separated by Q:/A:.
+ * @return string Empty string (schema is injected via action hook).
+ */
+function chf_faq_schema_shortcode( $atts, $content = '' ) {
+	if ( empty( $content ) ) {
+		return '';
+	}
+
+	// Parse Q:/A: pairs.
+	$content = wp_strip_all_tags( $content );
+	$lines   = preg_split( '/\r\n|\r|\n/', trim( $content ) );
+	$qas     = array();
+	$current_q = null;
+	$current_a = '';
+
+	foreach ( $lines as $line ) {
+		$line = trim( $line );
+		if ( $line === '' ) {
+			continue;
+		}
+		if ( preg_match( '/^Q[:\.]\s*(.+)$/i', $line, $m ) ) {
+			if ( $current_q !== null && $current_a !== '' ) {
+				$qas[] = array( 'q' => $current_q, 'a' => trim( $current_a ) );
+			}
+			$current_q = $m[1];
+			$current_a = '';
+		} elseif ( preg_match( '/^A[:\.]\s*(.+)$/i', $line, $m ) ) {
+			$current_a = $m[1];
+		} else {
+			// Continuation of the current answer.
+			$current_a = $current_a === '' ? $line : $current_a . ' ' . $line;
+		}
+	}
+	if ( $current_q !== null && $current_a !== '' ) {
+		$qas[] = array( 'q' => $current_q, 'a' => trim( $current_a ) );
+	}
+
+	if ( empty( $qas ) ) {
+		return '';
+	}
+
+	$entities = array();
+	foreach ( $qas as $qa ) {
+		$entities[] = array(
+			'@type'          => 'Question',
+			'name'           => $qa['q'],
+			'acceptedAnswer' => array(
+				'@type' => 'Answer',
+				'text'  => $qa['a'],
+			),
+		);
+	}
+
+	$schema = array(
+		'@context'   => 'https://schema.org',
+		'@type'      => 'FAQPage',
+		'mainEntity' => $entities,
+	);
+
+	// Defer print until wp_footer so it appears within the rendered page.
+	add_action( 'wp_footer', function() use ( $schema ) {
+		chf_print_schema( $schema );
+	}, 5 );
+
+	return '';
+}
+add_shortcode( 'chf_faq_schema', 'chf_faq_schema_shortcode' );
 
 /**
  * --------------------------------------------------------------------------
