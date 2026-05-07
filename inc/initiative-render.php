@@ -30,13 +30,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @since 5.1.1
  *
- * @param string $location The Theme Builder location being rendered.
  * @return void
  */
-function chf_initiative_render_extras( $location ) {
-	if ( 'single' !== $location ) {
-		return;
-	}
+function chf_initiative_render_extras() {
 	if ( ! is_singular( 'chf_initiative' ) ) {
 		return;
 	}
@@ -130,7 +126,9 @@ function chf_initiative_render_extras( $location ) {
 	echo '</div>';
 	echo '</section>';
 }
-add_action( 'elementor/theme/after_do_location', 'chf_initiative_render_extras' );
+// Elementor Pro fires per-location actions: elementor/theme/after_do_{location}
+// For chf_initiative singles the location is 'single'.
+add_action( 'elementor/theme/after_do_single', 'chf_initiative_render_extras' );
 
 /**
  * Enqueue inline CSS for the initiative extras section.
