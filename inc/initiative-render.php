@@ -131,6 +131,161 @@ function chf_initiative_render_extras() {
 add_action( 'elementor/theme/after_do_single', 'chf_initiative_render_extras' );
 
 /**
+ * Replace mock icon-list sidebar widgets with dynamic content.
+ *
+ * The Initiative Single template was authored with two icon-list widgets
+ * containing placeholder items ("Research Brief", "Impact Data Dashboard",
+ * "2025 Annual Report"). They've been classed via patch-templates.php so
+ * we can target them: chf-related-list and chf-resources-list.
+ *
+ * On chf_initiative singles, we replace each widget's rendered HTML with
+ * a real list:
+ *   - chf-related-list: sibling sub-initiatives (or pillar's children if
+ *     this is a sub) or pillars (if this is a pillar)
+ *   - chf-resources-list: linked publications via the `reports` ACF
+ *
+ * @since 5.1.1
+ *
+ * @param string $content The widget's rendered HTML.
+ * @param \Elementor\Widget_Base $widget The widget instance.
+ * @return string Modified HTML or original.
+ */
+function chf_initiative_replace_sidebar_widgets( $content, $widget ) {
+	if ( ! is_singular( 'chf_initiative' ) ) {
+		return $content;
+	}
+	$settings = $widget->get_settings_for_display();
+	$cls = $settings['_css_classes'] ?? '';
+
+	if ( strpos( $cls, 'chf-related-list' ) !== false ) {
+		return chf_render_related_initiatives_list( $content );
+	}
+	if ( strpos( $cls, 'chf-resources-list' ) !== false ) {
+		return chf_render_resources_list( $content );
+	}
+	return $content;
+}
+add_filter( 'elementor/widget/render_content', 'chf_initiative_replace_sidebar_widgets', 10, 2 );
+
+/**
+ * Build a list of related initiatives based on the current post's hierarchy.
+ *
+ * Logic:
+ *   - If current is a pillar (energy/health/immigration): list its sub-initiatives
+ *   - If current is a sub-initiative: list siblings (other subs of same parent)
+ *   - If current is standalone: list pillars
+ *
+ * @since 5.1.1
+ *
+ * @param string $fallback The original rendered content (returned if we can't
+ *                         compute a list).
+ * @return string
+ */
+function chf_render_related_initiatives_list( $fallback ) {
+	$post_id = get_the_ID();
+	$slug = get_post_field( 'post_name', $post_id );
+
+	$pillars = [ 'energy', 'health', 'immigration' ];
+	$is_pillar = in_array( $slug, $pillars, true );
+
+	$parent_id = (int) get_post_meta( $post_id, 'parent_initiative', true );
+
+	$query_args = [
+		'post_type'      => 'chf_initiative',
+		'posts_per_page' => 8,
+		'post_status'    => 'publish',
+		'orderby'        => 'title',
+		'order'          => 'ASC',
+	];
+
+	if ( $is_pillar ) {
+		// List children of this pillar.
+		$query_args['meta_key']   = 'parent_initiative';
+		$query_args['meta_value'] = (string) $post_id;
+	} elseif ( $parent_id ) {
+		// List siblings (other children of same parent), excluding self.
+		$query_args['meta_key']   = 'parent_initiative';
+		$query_args['meta_value'] = (string) $parent_id;
+		$query_args['post__not_in'] = [ $post_id ];
+	} else {
+		// Standalone: show the 3 pillars.
+		$query_args['post__in'] = array_filter( array_map( function ( $s ) {
+			$p = get_page_by_path( $s, OBJECT, 'chf_initiative' );
+			return $p ? $p->ID : null;
+		}, $pillars ) );
+		unset( $query_args['orderby'], $query_args['order'] );
+	}
+
+	$q = new WP_Query( $query_args );
+	if ( ! $q->have_posts() ) {
+		return $fallback;
+	}
+
+	$out = '<ul class="chf-related-list elementor-icon-list-items">';
+	while ( $q->have_posts() ) {
+		$q->the_post();
+		$out .= '<li class="elementor-icon-list-item">';
+		$out .= '<a href="' . esc_url( get_permalink() ) . '">';
+		$out .= '<span class="elementor-icon-list-text">' . esc_html( get_the_title() ) . '</span>';
+		$out .= '</a></li>';
+	}
+	$out .= '</ul>';
+	wp_reset_postdata();
+
+	return $out;
+}
+
+/**
+ * Build a list of resources (publications via the `reports` ACF) for the
+ * current initiative.
+ *
+ * @since 5.1.1
+ *
+ * @param string $fallback The original rendered content.
+ * @return string
+ */
+function chf_render_resources_list( $fallback ) {
+	$post_id = get_the_ID();
+	$reports = function_exists( 'get_field' ) ? get_field( 'reports', $post_id ) : null;
+	if ( ! is_array( $reports ) || empty( $reports ) ) {
+		return $fallback;
+	}
+
+	$out = '<ul class="chf-resources-list elementor-icon-list-items">';
+	foreach ( $reports as $row ) {
+		$title = isset( $row['title'] ) ? (string) $row['title'] : '';
+		$pub_id = is_array( $row ) && isset( $row['publication'] )
+			? ( is_object( $row['publication'] ) ? $row['publication']->ID : (int) $row['publication'] )
+			: 0;
+		$file = $row['file'] ?? null;
+		$file_url = '';
+		if ( is_array( $file ) && ! empty( $file['url'] ) ) {
+			$file_url = $file['url'];
+		} elseif ( is_numeric( $file ) ) {
+			$file_url = wp_get_attachment_url( (int) $file );
+		}
+		$href = $file_url ?: ( $pub_id ? get_permalink( $pub_id ) : '' );
+		if ( ! $href || ! $title ) {
+			continue;
+		}
+		$out .= '<li class="elementor-icon-list-item">';
+		$out .= '<a href="' . esc_url( $href ) . '"';
+		if ( $file_url ) {
+			$out .= ' target="_blank" rel="noopener"';
+		}
+		$out .= '>';
+		$out .= '<span class="elementor-icon-list-text">' . esc_html( $title );
+		if ( $file_url ) {
+			$out .= ' <small>(PDF)</small>';
+		}
+		$out .= '</span>';
+		$out .= '</a></li>';
+	}
+	$out .= '</ul>';
+	return $out;
+}
+
+/**
  * Enqueue inline CSS for the initiative extras section.
  *
  * Kept inline (vs a separate file) because it's small and only renders on
