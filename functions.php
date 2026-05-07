@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Constants
  * --------------------------------------------------------------------------
  */
-define( 'CHF_VERSION', '5.1.0' );
+define( 'CHF_VERSION', '5.1.1' );
 define( 'CHF_DIR', get_stylesheet_directory() );
 define( 'CHF_URI', get_stylesheet_directory_uri() );
 
@@ -286,3 +286,4 @@ require_once CHF_DIR . '/inc/social-meta.php';       // OG + Twitter Cards (Rene
 require_once CHF_DIR . '/inc/role-manager.php';
 require_once CHF_DIR . '/inc/permalinks.php';        // must load AFTER custom-post-types.php
 require_once CHF_DIR . '/inc/elementor-queries.php'; // Posts widget custom Query IDs
+require_once CHF_DIR . '/inc/initiative-render.php'; // bento stats + reports + body content (post-template fallback)
