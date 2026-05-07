@@ -2,34 +2,28 @@
 /**
  * Initiative Single Render
  *
- * Injects a styled section into chf_initiative single pages that renders
- * the content the imported Theme Builder template doesn't currently bind:
- *   - Bento-grid stats (from `stats` ACF repeater)
- *   - Body content (from post_content)
- *   - Reports & Resources (from `reports` ACF repeater)
+ * The imported Theme Builder Initiative Single template was authored as a
+ * static design with hardcoded placeholder text widgets — it does not have
+ * widgets bound to ACF fields. This module fills the data gap by rendering
+ * Bento stats + post body + Reports + Related Initiatives below the
+ * Theme Builder template via the elementor/theme/after_do_single action.
  *
- * The imported Theme Builder template was authored as a static design
- * with placeholder text; this module fills the gap until the template
- * widgets are rebound to ACF fields via the Elementor editor.
- *
- * Hooks elementor/theme/after_do_location for the 'single' location, gated
- * on the chf_initiative post type.
+ * The placeholder icon-list widgets in the template are stripped via
+ * patch-templates.php so the duplicate sidebar doesn't confuse readers.
  *
  * @package CHF
  * @since   5.1.1
  */
 
-// Prevent direct access.
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
 /**
- * Render the bento + body + reports section after the Theme Builder
- * Single location finishes.
+ * Render bento + body + reports + related sections below the Theme Builder
+ * Single template for chf_initiative posts.
  *
  * @since 5.1.1
- *
  * @return void
  */
 function chf_initiative_render_extras() {
@@ -50,7 +44,10 @@ function chf_initiative_render_extras() {
 	$has_reports = is_array( $reports ) && count( $reports ) > 0;
 	$has_content = trim( wp_strip_all_tags( $content ) ) !== '';
 
-	if ( ! $has_stats && ! $has_reports && ! $has_content ) {
+	$related = chf_get_related_initiatives( $post_id );
+	$has_related = ! empty( $related );
+
+	if ( ! $has_stats && ! $has_reports && ! $has_content && ! $has_related ) {
 		return;
 	}
 
@@ -77,219 +74,127 @@ function chf_initiative_render_extras() {
 	// ---- Body content (post_content) ----
 	if ( $has_content ) {
 		echo '<div class="chf-initiative-body">';
-		// the_content filter applies wpautop, embeds, etc.
 		echo apply_filters( 'the_content', $content );
 		echo '</div>';
 	}
 
-	// ---- Reports & Resources ----
-	if ( $has_reports ) {
-		echo '<div class="chf-initiative-reports">';
-		echo '<h2 class="chf-initiative-reports__heading">Reports &amp; Resources</h2>';
-		echo '<ul class="chf-initiative-reports__list">';
-		foreach ( $reports as $row ) {
-			$title = isset( $row['title'] ) ? (string) $row['title'] : '';
-			$year  = isset( $row['year'] ) ? (string) $row['year'] : '';
-			$pub_id = is_array( $row ) && isset( $row['publication'] )
-				? ( is_object( $row['publication'] ) ? $row['publication']->ID : (int) $row['publication'] )
-				: 0;
-			$file = isset( $row['file'] ) ? $row['file'] : null;
-			$file_url = '';
-			if ( is_array( $file ) && ! empty( $file['url'] ) ) {
-				$file_url = $file['url'];
-			} elseif ( is_numeric( $file ) ) {
-				$file_url = wp_get_attachment_url( (int) $file );
-			}
+	// ---- Two-column sidebar: Reports + Related ----
+	if ( $has_reports || $has_related ) {
+		echo '<div class="chf-initiative-cols">';
 
-			$href = $file_url ?: ( $pub_id ? get_permalink( $pub_id ) : '' );
-			if ( ! $href ) {
-				continue;
+		if ( $has_reports ) {
+			echo '<div class="chf-initiative-reports">';
+			echo '<h2 class="chf-initiative-reports__heading">Reports &amp; Resources</h2>';
+			echo '<ul class="chf-initiative-reports__list">';
+			foreach ( $reports as $row ) {
+				$title = isset( $row['title'] ) ? (string) $row['title'] : '';
+				$year  = isset( $row['year'] ) ? (string) $row['year'] : '';
+				$pub_id = is_array( $row ) && isset( $row['publication'] )
+					? ( is_object( $row['publication'] ) ? $row['publication']->ID : (int) $row['publication'] )
+					: 0;
+				$file = isset( $row['file'] ) ? $row['file'] : null;
+				$file_url = '';
+				if ( is_array( $file ) && ! empty( $file['url'] ) ) {
+					$file_url = $file['url'];
+				} elseif ( is_numeric( $file ) ) {
+					$file_url = wp_get_attachment_url( (int) $file );
+				}
+				$href = $file_url ?: ( $pub_id ? get_permalink( $pub_id ) : '' );
+				if ( ! $href || ! $title ) {
+					continue;
+				}
+				echo '<li class="chf-initiative-reports__item">';
+				echo '<a class="chf-initiative-reports__link" href="' . esc_url( $href ) . '"';
+				if ( $file_url ) {
+					echo ' target="_blank" rel="noopener"';
+				}
+				echo '>';
+				echo '<span class="chf-initiative-reports__title">' . esc_html( $title ) . '</span>';
+				if ( $year ) {
+					echo '<span class="chf-initiative-reports__year">' . esc_html( $year ) . '</span>';
+				}
+				echo '</a>';
+				echo '</li>';
 			}
-
-			echo '<li class="chf-initiative-reports__item">';
-			echo '<a class="chf-initiative-reports__link" href="' . esc_url( $href ) . '"';
-			if ( $file_url ) {
-				echo ' target="_blank" rel="noopener"';
-			}
-			echo '>';
-			echo '<span class="chf-initiative-reports__title">' . esc_html( $title ) . '</span>';
-			if ( $year ) {
-				echo '<span class="chf-initiative-reports__year">' . esc_html( $year ) . '</span>';
-			}
-			echo '</a>';
-			echo '</li>';
+			echo '</ul>';
+			echo '</div>';
 		}
-		echo '</ul>';
-		echo '</div>';
+
+		if ( $has_related ) {
+			echo '<div class="chf-initiative-related">';
+			echo '<h2 class="chf-initiative-related__heading">Related Initiatives</h2>';
+			echo '<ul class="chf-initiative-related__list">';
+			foreach ( $related as $rel_post ) {
+				echo '<li class="chf-initiative-related__item">';
+				echo '<a class="chf-initiative-related__link" href="' . esc_url( get_permalink( $rel_post ) ) . '">';
+				echo esc_html( get_the_title( $rel_post ) );
+				echo '</a></li>';
+			}
+			echo '</ul>';
+			echo '</div>';
+		}
+
+		echo '</div>'; // .chf-initiative-cols
 	}
 
 	echo '</div>';
 	echo '</section>';
 }
-// Elementor Pro fires per-location actions: elementor/theme/after_do_{location}
-// For chf_initiative singles the location is 'single'.
 add_action( 'elementor/theme/after_do_single', 'chf_initiative_render_extras' );
 
 /**
- * Replace mock icon-list sidebar widgets with dynamic content.
- *
- * The Initiative Single template was authored with two icon-list widgets
- * containing placeholder items ("Research Brief", "Impact Data Dashboard",
- * "2025 Annual Report"). They've been classed via patch-templates.php so
- * we can target them: chf-related-list and chf-resources-list.
- *
- * On chf_initiative singles, we replace each widget's rendered HTML with
- * a real list:
- *   - chf-related-list: sibling sub-initiatives (or pillar's children if
- *     this is a sub) or pillars (if this is a pillar)
- *   - chf-resources-list: linked publications via the `reports` ACF
- *
- * @since 5.1.1
- *
- * @param string $content The widget's rendered HTML.
- * @param \Elementor\Widget_Base $widget The widget instance.
- * @return string Modified HTML or original.
- */
-function chf_initiative_replace_sidebar_widgets( $content, $widget ) {
-	if ( ! is_singular( 'chf_initiative' ) ) {
-		return $content;
-	}
-	$settings = $widget->get_settings_for_display();
-	$cls = $settings['_css_classes'] ?? '';
-
-	if ( strpos( $cls, 'chf-related-list' ) !== false ) {
-		return chf_render_related_initiatives_list( $content );
-	}
-	if ( strpos( $cls, 'chf-resources-list' ) !== false ) {
-		return chf_render_resources_list( $content );
-	}
-	return $content;
-}
-add_filter( 'elementor/widget/render_content', 'chf_initiative_replace_sidebar_widgets', 10, 2 );
-
-/**
- * Build a list of related initiatives based on the current post's hierarchy.
+ * Get related chf_initiative posts for the sidebar.
  *
  * Logic:
- *   - If current is a pillar (energy/health/immigration): list its sub-initiatives
- *   - If current is a sub-initiative: list siblings (other subs of same parent)
- *   - If current is standalone: list pillars
+ *   - On a pillar (energy/health/immigration): list its sub-initiatives
+ *   - On a sub-initiative: list siblings (other subs of same parent)
+ *   - On a standalone (vision-2050/driving-future): list the 3 pillars
  *
  * @since 5.1.1
  *
- * @param string $fallback The original rendered content (returned if we can't
- *                         compute a list).
- * @return string
+ * @param int $post_id Current post ID.
+ * @return WP_Post[] Up to 8 related initiatives.
  */
-function chf_render_related_initiatives_list( $fallback ) {
-	$post_id = get_the_ID();
+function chf_get_related_initiatives( $post_id ) {
 	$slug = get_post_field( 'post_name', $post_id );
-
-	$pillars = [ 'energy', 'health', 'immigration' ];
-	$is_pillar = in_array( $slug, $pillars, true );
+	$pillar_slugs = [ 'energy', 'health', 'immigration' ];
+	$is_pillar = in_array( $slug, $pillar_slugs, true );
 
 	$parent_id = (int) get_post_meta( $post_id, 'parent_initiative', true );
 
-	$query_args = [
+	$args = [
 		'post_type'      => 'chf_initiative',
 		'posts_per_page' => 8,
 		'post_status'    => 'publish',
 		'orderby'        => 'title',
 		'order'          => 'ASC',
+		'no_found_rows'  => true,
 	];
 
 	if ( $is_pillar ) {
-		// List children of this pillar.
-		$query_args['meta_key']   = 'parent_initiative';
-		$query_args['meta_value'] = (string) $post_id;
+		$args['meta_key']   = 'parent_initiative';
+		$args['meta_value'] = (string) $post_id;
 	} elseif ( $parent_id ) {
-		// List siblings (other children of same parent), excluding self.
-		$query_args['meta_key']   = 'parent_initiative';
-		$query_args['meta_value'] = (string) $parent_id;
-		$query_args['post__not_in'] = [ $post_id ];
+		$args['meta_key']     = 'parent_initiative';
+		$args['meta_value']   = (string) $parent_id;
+		$args['post__not_in'] = [ $post_id ];
 	} else {
-		// Standalone: show the 3 pillars.
-		$query_args['post__in'] = array_filter( array_map( function ( $s ) {
+		$ids = array_filter( array_map( function ( $s ) {
 			$p = get_page_by_path( $s, OBJECT, 'chf_initiative' );
 			return $p ? $p->ID : null;
-		}, $pillars ) );
-		unset( $query_args['orderby'], $query_args['order'] );
+		}, $pillar_slugs ) );
+		if ( empty( $ids ) ) {
+			return [];
+		}
+		$args['post__in'] = $ids;
 	}
 
-	$q = new WP_Query( $query_args );
-	if ( ! $q->have_posts() ) {
-		return $fallback;
-	}
-
-	$out = '<ul class="chf-related-list elementor-icon-list-items">';
-	while ( $q->have_posts() ) {
-		$q->the_post();
-		$out .= '<li class="elementor-icon-list-item">';
-		$out .= '<a href="' . esc_url( get_permalink() ) . '">';
-		$out .= '<span class="elementor-icon-list-text">' . esc_html( get_the_title() ) . '</span>';
-		$out .= '</a></li>';
-	}
-	$out .= '</ul>';
-	wp_reset_postdata();
-
-	return $out;
+	$q = new WP_Query( $args );
+	return $q->posts;
 }
 
 /**
- * Build a list of resources (publications via the `reports` ACF) for the
- * current initiative.
- *
- * @since 5.1.1
- *
- * @param string $fallback The original rendered content.
- * @return string
- */
-function chf_render_resources_list( $fallback ) {
-	$post_id = get_the_ID();
-	$reports = function_exists( 'get_field' ) ? get_field( 'reports', $post_id ) : null;
-	if ( ! is_array( $reports ) || empty( $reports ) ) {
-		return $fallback;
-	}
-
-	$out = '<ul class="chf-resources-list elementor-icon-list-items">';
-	foreach ( $reports as $row ) {
-		$title = isset( $row['title'] ) ? (string) $row['title'] : '';
-		$pub_id = is_array( $row ) && isset( $row['publication'] )
-			? ( is_object( $row['publication'] ) ? $row['publication']->ID : (int) $row['publication'] )
-			: 0;
-		$file = $row['file'] ?? null;
-		$file_url = '';
-		if ( is_array( $file ) && ! empty( $file['url'] ) ) {
-			$file_url = $file['url'];
-		} elseif ( is_numeric( $file ) ) {
-			$file_url = wp_get_attachment_url( (int) $file );
-		}
-		$href = $file_url ?: ( $pub_id ? get_permalink( $pub_id ) : '' );
-		if ( ! $href || ! $title ) {
-			continue;
-		}
-		$out .= '<li class="elementor-icon-list-item">';
-		$out .= '<a href="' . esc_url( $href ) . '"';
-		if ( $file_url ) {
-			$out .= ' target="_blank" rel="noopener"';
-		}
-		$out .= '>';
-		$out .= '<span class="elementor-icon-list-text">' . esc_html( $title );
-		if ( $file_url ) {
-			$out .= ' <small>(PDF)</small>';
-		}
-		$out .= '</span>';
-		$out .= '</a></li>';
-	}
-	$out .= '</ul>';
-	return $out;
-}
-
-/**
- * Enqueue inline CSS for the initiative extras section.
- *
- * Kept inline (vs a separate file) because it's small and only renders on
- * one post type. Uses CSS variables defined in design-system.css.
+ * Inline CSS for the initiative extras section.
  *
  * @since 5.1.1
  * @return void
@@ -376,38 +281,51 @@ function chf_initiative_extras_inline_css() {
 .chf-initiative-body a { color: var(--green-dark, #3d8f35); text-decoration: underline; }
 .chf-initiative-body a:hover { color: var(--green, #56B84A); }
 
-/* Reports & resources */
-.chf-initiative-reports {
-  border-top: 1px solid rgba(27, 42, 74, 0.12);
-  padding-top: 32px;
+/* Two-column section: Reports + Related */
+.chf-initiative-cols {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
 }
-.chf-initiative-reports__heading {
+@media (min-width: 768px) {
+  .chf-initiative-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.chf-initiative-reports__heading,
+.chf-initiative-related__heading {
   font-family: var(--font-display, 'Merriweather', Georgia, serif);
   font-size: 24px;
   margin: 0 0 24px;
   color: var(--navy, #1B2A4A);
+  border-bottom: 1px solid rgba(27, 42, 74, 0.12);
+  padding-bottom: 12px;
 }
-.chf-initiative-reports__list {
+.chf-initiative-reports__list,
+.chf-initiative-related__list {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
   gap: 12px;
 }
-.chf-initiative-reports__link {
+.chf-initiative-reports__link,
+.chf-initiative-related__link {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
-  padding: 18px 20px;
+  padding: 16px 18px;
   background: #f6f7fa;
   border-radius: 8px;
   text-decoration: none;
   color: var(--navy, #1B2A4A);
   font-weight: 500;
-  transition: background 0.2s ease;
+  transition: background 0.2s ease, color 0.2s ease;
 }
-.chf-initiative-reports__link:hover {
+.chf-initiative-reports__link:hover,
+.chf-initiative-related__link:hover {
   background: #eef0f5;
   color: var(--green-dark, #3d8f35);
 }
@@ -418,9 +336,14 @@ function chf_initiative_extras_inline_css() {
   font-size: 14px;
   flex-shrink: 0;
 }
+.chf-initiative-related__link::after {
+  content: "→";
+  color: var(--green, #56B84A);
+  font-weight: 700;
+}
 CSS;
 
-	wp_register_style( 'chf-initiative-extras', false, array( 'chf-design-system' ), CHF_VERSION );
+	wp_register_style( 'chf-initiative-extras', false, [ 'chf-design-system' ], CHF_VERSION );
 	wp_enqueue_style( 'chf-initiative-extras' );
 	wp_add_inline_style( 'chf-initiative-extras', $css );
 }
