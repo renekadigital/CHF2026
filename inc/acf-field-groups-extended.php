@@ -4,7 +4,7 @@
  *
  * Adds field groups beyond the base Hero/Event groups in
  * inc/custom-post-types.php. Covers:
- *   - Initiative extended (parent, partners, reports, key dates)
+ *   - Initiative extended (parent, partners, reports, key dates, stats)
  *   - Event extended (end date, status, agenda, speakers, gallery, recap)
  *   - Person fields
  *   - Supporter fields
@@ -141,6 +141,32 @@ function chf_register_extended_acf_fields() {
 						'type'           => 'date_picker',
 						'display_format' => 'F j, Y',
 						'return_format'  => 'Ymd',
+					),
+				),
+			),
+			array(
+				'key'          => 'field_chf_init_stats',
+				'label'        => 'Headline Stats (Bento Grid)',
+				'name'         => 'stats',
+				'type'         => 'repeater',
+				'instructions' => 'Headline data points for the initiative. Rendered as a bento-grid section on the Initiative Single template.',
+				'button_label' => 'Add Stat',
+				'layout'       => 'block',
+				'sub_fields'   => array(
+					array(
+						'key'   => 'field_chf_init_stat_number',
+						'label' => 'Stat Number',
+						'name'  => 'stat_number',
+						'type'  => 'text',
+						'instructions' => 'The headline figure (e.g., "1/3", "$8B", "100+", "70").',
+					),
+					array(
+						'key'   => 'field_chf_init_stat_label',
+						'label' => 'Stat Label',
+						'name'  => 'stat_label',
+						'type'  => 'textarea',
+						'rows'  => 2,
+						'instructions' => 'The supporting description (e.g., "Of the nation\'s hydrogen produced and consumed in the Houston region").',
 					),
 				),
 			),
